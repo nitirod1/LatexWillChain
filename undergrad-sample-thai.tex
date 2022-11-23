@@ -1,0 +1,596 @@
+%%%%%% Run at command line, run
+%%%%%% xelatex grad-sample.tex 
+%%%%%% for a few times to generate the output pdf file
+\documentclass[12pt,oneside,openright,a4paper]{cpe-thai-project}
+
+
+\usepackage{polyglossia}
+\usepackage{enumitem,lipsum}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\setdefaultlanguage{thai}
+\setotherlanguage{english}
+\newfontfamily\thaifont[Script=Thai,Scale=1.23]{TH Sarabun New}
+\defaultfontfeatures{Mapping=tex-text,Scale=1.23,LetterSpace=0.0}
+\setmainfont[Scale=1.23,LetterSpace=0,WordSpace=1.0,FakeStretch=1.0,Mapping=tex-text]{TH Sarabun New}
+\XeTeXlinebreaklocale "th"	
+\XeTeXlinebreakskip = 0pt plus 0pt
+\emergencystretch=10pt
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Customize below to suit your needs 
+% The ones that are optional can be left blank. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% First line of title
+\def\disstitleone{Will Chain }   
+% Second line of title
+\def\disstitletwo{Will On Blockchain}   
+% Your first name and lastname
+\def\dissauthor{MR. THITIPONG BOONTHANAKORN}   % 1st member
+%%% Put other group member names here ..
+\def\dissauthortwo{MR. NARONGYOT SOONTHARARAK}   % 2nd member (optional)
+\def\dissauthorthree{MR. SUBTAWEE NGANRUNGRUANG}   % 3rd member (optional)
+
+
+% The degree that you're persuing..
+\def\dissdegree{Bachelor of Engineering} % Name of the degree
+\def\dissdegreeabrev{B.Eng} % Abbreviation of the degree
+\def\dissyear{2022}                   % Year of submission
+\def\thaidissyear{2565}               % Year of submission (B.E.)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Your project and independent study committee..
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\dissadvisor{Asst.Prof. Marong Phadoongsidhi, Ph.D.}  % Advisor
+%%% Leave it empty if you have no Co-advisor
+\def\disscoadvisor{}  % Co-advisor
+\def\disscommitteetwo{Mrs. Piyanit Wepulanon , Ph.D.}  % 3rd committee member (optional)
+\def\disscommitteethree{Asst.Prof. Thumrongrat Amornraksa , Ph.D.}
+\def\disscommitteefour{Asst.Prof. Surapont Toomnark}    % 5th committee member (optional) 
+
+\def\worktype{Project} %%  Project or Independent study
+\def\disscredit{3}   %% 3 credits or 6 credits
+
+
+\def\fieldofstudy{Computer Engineering} 
+\def\department{Computer Engineering} 
+\def\faculty{Engineering}
+
+\def\thaifieldofstudy{วิศวกรรมคอมพิวเตอร์} 
+\def\thaidepartment{วิศวกรรมคอมพิวเตอร์} 
+\def\thaifaculty{วิศวกรรมศาสตร์}
+ 
+\def\appendixnames{Appendix} %%% Appendices or Appendix
+
+\def\thaiworktype{ปริญญานิพนธ์} %  Project or research project % 
+\def\thaidisstitleone{Will Chain}
+\def\thaidisstitletwo{Will on Blockchain}
+\def\thaidissauthor{นายฐิติพงศ์ บุณธนากร}
+\def\thaidissauthortwo{นายณรงค์ยศ สุนทรารักษ์} %Optional
+\def\thaidissauthorthree{นายทรัพย์ทวี งานรุ่งเรือง} %Optional
+
+\def\thaidissadvisor{ผศ.ดร.มารอง ผดุงสิทธิ์}
+%% Leave this empty if you have no co-advisor
+\def\thaidisscoadvisor{รศ.ดร.ที่ปรึกษา วิทยานิพนธ์ร่วม} %Optional
+\def\thaidissdegree{วิศวกรรมศาสตรบัณฑิต}
+
+% Change the line spacing here...
+\linespread{1.15}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End of personal customization.  Do not modify from this part 
+% to \begin{document} unless you know what you are doing...
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%% Dissertation style %%%%%%%%%%%
+%\linespread{1.6} % Double-spaced  
+%%\oddsidemargin    0.5in
+%%\evensidemargin   0.5in
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\renewcommand{\subfigtopskip}{10pt}
+%\renewcommand{\subfigbottomskip}{-5pt} 
+%\renewcommand{\subfigcapskip}{-6pt} %vertical space between caption
+%                                    %and figure.
+%\renewcommand{\subfigcapmargin}{0pt}
+
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\textfraction}{0.1}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+
+\def\QED{\mbox{\rule[0pt]{1.5ex}{1.5ex}}}
+\def\proof{\noindent\hspace{2em}{\itshape Proof: }}
+\def\endproof{\hspace*{\fill}~\QED\par\endtrivlist\unskip}
+%\newenvironment{proof}{{\sc Proof:}}{~\hfill \blacksquare}
+%% The hyperref package redefines the \appendix. This one 
+%% is from the dissertation.cls
+%\def\appendix#1{\iffirstappendix \appendixcover \firstappendixfalse \fi \chapter{#1}}
+%\renewcommand{\arraystretch}{0.8}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{ragged2e}
+\begin{document}
+
+\pdfstringdefDisableCommands{%
+\let\MakeUppercase\relax
+}
+
+\begin{center}
+  \includegraphics[width=2.8cm]{logo02.jpg}
+\end{center}
+\vspace*{-1cm}
+
+\maketitlepage
+\makesignaturepage 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% English abstract %%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\abstract
+
+Will Chain is a platform developed with the aim of studying how Blockchain networks work and managing wills in real-world assets. and digital assets. Will Chain will include features for managing and keeping current wills. that can meet both real-life assets and digital assets There will be a feature that will support the addition of a will, namely a feature for delivering assets to heirs. If the conditions are the same as in the will Makes wills more secure because the system will not go through the hands of an intermediary but will only have that system. It is also convenient to make wills. and will have even greater coverage.
+
+\begin{flushleft}
+\begin{tabular*}{\textwidth}{@{}lp{0.8\textwidth}}
+\textbf{Keywords}: & Multihop ad hoc networks / Topology control / Single-Hop Throughput
+\end{tabular*}
+\end{flushleft}
+\endabstract
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% Thai abstract here %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% {\newfontfamily\thaifont{TH Sarabun New:script=thai}[Scale=1.3]
+% \XeTeXlinebreaklocale "th_TH"	
+% \thaifont
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+\thaiabstract
+
+\tab Will Chain เป็นแพลตฟอร์มที่ถูกพัฒนาขึ้นมาโดยมีวัตถุประสงค์เพื่อศึกษาการทำงานของเครือข่าย Blockchain  และจัดการเกี่ยวกับพินัยกรรมในด้านของสินทรัพย์ในโลกความเป็นจริง และสินทรัพย์ดิจิทัล โดยที่ Will Chain นั้นจะมีฟีเจอร์ในการจัดการและเก็บรักษาพินัยกรรมที่มีอยู่ในปัจจุบัน ที่จะสามารถตอบโจทย์ได้ทั้งสินทรัพย์ในชีวิตจริงและสินทรัพย์ดิจิทัล โดยจะมีฟีเจอร์ที่จะรองรับการทำพินัยกรรมเพิ่มเติมคือฟีเจอร์สำหรับการส่งมอบสินทรัพย์ให้กับทายาท ถ้ามีเงื่อนไขตรงกับในพินัยกรรม ทำให้การทำพินัยกรรมนั้นมีความปลอดภัยมากขึ้นเนื่องจากตัวระบบจะไม่ผ่านมือคนกลางแต่จะมีแค่ระบบนั้น อีกทั้งสะดวกในการทำพินัยกรรม และจะมีความครอบคลุมที่มากยิ่งขึ้น
+\begin{flushleft}
+\begin{tabular*}{\textwidth}{@{}lp{0.8\textwidth}}
+ & \\
+
+\textbf{คำสำคัญ}: & การชุบเคลือบด้วยไฟฟ้า / การชุบเคลือบผิวเหล็ก /  เคลือบผิวรังสี
+\end{tabular*}
+\end{flushleft}
+\endabstract
+
+%}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%% Acknowledgments %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\preface
+\tab การทําโครงงานครั้งนี้สําเร็จลงได้ด้วยความช่วยเหลือของ ผู้ช่วยศาสตราจารย์ ดร. มารอง ผดุงสิทธิ์ ที่ปรึกษาโครงงาน ซึ่งได้ให้ความกรุณา สละเวลาให้คําปรึกษา คําแนะนํา ข้อเสนอแนะอันมีประโยชน์อย่างมาก และความช่วยเหลือตลอดการทําโครงงานนี้จนสําเร็จลุล่วงได้ด้วยดี ผู้จัดทําโครงงานจึงขอกราบขอบพระคุณเป็นอย่างสูง
+
+\tab ขอขอบพระคุณ ผ.ศ.สุรพนธ์ ตุ้มนาค , ดร.ปิยนิตย์ เวปุลานนท์ และ รศ.ดร.ธํารงรัตน์ อมรรักษา ที่ได้สละเวลา
+ร่วมเป็นคณะกรรมการตรวจสอบโครงงานในครั้งนี้ 
+
+\tab ท้ายที่สุดนี้ โครงงานนี้อาจจะไม่สําเร็จเลยหากไม่มีเพื่อนในภาควิชาวิศวกรรมคอมพิวเตอร์ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรีที่ให้ 
+ความช่วยเหลือ การสนับสนุน รวมทั้งคอยเป็นกําลังใจสําคัญเสมอมา 
+
+\tab ทีมผู้จัดทำหวังว่าโครงงานนี้จะก่อให้เกิดประโยชน์ต่อการทำพินัยกรรมในปัจจุบัน และสามารถครอบคลุมไปถึงพินัยกรรมของสินทรัพย์ดิจิทัลที่ยังไม่มีเทคโนโลยีรองรับในตอนนี้ และเกิดการเปลี่ยนแปลงที่ดีขึ้นในอนาคต
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%% ToC, List of figures/tables %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The three commands below automatically generate the table 
+% of content, list of tables and list of figures
+\tableofcontents                    
+\listoftables
+\listoffigures                      
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%% List of symbols page %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You have to add this manually..
+\listofsymbols
+\begin{flushleft}
+\begin{tabular}{@{}p{0.07\textwidth}p{0.7\textwidth}p{0.1\textwidth}}
+\textbf{SYMBOL}  & & \textbf{UNIT} \\[0.2cm]
+$\alpha$ & Test variable\hfill & m$^2$ \\
+$\lambda$ & Interarival rate\hfill &  jobs/second\\
+$\mu$ & Service rate\hfill & jobs/second\\
+\end{tabular}
+\end{flushleft}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%% List of vocabs & terms %%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You also have to add this manually..
+\listofvocab
+\begin{flushleft}
+\begin{tabular}{@{}p{1in}@{=\extracolsep{0.5in}}l}
+Test &  test \\
+MANET & Mobile Ad Hoc Network 
+\end{tabular}
+\end{flushleft}
+
+%\setlength{\parskip}{1.2mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% Main body %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\chapter{บทนำ}
+
+\section{ที่มาและความสำคัญ}
+
+\tab ในปัจจุบันนั้นเทคโนโลยีเข้ามามีบทบาทในการใช้ชีวิตของผู้คนเป็นอย่างมาก ไม่ว่าจะเป็นในด้านของ การเงิน สินทรัพย์ เป็นต้น แต่ว่าจะมีในด้านของพินัยกรรมที่นับว่าเป็นเอกสารที่ไม่มีการใช้เทคโนโลยีเข้ามาช่วยเหลือในปัจจุบัน โดยยังที่จะต้องทำการเก็บรักษาไว้ที่ตัวเองหรือไม่ก็เก็บไว้ที่ทนายของตนเองทำให้บางครั้งพินัยกรรมนั้น ๆ อาจเกิดการเสียหายหรือสูญหายได้ หรือแม้กระทั่งอาจเกิดโอกาสเปลี่ยนแปลงจากบุคคลที่สามได้ ทำให้การทำพินัยกรรมในแต่ละครั้งมีความยุ่งยากและไม่ปลอดภัยสำหรับผู้ที่จะทำพินัยกรรม รวมถึงพินัยกรรมในส่วนนี้ยังครอบคลุมในด้านของการสืบทอดสินทรัพย์ดิจิทัล อย่างเช่น Cryptocurrency ได้ เนื่องจากยังไม่มีเทคโนโลยีที่รองรับในปัจจุบัน
+
+\tab จึงเกิดแนวคิดที่จะสร้าง แพลตฟอร์มสำหรับจัดการพินัยกรรมทั้งสินทรัพย์ในโลกความเป็นจริง และสินทรัพย์ดิจิทัลผ่านระบบ Blockchain\ ที่สามารถนำพินัยกรรมที่มีอยู่ในปัจจุบันนั้นเอาขึ้นระบบ Blockchain เพื่อเก็บรักษาพินัยกรรมนั้น และสามารถทำการสืบทอดสินทรัพย์ไปยังผู้รับพินัยกรรมได้ รวมไปถึงสินทรัพย์ดิจิทัลอีกด้วย โดยคำนึงถึงความปลอดภัยและความสะดวกสบายของผู้ใช้งาน
+
+
+\section{วัตถุประสงค์}
+
+\begin{itemize}
+\item เพื่อศึกษาเทคโนโลยี Blockchain
+\item เพื่อสร้างแพลตฟอร์มสำหรับจัดการพินัยกรรมทั้งสินทรัพย์ในโลกความเป็นจริง และสินทรัพย์ดิจิทัล
+\item เพื่อให้พินัยกรรมในปัจจุบันสามารถครอบคลุมถึงสินทรัพย์ดิจิทัล
+\item เพื่อเก็บรักษาพินัยกรรมให้มีความปลอดภัยมากขึ้น
+\item เพื่ออำนวยความสะดวกในการเก็บพินัยกรรม
+\end{itemize}
+
+\section{ขอบเขตของโครงงาน}
+
+\begin{itemize}
+\item พัฒนาแพลตฟอร์มสำหรับจัดการพินัยกรรมทั้งสินทรัพย์ในโลกความเป็นจริง และสินทรัพย์ดิจิทัล
+\item ใช้ภาษา Solidity ในการพัฒนา Smart Contract
+\end{itemize}
+
+\section{ประโยชน์ที่คาดว่าจะได้่รับ}
+\tab Will Chain เป็นการใช้เทคโนโลยี Blockchain เพื่อการทำพินัยกรรมโดยจะสามารถถ่ายทอดมรดกที่เป็นสินทรัพย์ที่ระบบรองรับจากผู้ที่ทำการเขียนพินัยกรรม ไปหาผู้รับสินทรัพย์ได้ด้วยรูปแบบของ NFT หรือ F-NFT
+\section{เนื้อหาทางวิศวกรรมที่เป็นต้นฉบับ}
+\tab โครงงานนี้พัฒนาขึ้นมาจากการใช้ความรู้ในด้าน Blockchain Technology (Ethereum chain โดยใช้เครื่องมือพัฒนา Smart Contract ด้วยภาษา Solidity ในการพัฒนา)  และใช้ความรู้เรื่อง NFT , F-NFT เพื่อใช้ในการเก็บข้อมูลพินัยกรรมของตัวโปรเจคของเรา รวมถึงการทำ Decentralize  Application ที่ใช้ Next Typescript Framework ในการพัฒนาส่วนติดต่อกับผู้ใช้รวมไปถึงความรู้ด้าน วิศวกรรมซอฟแวร์ และ ด้านพินัยกรรม เพื่อที่จะสามารถทำการถ่ายทอดพินัยกรรมได้ภายใน Decentralize  Application
+\section{การแยกย่อยงาน และร่างแผนคำแนะนำจากอาจารย์ที่ปรึกษา}
+\begin{enumerate}
+\item ศึกษาค้นคว้าที่มาและความสำคัญของปัญหา
+\item เสนอหัวข้อโครงการให้กับอาจารย์ที่ปรึกษา
+\item ทำการสำรวจหรือศึกษาค้นคว้าข้อมูลที่เกี่ยวข้องกับโครงงาน
+	\begin{itemize}
+		\item ศึกษาเรื่องพินัยกรรม
+		\item ศึกษาเรื่องกฎหมาย
+		\item ศึกษาเรื่องสินทรัพย์
+	\end{itemize}
+\item นำเสนอโครงการและข้อมูลทึ่ศึกษาค้นคว้าให้กับอาจารย์ที่ปรึกษา
+\item จัดทำข้อเสนอโครงการ
+\item นำเสนอข้อเสนอโครงการ
+\item จัดทำรายงาน
+	\begin{itemize}
+		\item รายงานบทที่ 1 จากข้อมูลข้อเสนอโครงงาน
+		\item รายงานบทที่ 2 จากข้อมูลการศึกษาค้นคว้าเกี่ยวกับทฤษฎีที่เกี่ยวข้อง
+		\item รายงานบทที่ 3 รายงานการออกแบบการทำงานของระบบเบื้องต้น
+	\end{itemize}
+\item วิเคราะห์และออกแบบระบบ
+	\begin{itemize}
+		\item ออกแบบการทำงาน Algorithms ของ Smart Contract ที่ใช้งานในระบบ
+		\item ออกแบบรูปแบบพินัยกรรมที่จะใช้ในระบบ
+		\item ออกแบบส่วนของผู้ใช้งาน (UX/UI)
+	\end{itemize}
+\item ศึกษาและพัฒนา Blockchain และ Smart Contract
+	\begin{itemize}
+		\item ศึกษาการทำงานของ Blockchain ด้วย Ethereum chain
+		\item ศึกษาและพัฒนาส่วนของ Smart Contract ที่ใช้ในการควบคุมระบบด้วยภาษา Solidity
+		\item ศึกษาและพัฒนา NFT ในระบบ
+	\end{itemize}
+\item ศึกษาและพัฒนา Web application
+	\begin{itemize}
+		\item ศึกษาและพัฒนาส่วนของผู้ใช้งานด้วย Next.js Typescript และ User Interface Framework อื่น ๆ 
+		\item ศึกษาเกี่ยวกับ API ของหน่วยงานรัฐ
+	\end{itemize}
+\item นำเสนอโครงงาน 3 บท
+\item ศึกษาและพัฒนา Blockchain และ Smart Contract (ต่อจากภาคการศึกษาที่ 1)
+\item ทดสอบการทำงานของ Ethereum chain
+\item ปรับปรุงและแก้ไข Ethereum chain
+\item ศึกษาและพัฒนา Web application (ต่อจากภาคการศึกษาที่ 1)
+\item ทดสอบการทำงานของ Web application
+\item ปรับปรุงและแก้ไข Web application
+\item จัดทำรายงงานโครงงานฉบับสมบูรณ์
+\item นำเสนอโครงงาน
+\end{enumerate}
+
+\section{ตารางการดำเนินงาน}
+
+\section{ผลการดำเนินงานในภาคการศึกษาที่ 1}
+\begin{enumerate}
+\item รูปเล่มรายงานโครงงาน 3 บท
+\item ออกแบบการทำงานของ Smart contact
+	\begin{itemize}
+		\item แบบจำลองโครงสร้างของ Smart Contract
+		\item แบบจำลองการทำงานของ Smart Contract
+	\end{itemize}
+\item ออกแบบโครงสร้างของ Application
+	\begin{itemize}
+		\item แผนผังภาพรวมของระบบ
+		\item แผนผังการทำงานของ Application
+		\item แบบจำลองส่วนติดต่อผู้ใช้งาน
+	\end{itemize}
+\end{enumerate}
+\section{ผลการดำเนินงานในภาคการศึกษาที่ 2}
+\begin{enumerate}
+\item พัฒนา Blockchain
+\item พัฒนา Web application (Will Chain)
+\item เชื่อมต่อส่วนผู้ใช้งาน และ Smart Contract
+\item ผลการทดสอบการใช้งาน
+\item ทดสอบการใช้งาน
+\item รายงานโครงงานฉบับสมบูรณ์
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%  Literature Review %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{ทฤษฎีความรู้และงานที่เกี่ยวข้อง}
+
+\section{ทฤษฎีที่เกี่ยวข้อง}
+\subsection{Blockchain}
+\tab Blockchain คือเทคโนโลยีการประมวลผลและจัดเก็บข้อมูลแบบกระจายศูนย์ หรือที่เรียกว่า Distributed Ledger Technology (DLT) ซึ่งเป็นรูปแบบการบันทึกข้อมูลที่ใช้หลักการ Cryptography ร่วมกับกลไก Consensus โดยข้อมูลที่ถูกบันทึกในระบบ Blockchain นั้นจะสามารถทำการแก้ไขเปลี่ยนแปลงได้ยาก ช่วยเพิ่มความถูกต้อง และความน่าเชื่อถือของข้อมูล โดยไม่ต้องอาศัยคนกลาง
+
+\tab Blockchain สามารถแบ่งออกได้เป็น 3 ประเภท โดยพิจารณาจากข้อกำหนดในการ เข้าร่วมเป็นสมาชิกของเครือข่ายคือ Blockchain แบบเปิดสาธารณะ (Public Blockchain) Blockchain แบบปิด (Private Blockchain) และ Blockchain แบบเฉพาะกลุ่ม (Consortium Blockchain) 
+\begin{enumerate}[label=\thesubsection.\arabic*,leftmargin=0pt,itemindent=2cm]
+\item Public Blockchain คือ Blockchain วงเปิดที่อนุญาตให้ทุกคนสามารถเข้าใช้งานไม่ว่า จะเป็นการอ่าน หรือการทำธุรกรรมต่าง ๆ ได้อย่างงอิสระโดย ไม่จำเป็นต้องขออนุญาต หรือรู้จักกันในอีกชื่อ คือ Permissionless Blockchain
+\item Private Blockchainคือ Blockchain วงปิดที่เข้าใช้งานได้เฉพาะผู้ที่ได้รับ อนุญาตนั้นซึ่งส่วนใหญ่ถูกสร้างขึ้นเพื่อใช้งานภายในองค์กร ดังนั้นข้อมูลการทำธุรกรรมต่าง ๆ จะถูกจํากัดอยู่เฉพาะภายในเครือข่าย
+\item Consortium Blockchain คือ Blockchain ที่ เปิดให้ใช้งานได้เฉพาะกลุ่ม เท่านั้น โดยเป็นการผสมผสานแนวคิดระหว่าง Public Blockchain และ Private Blockchain ซึ่งส่วนมากเป็นการรวมตัวกันขององค์กรที่มีลักษณะธุรกิจ เหมือนกัน และต้องมีการแลกเปลี่ยนข้อมูลระหว่างกันอย่างสม่ำเสมออยู่แล้วมารวมตัวกันตั้ง Blockchain ขึ้นมา ทั้งนี้เนื่องจาก ธุรกรรมและข้อมูลที่จัดเก็บ เป็นข้อมูลที่ เป็นความลับหรือข้อมูลส่วนตัววภายในองค์กร ส่งผลให้ไม่สามารถเปิดเผยข้อมูลดังกล่าวทั้งหมดแก่สาธารณชนได้ ดั้งนั้นผู้เข้าร่วม Blockchain เฉพาะกลุ่ม จำเป็นต้องได้รับ การอนุญาตจากตัวแทนเสียก่อน จึงจะสามารถเขา้ใช้งานได้ ยกตัวอย่าง เช่น เครือข่ายระหว่างธนาคาร ที่ใช้ในการ แลกเปลี่ยนข้อมูลการทำธุรกรรม หรือแลกเปลี่ยนสินทรัพย์ภายในกลุ่ม
+\end{enumerate}
+\subsection{ERC-20}
+\tab ERC-20 เป็น Protocol มาตรฐานสําหรับการสร้างโทเคนบน Ethereum blockchain โดยมีชื่อเต็มคือ Ethereum Request for Comments ซึ่งมาตรฐาน ERC-20 ถูกนํามาใช้ตั้งแต่ปี 2015 และในปัจจุบันมีโทเคนจํานวนมากที่รองรับ ERC-20
+
+\subsection{Ethereum Chain and ETH}
+\tab Ethereum คือแพลตฟอร์มบน Blockchain Network ที่่ทํางานด้วย Smart Contract มีลักษณะแพลตฟอร์มเป็นรูปแบบ Decentralized Platform แบบ Open Source ทําให้นักพัฒนาสามารถเข้ามาพัฒนา แก้ไข หรือดัดแปลงโค้ดได้ทุกคน พร้อมทั้งกําหนดเงื่อนไขต่าง ๆ สําหรับนําไปใช้งานบน Blockchain โดยมี Smart Contract ดําเนินการและระบบจะทํางานตามเงื่อนไขโปรแกรมที่กําหนดมา ทําให้ผู้ใช้งาน Blockchain ของ Ethereum ทําธุรกรรมได้ โดยไม่ต้องผ่านตัวกลางอื่น นอกจากนี้ การประยุกต์ใช้ Smart Contract และศักยภาพประมวลโดยรวมของแพลตฟอร์มที่สูงกว่า Bitcoin และเหรียญ Ether หรือเหรียญ ETH คือ สกุลเงินดิจิทัลอย่างหนึ่ง ที่ถูกพัฒนาขึ้นมาบน Blockchain Ethereum มีส่วนช่วยขับเคลื่อนการทํางานในระบบนิเวศของ Ethereum
+\subsection{Software Engineering}
+\begin{enumerate}[label=\thesubsection.\arabic*,leftmargin=0pt,itemindent=2.5cm]
+\item Software Development Methodology
+	\begin{itemize}[leftmargin=0pt,itemindent=3cm]
+		\item Agile Software Development เป็นกระบวนการที่ช่วยลดการทำงานที่เป็นขั้นตอนและงานด้านการทำเอกสารลง’ แต่จะไปมุ่งเน้นในเรื่องการสื่อสารของทีมมากขึ้น เพื่อให้เกิดการพัฒนาสินค้าและบริการใหม่ๆ ได้รวดเร็วขึ้น แล้วจึงนำสิ่งที่ได้ไปให้ผู้ใช้กลุ่มตัวอย่าง (Target group) ทดสอบใช้งานจริง จากนั้นจึงรวมรวมผลทดสอบมาประเมินดูอีกครั้ง เพื่อใช้เป็นแนวทางในการแก้ไขปรับปรุงสินค้าและบริการนั้นๆ ให้ดีขึ้นทีละนิด ด้วยแนวทางนี้จะทำให้องค์กรสามารถพัฒนาสินค้าและบริการได้อย่างรวดเร็วและตอบโจทย์ผู้ใช้งานได้มากขึ้นอย่างสม่ำเสมอ
+	\begin{figure}
+	\centering
+	\includegraphics[scale=0.6]{agile}
+	\caption{ความแตกต่างระหว่าง Waterfall Method กับ Agile Method}
+	\end{figure}
+	\end{itemize}
+\end{enumerate}
+
+
+
+
+
+\begin{table}[!h]
+\caption{test table method1}\label{tbl:method1}
+\begin{tabular}{c|c|l|rr} \hline\hline
+Center & Center & left aligned & Right & Right aligned \\ \hline\hline
+Center & Center & left aligned & Right & Right aligned \\ \hline
+Center & Center & left aligned & Right & Right aligned \\ 
+Center & Center & left aligned & Right & Right aligned \\ \hline
+Center & Center & left aligned & Right & Right aligned \\ \hline\hline
+\end{tabular}
+\end{table}
+
+
+\section{อัลกอริทึมในการประมวลผลข้อความ}
+\subsection{อัลกอริทึม I}
+
+% Can define this in the preamble..
+You can place the figure and refer to it as รูปที่~\ref{fig:model2}.
+The figure and table numbering will be run and updated automatically when you add/remove tables/figures from the document.
+
+\begin{figure}[!h]\centering
+\setlength{\fboxrule}{0.2mm} % can define this in the preamble
+\setlength{\fboxsep}{1cm}
+\fbox{\includegraphics[width=5cm]{./model2.pdf}}
+\caption{The network model}\label{fig:model2}
+\end{figure}
+
+ 
+\subsection{อัลกอริทึม I}
+Add more subsections as you want.
+
+
+\section{เครื่องมือที่ใช้ในการพัฒนา}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{วิธีการดำเนินงาน}
+
+Explain the design (how you plan to implement your work) of your project. Adjust the section titles below to suit the types of your work. Detailed physical design like circuits and source codes should be placed in the appendix.
+
+\section{ข้อกำหนดและความต้องการของระบบ}
+
+\section{สถาปัตยกรรมระบบ}
+
+\begin{table}[!h]
+\centering
+\caption{test table x1}\label{tbl:symbols}
+\begin{tabular}{@{}p{0.07\textwidth}|p{0.7\textwidth}p{0.1\textwidth}}\hline
+\multicolumn{2}{l}{\textbf{SYMBOL}}  & \textbf{UNIT} \\ \hline 
+$\alpha$ & Test variable\hfill & m$^2$ \\
+$\lambda$ & Interarrival rate\hfill &  jobs/second\\
+$\mu$ & Service rate\hfill & jobs/second \\ \hline
+\end{tabular}
+%\begin{tabular}{c|c} \hline
+% $\alpha$ & $\beta$ \\ \hline
+% $\delta$ & $\mu$ \\ \hline
+%\end{tabular}
+\end{table}
+
+
+
+\section{Hardware Module 1}
+\subsection{Component 1}
+\subsection{Logical Circuit Diagram}
+
+\section{Hardware Module 2}
+\subsection{Component 1}
+\subsection{Component 2}
+
+\section{Path Finding Algorithm}
+
+\section{Database Design}
+
+\section{UML Design}
+
+\section{GUI Design}
+
+\section{การออกแบบการทดลอง}
+\subsection{ตัวชี้วัดและปัจจัยที่ศึกษา}
+\subsection{รูปแบบการเก็บข้อมูล}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% Experiments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{ผลการดำเนินงาน}
+
+You can title this chapter as \textbf{Preliminary Results} ผลการดำเนินงานเบื้องต้น or \textbf{Work Progress} ความก้าวหน้าโครงงาน for the progress reports. Present implementation or experimental results here and discuss them.
+ใส่เฉพาะหัวข้อที่เกี่ยวข้องกับงานที่ทำ 
+
+\section{ประสิทฺธิภาพการทำงานของระบบ} 
+\section{ความพึงพอใจการใช้งาน}
+\section{การวิเคราะห์ข้อมูลและผลการทดลอง}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% Conclusions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{บทสรุป}
+
+This chapter is optional for proposal and progress reports but 
+is required for the final report.
+
+\section{สรุปผลโครงงาน}
+สรุปว่าโครงงานบรรลุตามวัตถุประสงค์ที่ตั้งไว้หรือไม่ อย่างไร 
+
+\section{ปัญหาที่พบและการแก้ไข}
+State your problems and how you fixed them.
+
+\section{ข้อจำกัดและข้อเสนอแนะ}
+ข้อจำกัดของโครงงาน What could be done in the future to make your projects better.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% Bibliography %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%% Comment this in your report to show only references you have
+%%%% cited. Otherwise, all the references below will be shown.
+%\nocite{*}
+%% Use the kmutt.bst for bibtex bibliography style 
+%% You must have cpe.bib and string.bib in your current directory.
+%% You may go to file .bbl to manually edit the bib items.
+
+\makeatletter
+\g@addto@macro{\UrlBreaks}{\UrlOrds}
+\makeatother
+
+\bibliographystyle{kmutt}
+\bibliography{string,cpe}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% Appendix %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix{ชื่อภาคผนวกที่ 1}
+\noindent{\large\bf ใส่หัวข้อตามความเหมาะสม} \\
+
+This is where you put hardware circuit diagrams, detailed experimental data in tables or source codes, etc.. \\ \bigskip
+
+
+
+This appendix describes two static allocation methods for fGn (or fBm)
+traffic. Here, $\lambda$ and $C$ are respectively the traffic arrival
+rate and the service rate per dimensionless time step. Their unit are
+converted to a physical time unit by multiplying the step size
+$\Delta$. For a fBm self-similar traffic source,
+Norros~\cite{norros95} provides its EB as
+\begin{equation}\label{eq:norros}
+  C = \lambda + (\kappa(H)\sqrt{-2\ln\epsilon})^{1/H}a^{1/(2H)}x^{-(1-H)/H}\lambda^{1/(2H)}
+\end{equation}
+where $\kappa(H) = H^H(1-H)^{(1-H)}$. Simplicity in the calculation is
+the attractive feature of (\ref{eq:norros}).
+
+The MVA technique developed in~\cite{kim01} so far provides the most
+accurate estimation of the loss probability compared to previous
+bandwidth allocation techniques according to simulation results.
+Consider a discrete-time queueing system with constant service rate
+$C$ and input process $\lambda_n$ with $\mathbb{E}\{\lambda_n\} =
+\lambda$ and $\mathrm{Var}\{\lambda_n\} = \sigma^2$.  Define $X_n \equiv
+\sum_{k=1}^n \lambda_k - Cn$.  The loss probability due to the MVA
+approach is given by
+\begin{equation}\label{eq:loss_mva}
+  \varepsilon \approx \alpha e^{-m_x/2}
+\end{equation}
+where
+\begin{equation}\label{eq:mx}
+m_x = \min_{n \geq 0} \frac{((C-\lambda)n + B)^2}{\mathrm{Var}\{X_n\}} =
+\frac{((C-\lambda)n^\ast + B)^2}{\mathrm{Var}\{X_{n^{\ast}}\}}
+\end{equation} 
+and 
+\begin{equation}\label{eq:alpha}
+  \alpha =
+  \frac{1}{\lambda\sqrt{2\pi\sigma^2}}\exp\left(\frac{(C-\lambda)^2}{2\sigma^2}\right)
+  \int_C^\infty (r-C)\exp\left(\frac{(r-\lambda)^2}{2\sigma^2}\right)\, dr
+\end{equation}
+For a given $\varepsilon$, we numerically solve for $C$ that satisfies
+(\ref{eq:loss_mva}). Any search algorithm can be used to do the task.
+Here, the bisection method is used.  
+
+Next, we show how $\mathrm{Var}\{X_n\}$ can be determined.  Let
+$C_{\lambda}(l)$ be the autocovariance function of $\lambda_n$.  The
+MVA technique basically approximates the input process $\lambda_n$
+with a Gaussian process, which allows $\mathrm{Var}\{X_n\}$ to be
+represented by the autocovariance function.  In particular, the
+variance of $X_n$ can be expressed in terms of $C_{\lambda}(l)$ as
+\begin{equation}
+  \mathrm{Var}\{X_n\} = nC_{\lambda}(0) + 2\sum_{l=1}^{n-1} (n-l)C_{\lambda}(l)
+\end{equation} 
+Therefore, $C_{\lambda}(l)$ must be known in the MVA technique, either
+by assuming specific traffic models or by off-line analysis in case of
+traces.  In most practical situations, $C_{\lambda}(l)$ will not be
+known in advance, and an on-line measurement algorithm developed
+in~\cite{eun01} is required to jointly determine both $n^\ast$ and
+$m_x$. For fGn traffic, $\mathrm{Var}\{X_n\}$ is equal to $\sigma^2
+n^{2H}$, where $\sigma^2 = \mathrm{Var}\{\lambda_n\}$, and we can find
+the $n^\ast$ that minimizes (\ref{eq:mx}) directly. Although $\lambda$
+can be easily measured, it is not the case for $\sigma^2$ and $H$.
+Consequently, the MVA technique suffers from the need of prior
+knowledge traffic parameters.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% The 2nd appendix %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix{ชื่อภาคผนวกที่ 2}
+\noindent{\large\bf ใส่หัวข้อตามความเหมาะสม} \\
+
+Next, we show how $\mathrm{Var}\{X_n\}$ can be determined.  Let
+$C_{\lambda}(l)$ be the autocovariance function of $\lambda_n$.  The
+MVA technique basically approximates the input process $\lambda_n$
+with a Gaussian process, which allows $\mathrm{Var}\{X_n\}$ to be
+represented by the autocovariance function.  In particular, the
+variance of $X_n$ can be expressed in terms of $C_{\lambda}(l)$ as
+\begin{equation}
+  \mathrm{Var}\{X_n\} = nC_{\lambda}(0) + 2\sum_{l=1}^{n-1} (n-l)C_{\lambda}(l)
+\end{equation} 
+
+\noindent{\large\bf Add more topic as you need} \\
+
+Therefore, $C_{\lambda}(l)$ must be known in the MVA technique, either
+by assuming specific traffic models or by off-line analysis in case of
+traces.  In most practical situations, $C_{\lambda}(l)$ will not be
+known in advance, and an on-line measurement algorithm developed
+in~\cite{eun01} is required to jointly determine both $n^\ast$ and
+$m_x$. For fGn traffic, $\mathrm{Var}\{X_n\}$ is equal to $\sigma^2
+n^{2H}$, where $\sigma^2 = \mathrm{Var}\{\lambda_n\}$, and we can find
+the $n^\ast$ that minimizes (\ref{eq:mx}) directly. Although $\lambda$
+can be easily measured, it is not the case for $\sigma^2$ and $H$.
+Consequently, the MVA technique suffers from the need of prior
+knowledge traffic parameters. 
+
+
+
+
+
+\end{document}
