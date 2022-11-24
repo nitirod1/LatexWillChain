@@ -521,24 +521,193 @@ Kanban มีกฎอยู่แค่ 3 ข้อ
 	\end{figure}
 	\FloatBarrier
 \item Use Case Select Baneficiary
-	\begin{figure}
+	\begin{figure}[!htb]
 		\centering
-		\includegraphics[scale=0.8]{usecasecreatewill}
-		\caption{ตารางแสดงรายละเอียดของ Use Case Create Will}
+		\includegraphics[scale=0.8]{usecaseselectbenaficiary}
+		\caption{ตารางแสดงรายละเอียดของ Use Case Select Beneficiary}
 	\end{figure}
+	\FloatBarrier
 \item Use Case Select Asset
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[scale=0.8]{selectAsset}
+		\caption{ตารางแสดงรายละเอียดของ Use Case Select Asset}
+	\end{figure}
+	\FloatBarrier
 \item Use Case Delete Will
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[scale=0.8]{deleteWill}
+		\caption{ตารางแสดงรายละเอียดของ Use Case Delete Will}
+	\end{figure}
+	\FloatBarrier
 \item Use Case View Will
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[scale=0.8]{viewWill}
+		\caption{ตารางแสดงรายละเอียดของ Use Case View Will}
+	\end{figure}
+	\FloatBarrier
 \item Use Case Create Asset
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[scale=0.8]{createAsset}
+		\caption{ตารางแสดงรายละเอียดของ Use Case Create Assetl}
+	\end{figure}
+	\FloatBarrier
 \item Use Case Delete Asset
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[scale=0.8]{deleteAsset}
+		\caption{ตารางแสดงรายละเอียดของ Use Case Delete Asset}
+	\end{figure}
+	\FloatBarrier
 \item Use Case View Asset
+	\begin{figure}[!thb]
+		\centering
+		\includegraphics[scale=0.8]{viewAsset}
+		\caption{ตารางแสดงรายละเอียดของ Use Case View Asset}
+	\end{figure}
+	\FloatBarrier
 \item Use Case Check user status
+	\begin{figure}[!thb]
+		\centering
+		\includegraphics[scale=0.8]{checkUserStatus}
+		\caption{ตารางแสดงรายละเอียดของ Use Case Check user status}
+	\end{figure}
+	\FloatBarrier
 \item Use Case deliver will and asset
+	\begin{figure}[!thb]
+		\centering
+		\includegraphics[scale=0.8]{deliverWillAndAsset}
+		\caption{ตารางแสดงรายละเอียดของ Use Case deliver will and asset}
+	\end{figure}
+	\FloatBarrier
 \end{enumerate}
 \subsection{Class Diagram}
+	\begin{figure}[!thb]
+		\centering
+		\includegraphics[scale=0.22]{classDiagram}
+		\caption{แผนภาพแสดง Class Diagram}
+	\end{figure}
+	\FloatBarrier
 \subsection{System Architecture Diagram}
+	\begin{figure}[!thb]
+		\centering
+		\includegraphics[scale=0.2]{systemArch}
+		\caption{แสดงภาพออกแบบสถาปัตยกรรมของระบบ Will Chain}
+	\end{figure}
+	\FloatBarrier
+ระบบของ Will Chain มีส่วนติดต่อกับระบบอื่น ๆ แยกตามประเภทดังนี้ \\
+\textbf{Actor ของระบบ}
+	\begin{itemize}
+		\item User เป็นบุคคลที่ต้องการทำพินัยกรรมของ Will Chain
+	\end{itemize}
+\textbf{Front-end ของระบบ}
+	\begin{itemize}
+		\item Next.js จะทำหน้าที่แสดงผล UI ของเว็ปไซต์ Will Chain ในการทำพินัยกรรมต่าง ๆ 
+		\item Web3.js จะทำหน้าที่ interact กับ method ต่าง ๆ ใน smart contract
+		\item MetaMask จะทำหน้าที่เป็นตัว wallet สำหรับเก็บทรัพย์สินของเราและยังทำหน้าที่เป็นตัว login สำหรับใช้งานในระบบ
+	\end{itemize}
+\textbf{Blockchain ของระบบ}
+	\begin{itemize}
+		\item Smart contract จะทำหน้าที่คอยจัดการ transaction ภายใน Ethereum chain
+		\item Ethereum chain จะทำหน้าที่เก็บข้อมูล transaction และการทำพินัยกรรมต่าง ๆ ของระบบ
+	\end{itemize}
 \subsection{Sequence Diagram}
+	\begin{enumerate}[label=\thesubsection.\arabic*,leftmargin=0pt,itemindent=2.5cm]
+	\item Connect MetaMask
+		\begin{figure}[!thb]
+			\centering
+			\includegraphics[scale=0.6]{connectMetamaskSeq}
+			\caption{แสดง Connect MetaMask Sequence Diagram}
+		\end{figure}
+		\FloatBarrier
+	\tab จากรูป จะเห็นได้ว่าเมื่อผู้ใช้งานทํางาน Connect MetaMask แล้วทางระบบของ Will Chain จะไปเรียกใช้ MetaMask ที่ทําการติดตั้งไว้ใน Web browser ที่ทําการใช้งานอยู่ว่าให้เลือก Account ที่ต้องการทําการเชื่อมต่อ Will on Blockchain ซึ่งหลังจากทําการเลือก Account ที่ต้องการทําการเชื่อมต่อแล้วนั้นทาง Metamask จะให้ถามหา Permission ว่าให้ทําการเชื่อม Account นี้ กับ Will on Blockchain ใช่หรือไม่และหลังจากทําการอนุญาตให้ทําการเชื่อมต่อแล้วจะเสร็จสิ้นการเชื่อม MetaMask กับ Will on Blockchain
+	\item Upload Pdf Will
+		\begin{figure}[!thb]
+			\centering
+			\includegraphics[scale=0.6]{uploadPdfWillseq}
+			\caption{แสดง Upload Pdf Will Sequence Diagram}
+		\end{figure}
+		\FloatBarrier
+	\tab จากรูป ผู้ใช้เลือกใช้งาน Upload พินัยกรรมที่เขียนด้วยมือระบบจะแสดงฟอร์มที่ใช้สำหรับการ upload โดยหลังจากนั้นจะต้องทำการเลือกสินทรัพย์ที่จะทำการถ่ายทอดไปยังทายาท โดยจะแสดงสินทรัพย์ที่ทำการผูกไว้กับ Smart Contract และหลังจากนั้นจะทำการแสดงผลสินทรัพย์ของ user โดยต่อมาจะทำการเลือกทายาทที่รับผลประโยชน์โดยจะแสดงลิสของทายาทจากการที่ user ทำการเพิ่มไว้ในระบบหลังจากนั้นจึงทำการ upload ไฟล์พินัยกรรมที่เขียนด้วยมือและหลังจาก contract success จะแสดง upload สำเร็จ
+	\item Create Will
+		\begin{figure}[!thb]
+			\centering
+			\includegraphics[scale=0.6]{createWillseq}
+			\caption{แสดง Create Will Sequence Diagram}
+		\end{figure}
+		\FloatBarrier
+	\tab จากรูป ผู้ใช้เลือกใช้งาน Create Will จะแสดงหน้าจะแสดงฟอร์มสำหรับการทำพินัยกรรมผ่านระบบ ระบบจะให้เลือกสินทรัพย์ดิจิตอลที่ user ทำการเชื่อมต่อไว้กับ Smart Contract โดยหลังจากนั้นจะทำการลิสต์ที่เชื่อมต่อไว้และหลังจากนั้นก็จะทำการเลือกทายาทที่จะรับสินทรัพย์นี้ โดยจะแสดงเป็นลิสต์ของทายาทระบบจทำการเซ็นสัญญาดิจิตอลเพื่อที่เป็นการทำงานคล้ายพินัยกรรมจริง ๆ สุดท้ายระบบจะทำการ confirm เพื่อเป็นการเสร็จการทำพินัยกรรมในระบบ
+	\item Delete Will
+		\begin{figure}[!thb]
+			\centering
+			\includegraphics[scale=0.6]{deleteWillseq}
+			\caption{แสดง Delete Will Sequence Diagram}
+		\end{figure}
+		\FloatBarrier
+	\tab จากรูป ผู้ใช้ต้องการทำการลบ พินัยกรรมที่มีอยู่ในระบบ โดยระบบจะทำการหาพินัยกรรมที่การที่จะลบภายใน blockchain โดยระบบจะแสดงสินทรัพย์ที่ทำการเชื่อมไว้กับพินัยกรรมและหลังจากนั้นผู้ใช้ทำการยืนยันว่าจะลบระบบจะทำการลบพินัยกรรมที่เชื่อมไว้กับ Smart Contract โดยหลังจากนั้นจะทำการส่งพินัยกรรมที่มีสินทรัพย์อยู่ด้วยไปที่ MetaMask โดยหลังจากที่ MetaMask ได้รับสินทรัพย์จะแสดงเตือนไปที่ผู้ใช้ว่าลบพินัยกรรมสำเร็จ
+	\item View Will
+		\begin{figure}[!thb]
+			\centering
+			\includegraphics[scale=0.6]{viewWillseq}
+			\caption{แสดง View Will Sequence Diagram}
+		\end{figure}
+		\FloatBarrier
+	\tab จากรูป ผู้ใช้ทำการเลือกพินัยกรรมที่ต้องการจะแสดงโดยจะทำการเรียกใช้ฟังก์ชั่นเพื่อหาพินัยกรรมโดยหลังจากที่ Smart Contract ส่งข้อมูลของพินัยกรรมมา ตัวระบบจะทำการแสดงรายละเอียดพินัยกรรม
+	\item View Real Asset
+		\begin{figure}[!thb]
+			\centering
+			\includegraphics[scale=0.6]{viewRealAssetseq}
+			\caption{แสดง View Asset Sequence Diagram}
+		\end{figure}
+		\FloatBarrier
+	\tab จากรูป ผู้ใช้ต้องการดูสินทรัพย์ที่เชื่อมอยู่ Smart Contract โดยจะทำการเรียกใช้ฟังก์ชั่นเพื่อหาพินัยกรรมโดยหลังจากที่ Smart Contract ส่งข้อมูลของสินทรัพย์มา ตัวระบบจะทำการแสดงรายละเอียดสินทรัพย์นั้น
+	\item Delete Asset
+		\begin{figure}[!thb]
+			\centering
+			\includegraphics[scale=0.6]{deleteAssetseq}
+			\caption{แสดง Delete Asset Sequence Diagram}
+		\end{figure}
+		\FloatBarrier
+	\tab จากรูป ผู้ใช้ต้องการที่จะลบสินทรัพย์ โดยจะทำการเรียกใช้ฟังก์ชั่นเพื่อหาพินัยกรรมโดยหลังจากที่ Smart Contract ส่งข้อมูลของสินทรัพย์มา ตัวระบบจะทำการแสดงรายละเอียดสินทรัพย์นั้นและระบบจะทำการให้ยืนยันการลบสินทรัพย์ออกจาก smart contract และหลังจากนั้นสินทรัพย์จะถูกโอนไปที่ MetaMask ของผู้ใช้และหลังจากนั้นจะแสดงการลบสำเร็จ
+	\item Check Status Death
+		\begin{figure}[!thb]
+			\centering
+			\includegraphics[scale=0.6]{checkStatusDeathseq}
+			\caption{แสดง Check Status Death Sequence Diagram}
+		\end{figure}
+		\FloatBarrier
+	\tab จากรูป API Death Status จะทำการส่งสถานะการเสียชีวิตไปที่ระบบ will on blockchain หลังจากนั้นจะส่งไปที่ Smart Contract โดยถ้าสถานะเป็นจริง จะทำการส่งสินทรัพย์และพินัยกรรมไปที่กระเป๋าพินัยกรรมของทายาท
+	\item Create Real Asset
+		\begin{figure}[!thb]
+			\centering
+			\includegraphics[scale=0.6]{createRealAssetseq}
+			\caption{แสดง Create Real Asset Sequence Diagram}
+		\end{figure}
+		\FloatBarrier
+	\tab จากรูป ผู้ใช้งานต้องการทำจะเพิ่มสินทรัพย์ประเภทที่จับต้องได้อยู่จริง ระบบจะทำการแสดงประเภทของสินทรัพย์โดยผู้ใช้งานเลือกประเภทและจะทำการกรอกข้อมูลสินทรัพย์ตามประเภทของสินทรัพย์ที่เลือกหลังจากกรอกเสร็จสิ้นจะทำการ submit เพื่อยืนยันว่าจะเก็บพินัยกรรมไว้ที่ blockchain
+	\item Create Digital Asset
+		\begin{figure}[!thb]
+			\centering
+			\includegraphics[scale=0.6]{createDigitalAssetseq}
+			\caption{แสดง Create Digital Asset Sequence Diagram}
+		\end{figure}
+		\FloatBarrier
+	\tab จากรูป ผู้ใช้จะสร้างสินทรัพย์ประเภทดิจิตอล ระบบ Will on blockchain จะแสดงประเภทของสินทรัพย์ดิจิตอล ผู้ใช้จะทำการเลือกประเภทของสินทรัพย์ โดยระบบจะแสดงฟอร์มสำหรับการสร้างสินทรัพย์ดิจิตอลหลังจากเลือกประเภทเหรียญก็จะทำการใส่สินทรัพย์ที่เหลืออยู่ และจึงจะทำการเก็บไว้ที่ blockchain โดยหลังจากยืนยันระบบจะแสดงว่าทำการสร้างสินทรัพย์ดิจิตอลเสร็จสิ้น
+	\item Calm Asset
+		\begin{figure}[!thb]
+			\centering
+			\includegraphics[scale=0.6]{calmAssetseq}
+			\caption{แสดง Calm Asset Sequence Diagram}
+		\end{figure}
+		\FloatBarrier
+	\tab จากรูป ทายาทจะรับสินทรัพย์ที่ได้รับจากการเขียนพินัยกรรมโดยจะทำการเช็คไปที่ Smart Contract ถ้า API check status death ส่งสถานะมาว่าเสียชีวิต ระบบจะทำการแสดงพินัยกรรม ต่อมาผู้ใช้จะทำการ enter เพื่อที่จะทำการรับพินัยกรรมหลังจากนั้น Smart Contract ส่งแจ้งเตือนว่าให้ทำการยืนยันอีกรอบเพื่อที่ระบบจะทำการนำสินทรัพย์ไปเก็บไว้ที่ MetaMask ของผู้ใช้หลังจากทำรายการรับสินทรัพย์เสร็จแล้วระบบจะแสดงผลลัพท์รับสินทรัพย์เสร็จสิ้น
+	\end{enumerate}
 \subsection{ส่วนติดต่อผู้ใช้งาน (User Interface)}
+\tab การออกแบบส่วนติดต่อผู้ใช้งาน โดยการออกแบบ Will Chain ได้คำนึงถึงการใช้งานของผู้ใช้งาน 
+	
 \subsection{ออกแบบการทดสอบ}
 \section{อัลกอริทึมในการประมวลผลข้อความ}
 \subsection{อัลกอริทึม I}
