@@ -1,3 +1,5 @@
 
 *.pdf
+*.synctex.gz
+*.synctex
 *.gz
