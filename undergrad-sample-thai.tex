@@ -137,7 +137,7 @@ Will Chain is a platform developed with the aim of studying how Blockchain netwo
 
 \begin{flushleft}
 \begin{tabular*}{\textwidth}{@{}lp{0.8\textwidth}}
-\textbf{Keywords}: & Multihop ad hoc networks / Topology control / Single-Hop Throughput
+\textbf{Keywords}: & Asset / Blockchain / Cryptocurrency / Digital Asset / Finance / Non-Fungible Token(NFT) /  Smart Contract / Will 
 \end{tabular*}
 \end{flushleft}
 \endabstract
@@ -156,7 +156,7 @@ Will Chain is a platform developed with the aim of studying how Blockchain netwo
 \begin{tabular*}{\textwidth}{@{}lp{0.8\textwidth}}
  & \\
 
-\textbf{คำสำคัญ}: & การชุบเคลือบด้วยไฟฟ้า / การชุบเคลือบผิวเหล็ก /  เคลือบผิวรังสี
+\textbf{คำสำคัญ}: & Asset / Blockchain / Cryptocurrency / Digital Asset / Finance / Non-Fungible Token(NFT) /  Smart Contract / Will 
 \end{tabular*}
 \end{flushleft}
 \endabstract
@@ -206,8 +206,14 @@ $\mu$ & Service rate\hfill & jobs/second\\
 \listofvocab
 \begin{flushleft}
 \begin{tabular}{@{}p{1in}@{=\extracolsep{0.5in}}l}
-Test &  test \\
-MANET & Mobile Ad Hoc Network 
+Asset & ทรัพย์สินที่เรามีอยู่ทั้งหมด เงินที่อยู่ในบัญชีทั้งหมดอยู่ในกระเป๋าทั้งหมดรวมทั้งหนี้สินที่เรามีอยู่ทั้งหมดแต่เป็นทรัพสินหรือหนี้สินที่เราพึงเรียกร้องเอาได้ทั้งหมด \\
+Blockchain & ระบบโครงข่ายในการเก็บบัญชีธุรกรรมออนไลน์ ซึ่งมีลักษณะเป็นเครือข่ายใยแมงมุมที่เก็บสถิติการทำธุรกรรมทางการเงินและสินทรัพย์ชนิดอื่นๆในอนาคต โดยไม่มีตัวกลางคือสถาบันการเงินหรือสำนักชำระบัญชี \\
+Cryptocurrency & สกุลเงินเข้ารหัส โดยคริปโตเคอร์เรนซีหรือ สินทรัพย์ดิจิทัลนั้น ได้รับการออกแบบมาเพื่อเป็นสื่อกลางในการแลกเปลี่ยนสินทรัพย์ โดยใช้วิทยาการเข้ารหัสหรือรหัสลับ\\
+Digital Asset & สิ่งที่มีมูลค่าและเราสามารถเป็นเจ้าของได้ แต่ไม่สามารถแตะต้องได้ทางกายภาพ\\
+Finance & การเงิน\\
+Non-Fungible Token(NFT) & สิ่งของที่มีความแตกต่างเฉพาะตัวไม่สามารถทดแทนกันได้หรือซื้อเป็นหน่วยย่อยได้\\
+Smart Contract & กระบวนการทางดิจิทัล ที่กำหนดขั้นตอนการทำธุรกรรมโดยอัตโนมัติไว้ล่วงหน้า โดยไม่ต้องอาศัยตัวกลาง\\
+Will  & พินัยกรรม คือ คำสั่งครั้งสุดท้าย ซึ่งแสดงเจตนากำหนดการเผื่อตายในเรื่องทรัพย์สินหรือ กิจการต่าง ๆของผู้ทำพินัยกรรม เพื่อที่จะเกิดผลบังคับตามกฎหมายในเมื่อผู้ทำพินัยกรรมถึงแก่ความตาย โดยทำแบบใดแบบหนึ่งที่กฎหมายกำหนดไว้\\
 \end{tabular}
 \end{flushleft}
 
@@ -490,15 +496,39 @@ Kanban มีกฎอยู่แค่ 3 ข้อ
 	\end{figure}
 \FloatBarrier
 \tab จากรูปแสดง Use Case แสดงการทำงานของระบบทั้งหมดโดยจะมีผู้ใช้งาน (User) ที่ต้องการฝากพินัยกรรมไว้ในระบบทำการใช้งานระบบผ่าน platform ของ WOB โดยผู้ใช้งานจำเป็นต้องเชื่อมต่อกระเป๋าเงินอิเล็กทรอนิกส์ของ meta mask ก่อนหลังจากนั้นจึงจะสามารถ สร้าง,ลบหรือ upload พินัยกรรมพร้อมทั้งมีระบบจัดการทรัพย์สินที่ผู้ใช้แนบไว้พร้อมกับพินัยกรรม และจะมีระบบที่ทำการตรวจสอบสถานะของผู้ใช้งานเพื่นที่จะทำการส่งผ่านพินัยกรรมไปยังผู้รับผลประโยชน์เมื่อถึงเวลา   จากแผนภาพ Use Case Diagram ตามรูปที่ สามารถอธิบายรายละเอียดการทํา งานของแต่ละ Use Case ได้ดังต่อไปนี้ โดยจะกล่าวถึงในหัวข้อ Use Case Narrative ถัดไป
+\FloatBarrier
 \subsection{Use Case Narrative}
 \begin{enumerate}[label=.\arabic*,leftmargin=0pt,itemindent=2.5cm]
 \item Use Case Connect Wallet
 	\begin{figure}[!htb]
 		\centering
 		\includegraphics[scale=0.8]{connectwallet}
-\caption{ตารางแสดงรายละเอียดของ Use Case Connect meta mask Wallet}
+		\caption{ตารางแสดงรายละเอียดของ Use Case Connect meta mask Wallet}
 	\end{figure}
+	\FloatBarrier
+\item Use Case Upload Will
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[scale=0.8]{uploadWill}
+		\caption{ตารางแสดงรายละเอียดของ Use Case Upload Will}
+	\end{figure}
+	\FloatBarrier
+\item Use Case Create Will
+\item Use Case Select Baneficiary
+\item Use Case Select Asset
+\item Use Case Delete Will
+\item Use Case View Will
+\item Use Case Create Asset
+\item Use Case Delete Asset
+\item Use Case View Asset
+\item Use Case Check user status
+\item Use Case deliver will and asset
 \end{enumerate}
+\subsection{Class Diagram}
+\subsection{System Architecture Diagram}
+\subsection{Sequence Diagram}
+\subsection{ส่วนติดต่อผู้ใช้งาน (User Interface)}
+\subsection{ออกแบบการทดสอบ}
 \section{อัลกอริทึมในการประมวลผลข้อความ}
 \subsection{อัลกอริทึม I}
 
