@@ -7,6 +7,7 @@
 \usepackage{polyglossia}
 \usepackage{enumitem,lipsum}
 \usepackage{graphicx}
+\usepackage{placeins}
 \graphicspath{ {./images/} }
 \setdefaultlanguage{thai}
 \setotherlanguage{english}
@@ -455,18 +456,49 @@ Kanban มีกฎอยู่แค่ 3 ข้อ
 		\item External script runner that executes scripts within a Truffle environment
 	\end{itemize}
 
-\begin{table}[!h]
-\caption{test table method1}\label{tbl:method1}
-\begin{tabular}{c|c|l|rr} \hline\hline
-Center & Center & left aligned & Right & Right aligned \\ \hline\hline
-Center & Center & left aligned & Right & Right aligned \\ \hline
-Center & Center & left aligned & Right & Right aligned \\ 
-Center & Center & left aligned & Right & Right aligned \\ \hline
-Center & Center & left aligned & Right & Right aligned \\ \hline\hline
-\end{tabular}
-\end{table}
+\chapter{การออกแบบและวิธีการดำเนินงาน}
+\tab เอกสารรายงานบทนี้จะกล่าวถึงระบบการทำงานของโครงงาน รวมถึงแผนภาพต่าง ๆ ที่ใช้อธิบายการทำงานในส่วนต่าง ๆ ของระบบ การออกแบบส่วนติดต่อผู้ใช้งาน (User Interface) ไดอะแกรมของระบบ รวมถึงขั้นตอนและวิธีการดำเนินงาน
+\section{ระบบการทำงาน}
+\subsection{ภาพรวมของระบบ}
+\tab โดยภาพรวมของ Will Chain (Web application) จะประกอบไปด้วย 3 ส่วนหลักดังนี้
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.8]{Overall_system}
+		\caption{ภาพรวมแสดงการทำงานของระบบ}
+	\end{figure}
+	\begin{itemize}[leftmargin=0pt,itemindent=2.5cm]
+		\item ส่วนติดต่อผู้ใช้งานหรือ Frontend จะเป็นส่วนที่ผู้ใช้งานเห็น และใช้งาน
+		\item Smart Contract จะเป็นส่วนที่ควบคุมการทำงานของระบบทั้งหมด โดยที่ผู้ใช้งานจะเข้าใช้งานผ่านทาง Frontend และจะส่งชุดคำสั่งมาเพื่อที่จะสั่งให้ Smart Contract นั้นทำงาน และจะส่งข้อมูลไปเก็บใน Blockchain ต่อไป
+		\item Ethereum chain สำหรับเก็บข้อมูลการใช้งานของผู้ใช้งาน
+	\end{itemize}
 
-
+\subsection{User Journey}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.8]{UserJourney}
+		\caption{แสดง User Journey}
+	\end{figure}
+\FloatBarrier
+\hfill\\
+\hfill\\
+\hfill\\
+\subsection{แผนภาพ Use Case Diagram}
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[scale=0.2]{UseCaseDiagram}
+		\caption{แสดงการทำงานของระบบทั้งหมด Use Case Diagram}
+	\end{figure}
+\FloatBarrier
+\tab จากรูปแสดง Use Case แสดงการทำงานของระบบทั้งหมดโดยจะมีผู้ใช้งาน (User) ที่ต้องการฝากพินัยกรรมไว้ในระบบทำการใช้งานระบบผ่าน platform ของ WOB โดยผู้ใช้งานจำเป็นต้องเชื่อมต่อกระเป๋าเงินอิเล็กทรอนิกส์ของ meta mask ก่อนหลังจากนั้นจึงจะสามารถ สร้าง,ลบหรือ upload พินัยกรรมพร้อมทั้งมีระบบจัดการทรัพย์สินที่ผู้ใช้แนบไว้พร้อมกับพินัยกรรม และจะมีระบบที่ทำการตรวจสอบสถานะของผู้ใช้งานเพื่นที่จะทำการส่งผ่านพินัยกรรมไปยังผู้รับผลประโยชน์เมื่อถึงเวลา   จากแผนภาพ Use Case Diagram ตามรูปที่ สามารถอธิบายรายละเอียดการทํา งานของแต่ละ Use Case ได้ดังต่อไปนี้ โดยจะกล่าวถึงในหัวข้อ Use Case Narrative ถัดไป
+\subsection{Use Case Narrative}
+\begin{enumerate}[label=.\arabic*,leftmargin=0pt,itemindent=2.5cm]
+\item Use Case Connect Wallet
+	\begin{figure}[!htb]
+		\centering
+		\includegraphics[scale=0.8]{connectwallet}
+\caption{ตารางแสดงรายละเอียดของ Use Case Connect meta mask Wallet}
+	\end{figure}
+\end{enumerate}
 \section{อัลกอริทึมในการประมวลผลข้อความ}
 \subsection{อัลกอริทึม I}
 
