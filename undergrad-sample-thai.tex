@@ -1256,6 +1256,74 @@ Pre-Condition  & ทายาทจะทำการรับสินทรั
 		\item Function การส่งพินัยกรรมและสินทรัพย์ไปให้ผู้รับมรดก
 	\end{enumerate}
 
+\chapter{ผลการดําเนินงาน}
+\section{Token ที่ใช้ใน Will-Chain}
+\begin{enumerate}[label=\thesection.\arabic*,leftmargin=0pt,itemindent=1.25cm]
+		\item Will-Chain \\
+			\tab \tab Will-Chain เป็น NFT ที่ทำหน้าที่แทนพินัยกรรมซึ่งทำงานบนระบบ Ethereum โดยใช้มาตรฐาน ERC-721 ซึ่งภายใน Will-Chain จะเก็บสินทรัพย์ของผู้
+ทำพินัยกรรมและรายละเอียดของพินัยกรรมต่าง ๆ โดยเมื่อสร้างพินัยกรรมจาก willFactory contract จะทำหน้าที่ไป mint ตัวเหรียญ Will-Chain ออกมา
+	\end{enumerate}
+\section{Test Plan}
+\begin{enumerate}[label=\thesection.\arabic*,leftmargin=0pt,itemindent=1.25cm]
+\item Validation Testing \\
+\tab \tab ตรวจสอบว่า Software ตรงตาม requirement มั้ย\\
+\tab \tab บันทึก error พร้อมกับการแก้ไข\\
+\item Verification Testing \\
+\tab \tab ตรวจสอบว่า Software ออกแบบได้ตรงตาม UX/UI ที่ออกแบบไว้หรือไม่\\
+\tab \tab ตรวจสอบว่า Software ออกแบบได้ตรงตาม Architecture มั้ย\\
+\tab \tab ตรวจสอบว่า Software ออกแบบได้ตรงตาม UML design มั้ย\\
+\end{enumerate}
+\clearpage
+\section{Software Testing}
+\tab System Testing จะใช้การ Unit Testing โดยทำการแยก test เป็น function ต่างๆ
+\begin{enumerate}[label=\thesection.\arabic*,leftmargin=0pt,itemindent=1.25cm]
+\item Test Case
+\begin{table}[h]
+\begin{tabular}{|l|l|l|}
+\hline
+Page                   & Test case                                        &  Result \\ \hline
+Profile                & ใส่รหัสบัตรประชาชนถูกต้อง                        &        \\ \hline
+                       & ใส่รหัสบัตรประชาชนที่ไม่มีในระบบ                 &        \\ \hline
+                       & ใส่รหัสบัตรประชาชนไม่ครบ/เกิน                    &        \\ \hline
+                       & เลือก menu สินทรัพย์                             &        \\ \hline
+                       & เลือก menu พินัยกรรม                             &        \\ \hline
+                       & เลือก menu พินัยกรรมที่ได้รับ                    &        \\ \hline
+สินทรัพย์ของคุณ        & เลือกเพิ่มสินทรัพย์                              &        \\ \hline
+                       & เลือกลบสินทรัพย์                                 &        \\ \hline
+                       & เลือกดูข้อมูลสินทรัพย์                           &        \\ \hline
+บันทึกสินทรัพย์        & กรอกข้อมูลปรกติแล้วกดบันทึก                      &        \\ \hline
+                       & ไม่กรอกชื่อสินทรัพย์                             &        \\ \hline
+                       & ไม่เลือกข้อมูลเพิ่มเติม                          &        \\ \hline
+                       & ไม่ upload file สินทรัพย์                        &        \\ \hline
+                       & เพิ่มจำนวนสินทรัพย์                              &        \\ \hline
+                       & กรอกข้อมูลสินทรัพย์ไม่ครบทุกหน้า                 &        \\ \hline
+รายชื่อคนรับมรดก       & เลือกเพิ่มรายชื่อ                                &        \\ \hline
+                       & เลือกลบรายชื่อ                                   &        \\ \hline
+พินัยกรรมของคุณ        & เลือกเพิ่มพินัยกรรม                              &        \\ \hline
+                       & เลือกลบพินัยกรรม                                 &        \\ \hline
+                       & เลือกดูข้อมูลพินัยกรรม                           &        \\ \hline
+บันทึกพินัยกรรม        & กรอกข้อมูลปรกติแล้วกดบันทึก                      &        \\ \hline
+                       & ไม่กรอกชื่อพินัยกรรม                             &        \\ \hline
+                       & ไม่อัพโหลด file พินัยกรรม                        &        \\ \hline
+                       & ไม่เลือกผู้ได้รับมรดก                            &        \\ \hline
+                       & ไม่เลือกชนิดของสินทรัพย์ที่ได้รับ                &        \\ \hline
+                       & เลือกชนิดของสินทรัพย์ไม่ตรงกับสินทรัพย์ที่ได้รับ &        \\ \hline
+                       & มอบสินทรัพย์มากว่าที่มีอยู่                      &        \\ \hline
+หน้าพินัยกรรมที่ได้รับ & เลือกดูพินัยกรรม                                 &        \\ \hline
+                       & กดรับสินทรัพย์ก่อนเวลา                           &        \\ \hline
+                       & กดรับสินทรัพย์เมื่อถึงเวลา                       &        \\ \hline
+\end{tabular}
+\end{table}
+\end{enumerate}
+
+\tab หลังจากผ่าน system testing แล้วจะนำไปให้ user ทำการ test ว่าตอบสนองความต้องการหรือไม่ โดยจะนำไปให้บุคคลที่มี สินทรัพย์ดิจิทัลที่มีความต้องการที่จะทำพินัยกรรมทดลองใช้ website
+
+\begin{itemize}
+	\item[--] ความง่ายในการใช้งาน
+\item[--]  ความน่าเชื่อถือของ software
+\item[--]  ความ stable ของ software
+\end{itemize}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%% Bibliography %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
