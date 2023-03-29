@@ -882,25 +882,14 @@ Exception:           & \multicolumn{2}{l|}{~}                                   
 	\FloatBarrier
 \end{enumerate}
 \clearpage
-\subsection{Class Diagram}
-\FloatBarrier
-\begin{table}[h]
-\centering
-\caption{ตารางแสดงคำอธิบาย Class Diagram}
-\label{tab:my-table}
-\begin{tabularx}{\textwidth}{|l|X|X|} 
-\hline
-\multicolumn{1}{|c|}{ชื่อ Class} & \multicolumn{1}{c|}{หน้าที่}                                                                                                                                                                                                                          & \multicolumn{1}{c|}{ความสัมพันธ์}                                                                    \\ \hline
-User                             & \begin{tabular}[c]{@{}l@{}}เก็บข้อมูลของผู้ใช้งาน\\ - แสดงสินทรัพย์ที่ได้รับจากพินัยกรรม\\ - กดรับสินทรัพย์ที่ได้รับจากพินัยกรรมที่ได้รับ\\ - แสดงข้อมูลผู้ใช้งาน (เลขกระเป๋า MetaMask)\\ - แสดงแจ้งเตือนเมื่อได้รับพินัยกรรม\end{tabular}            & - Service Contract                                                                                   \\ \hline
-Service Contract                 & \begin{tabular}[c]{@{}l@{}}จัดการ Smart Contract ของระบบ\\ - เช็คสถานะการมีชีวิต\\ - เช็คสถานะพินัยกรรม\\ - เช็คสถานะสินทรัพย์\\ - เช็คเจ้าของพินัยกรรม\\ - เช็คคนที่ได้รับพินัยกรรม\end{tabular}                                                     & \begin{tabular}[c]{@{}l@{}}- Asset\\ - Will\\ - User\end{tabular}                                    \\ \hline
-Asset                            & \begin{tabular}[c]{@{}l@{}}เก็บข้อมูลสินทรัพย์\\ - เพิ่มสินทรัพย์\\ - ลบสินทรัพย์\\ - แสดงสินทรัพย์\\ - เช็คชนิดของสินทรัพย์\\ - สร้าง NFT\end{tabular}                                                                                               & \begin{tabular}[c]{@{}l@{}}- Real Asset\\ - Digital Asset\\ - Will\\ - Service Contract\end{tabular} \\ \hline
-Real Asset                       & \begin{tabular}[c]{@{}l@{}}เก็บข้อมูลสินทรัพย์ในชีวิตจริง\\ - อัพโหลด pdf\\ - ลบ pdf\\ - เช็คจำนวน pdf\\ - ดูชนิดของสินทรัพย์\end{tabular}                                                                                                            & Inheritace จาก class Asset                                                                           \\ \hline
-Digital Asset                    & \begin{tabular}[c]{@{}l@{}}เก็บข้อมูลสินทรัพย์ดิจิทัล\\ - คำนวณจำนวนคงเหลือของสินทรัพย์ดิจิทัล\end{tabular}                                                                                                                                           & Inheritance จาก class Asset                                                                          \\ \hline
-Will                             & \begin{tabular}[c]{@{}l@{}}เก็บข้อมูลพินัยกรรม\\ - เพิ่มพินัยกรรม\\ - ลบพินัยกรรม\\ - แสดงพินัยกรรม\\ - เลือกสินทรัพย์\\ - ผูกพินัยกรรมกับสินทรัพย์\\ - เช็คชนิดของพินัยกรรม\\ - สร้าง NFT \\ - อัพโหลด pdf\\ - ลบ pdf\\ - เช็คจำนวน pdf\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Asset \\ - Service Contract\end{tabular}                                \\ \hline
-\end{tabularx}
-\end{table}
-\FloatBarrier
-\clearpage
+\subsection{Smart Contract}
+	\begin{figure}[!thb]	
+		\centering
+		\includegraphics[scale=0.6]{smartContractDiagram}
+		\caption{แสดงการ interaction ของ smart contract ของระบบ Will Chain}
+	\end{figure}
+	\FloatBarrier
+\tab จากรูปแสดงการทำงานของตัว smart contract ของระบบ จะแบ่งเป็น 2 contract ที่ทำหน้าที่ต่างกันโดย will factory จะทำหน้าที่เก็บข้อมูลของทุกพินัยกรรมและรวมถึงการจัดการพินัยกรรมของระบบทั้งหมดโดย will factory สามารถทำการสร้างพินัยกรรมที่เป็น NFT ที่ใช้ ethereum standards ERC 721 และทำการ mint เก็บไว้ที่ตัวเจ้าของพินัยกรรมและเมื่อเกิดเหตุการณ์เสียชีวิตที่ได้รับจากระบบจะมีการ setStatusWill ให้เปลี่ยนเป็น active เพื่อที่จะทำการส่งต่อไปหาผู้รับพินัยกรรม ส่วน contract ต่อมาคือ will เป็น contract ที่ทำหน้าที่เกี่ยวกับจัดการมรดกของแต่ละพินัยกรรม โดยสามารถจัดการได้โดยเจ้าของพินัยกรรมว่าภายในพินัยกรรมของตัวเอง
 \subsection{System Architecture Diagram}
 	\begin{figure}[!thb]
 		\centering
