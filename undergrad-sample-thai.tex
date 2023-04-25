@@ -601,6 +601,30 @@ Exception:         & ~                                                          
 \end{tabularx}
 \end{table}
 \FloatBarrier
+\item Use Case Create Will
+	\begin{table}[h]
+\centering
+\caption{ตารางแสดงรายละเอียดของ Use Case Create Will}
+\begin{tabularx}{\textwidth}{|l|X|X|} 
+\hline
+Use Case Name:     & \multicolumn{2}{l|}{Create Will}                                                                                                                                                                                        \\ 
+\hline
+Actors:            & \multicolumn{2}{l|}{User}                                                                                                                                                                                               \\ 
+\hline
+Pre-Condition:     & \multicolumn{2}{l|}{User ต้องทำการเชื่อมบัญชีกับกระเป๋าเงิน
+  meta mask}                                                                                                                                                \\ 
+\hline
+Post-Condition:    & \multicolumn{2}{l|}{พินัยกรรมถูกบันทึกเข้าระบบ}                                                                                                                                                                         \\ 
+\hline
+Brief Description: & User                                                                                           & System                                                                                                                 \\ 
+\hline
+Flow of Event:     & \begin{tabular}[c]{@{}l@{}}1.เลือกเมนู Create Will \\~\\3.ยืนยันการสร้างพินัยกรรม\end{tabular} & \begin{tabular}[c]{@{}l@{}}~\\2.รอผู้ใช้งานกรอกรายละเอียดพินัยกรรมให้เสร็จ \\~\\4.บันทึกพินัยกรรมเข้าสู่ระบบ\end{tabular}  \\ 
+\hline
+Exception:         & ~                                                                                              &                                                                                                                        \\
+\hline
+\end{tabularx}
+\end{table}
+\FloatBarrier
 \item Use Case Upload Will
 \begin{table}[h]
 	\centering
@@ -625,27 +649,26 @@ Exception:         & ~                                                          
 \end{tabularx}
 \end{table}
 \FloatBarrier
-\item Use Case Create Will
-	\begin{table}[h]
-\centering
-\caption{ตารางแสดงรายละเอียดของ Use Case Create Will}
-\begin{tabularx}{\textwidth}{|l|X|X|} 
-\hline
-Use Case Name:     & \multicolumn{2}{l|}{Create Will}                                                                                                                                                                                        \\ 
-\hline
-Actors:            & \multicolumn{2}{l|}{User}                                                                                                                                                                                               \\ 
-\hline
-Pre-Condition:     & \multicolumn{2}{l|}{User ต้องทำการเชื่อมบัญชีกับกระเป๋าเงิน
-  meta mask}                                                                                                                                                \\ 
-\hline
-Post-Condition:    & \multicolumn{2}{l|}{พินัยกรรมถูกบันทึกเข้าระบบ}                                                                                                                                                                         \\ 
-\hline
-Brief Description: & User                                                                                           & System                                                                                                                 \\ 
-\hline
-Flow of Event:     & \begin{tabular}[c]{@{}l@{}}1.เลือกเมนู Create Will \\~\\3.ยืนยันการสร้างพินัยกรรม\end{tabular} & \begin{tabular}[c]{@{}l@{}}~\\2.รอผู้ใช้งานทำการเขียนพินัยกรรมให้เสร็จ \\~\\4.บันทึกพินัยกรรมเข้าสู่ระบบ\end{tabular}  \\ 
-\hline
-Exception:         & ~                                                                                              &                                                                                                                        \\
-\hline
+\item Use Case Add Asset
+\begin{table}[h]
+	\centering
+	\caption{ตารางแสดงรายละเอียดของ Use Case Add Asset}
+	\begin{tabularx}{\textwidth}{|l|X|X|} 
+	\hline
+	Use Case Name:     & \multicolumn{2}{l|}{Add Asset}                                                                                                                                           \\ 
+	\hline
+	Actors:            & \multicolumn{2}{l|}{User}                                                                                                                                                  \\ 
+	\hline
+	Pre-Condition:     & \multicolumn{2}{l|}{User ต้องทำการ upload พินัยกรรมเข้าสู้ระบบ}                                                                                                   \\ 
+	\hline
+	Post-Condition:    & \multicolumn{2}{l|}{พินัยกรรมถูกบันทึกเข้าระบบ}                                                                                                                            \\ 
+	\hline
+	Brief Description: & User                                                                                           & System                                                                    \\ 
+	\hline
+	Flow of Event:     & \begin{tabular}[c]{@{}l@{}}1.เลือกเมนู Add Asset \\2.ทำการ upload สินทรัพย์\end{tabular} & \begin{tabular}[c]{@{}l@{}}\\\\3.บันทึกสินทรัพย์ไว้ในพินัยกรรม\end{tabular}  \\ 
+	\hline
+	Exception:         & ~                                                                                              &                                                                           \\
+	\hline
 \end{tabularx}
 \end{table}
 \FloatBarrier
@@ -655,44 +678,19 @@ Exception:         & ~                                                          
 \caption{ตารางแสดงรายละเอียดของ Use Case Select Baneficiary}
 \begin{tabularx}{\textwidth}{|l|X|X|} 
 \hline
-Use Case Name:     & \multicolumn{2}{l|}{Create Will}                                                                                                                                                                                        \\ 
+Use Case Name:     & \multicolumn{2}{l|}{Select Baneficiary}                                                                                                                                                                                        \\ 
 \hline
 Actors:            & \multicolumn{2}{l|}{User}                                                                                                                                                                                               \\ 
 \hline
-Pre-Condition:     & \multicolumn{2}{l|}{User ต้องทำการเชื่อมบัญชีกับกระเป๋าเงิน
-  meta mask}                                                                                                                                                \\ 
+Pre-Condition:     & \multicolumn{2}{l|}{User ต้องทำการสร้างพินัยกรรมให้เสร็จก่อน}                                                                                                                                                \\ 
 \hline
-Post-Condition:    & \multicolumn{2}{l|}{พินัยกรรมถูกบันทึกเข้าระบบ}                                                                                                                                                                         \\ 
+Post-Condition:    & \multicolumn{2}{l|}{พินัยกรรมถูกเชื่อมกับบัญชีผู้รับมรดก}                                                                                                                                                                         \\ 
 \hline
 Brief Description: & User                                                                                           & System                                                                                                                 \\ 
 \hline
-Flow of Event:     & \begin{tabular}[c]{@{}l@{}}1.เลือกเมนู Create Will \\~\\3.ยืนยันการสร้างพินัยกรรม\end{tabular} & \begin{tabular}[c]{@{}l@{}}~\\2.รอผู้ใช้งานทำการเขียนพินัยกรรมให้เสร็จ \\~\\4.บันทึกพินัยกรรมเข้าสู่ระบบ\end{tabular}  \\ 
+Flow of Event:     & \begin{tabular}[c]{@{}l@{}}1.เลือกเมนู Select Baneficiary \\~\\3.ยืนยันบัญชีผู้รับมรดกที่เลือก\end{tabular} & \begin{tabular}[c]{@{}l@{}}~\\2.ให้ User กรอกบัญชีผู้รับมรดก \\~\\4.บันทึกบัญชีผู้รับมรดกเข้ากับพินัยกรรม\end{tabular}  \\ 
 \hline
 Exception:         & ~                                                                                              &                                                                                                                        \\
-\hline
-\end{tabularx}
-\end{table}
-	\FloatBarrier
-\item Use Case Select Asset
-	\begin{table}[h]
-\centering
-\caption{ตารางแสดงรายละเอียดของ Use Case Select Asset}
-\begin{tabularx}{\textwidth}{|l|X|X|} 
-\hline
-Use Case Name:     & \multicolumn{2}{l|}{Select Asset}                                                                                                                                                                                                                           \\ 
-\hline
-Actors:            & \multicolumn{2}{l|}{User}                                                                                                                                                                                                                                   \\ 
-\hline
-Pre-Condition:     & \multicolumn{2}{l|}{User ต้องทำการสร้างพินัยกรรมให้เสร็จก่อนและต้องมีทรัพย์สินที่ถูกเพิ่มไว้ในระบบ}                                                                                                                                                         \\ 
-\hline
-Post-Condition:    & \multicolumn{2}{l|}{พินัยกรรมถูกเชื่อมกับทรัพย์สินของ
-  User}                                                                                                                                                                                               \\ 
-\hline
-Brief Description: & User                                                                                                             & System                                                                                                                                   \\ 
-\hline
-Flow of Event:     & \begin{tabular}[c]{@{}l@{}}1.เลือกเมนู Select Asset \\\\3.ยืนยันทรัพย์สินที่ทำการเชื่อมกับพินัยกรรม\end{tabular} & \begin{tabular}[c]{@{}l@{}}\\2.ให้ User ทำการเลือกทรัพย์สินจากบัญชีของ user \\\\4.บันทึกการเชื่อมทรัพย์สินเข้ากับพินัยกรรม\end{tabular}  \\ 
-\hline
-Exception:         & \multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}User จะไม่สามารถผูก Real Asset กับพินัยกรรมที่ถูกสร้างขึ้นมาบน platform ได้ \\จำเป็นต้องผูกกับพินัยกกรมที่ถูก upload เข้ามาเท่านั้น\end{tabular}}                                                            \\
 \hline
 \end{tabularx}
 \end{table}
@@ -744,83 +742,6 @@ Exception:         & \multicolumn{2}{l|}{~}                                     
 \end{tabularx}
 \end{table}
 \FloatBarrier
-\item Use Case Create Asset
-	\begin{table}[h]
-\centering
-\caption{ตารางแสดงรายละเอียดของ Use Case Create Asset}
-\begin{tabularx}{\textwidth}{|l|X|X|} 
-\hline
-Use Case Name:     & \multicolumn{2}{l|}{View Will}                                                                                                                                                                                                                  \\ 
-\hline
-Actors:            & \multicolumn{2}{l|}{User}                                                                                                                                                                                                                       \\ 
-\hline
-Pre-Condition:     & \multicolumn{2}{l|}{User ต้องมีพินัยกกรรมที่ถูกสร้างไว้เรียบร้อยแล้ว}                                                                                                                                                                           \\ 
-\hline
-Post-Condition:    & \multicolumn{2}{l|}{ระบบทำการแสดงพินัยกรรมในระบบให้
-  User}                                                                                                                                                                                     \\ 
-\hline
-Brief Description: & User                                                                                                              & System                                                                                                                      \\ 
-\hline
-Flow of Event:     & \begin{tabular}[c]{@{}l@{}}1.เลือกเมนู View Will \\\\3.เลือกพินัยกรรมที่อยู่ในระบบที่ต้องการดู \\~ ~\end{tabular} & \begin{tabular}[c]{@{}l@{}}2.ระบบทำการแสดงพินัยกรรมที่ถูกบันทึกในระบบ  \\\\4.ทำการแสดงพินัยกรรมที่ User เลือก\end{tabular}  \\ 
-\hline
-Exception:         & \multicolumn{2}{l|}{~}                                                                                                                                                                                                                          \\
-\hline
-\end{tabularx}
-\end{table}
-\FloatBarrier
-\item Use Case Delete Asset
-	\begin{table}[h]
-\centering
-\caption{ตารางแสดงรายละเอียดของ Use Case Delete Asset}
-\begin{tabularx}{\textwidth}{|l|X|X|} 
-\hline
-Use Case
-  Name:     & \multicolumn{2}{l|}{Delete Asset}                                                                                                                                                                                                                                                                                                                                                     \\ 
-\hline
-Actors:              & \multicolumn{2}{l|}{User}                                                                                                                                                                                                                                                                                                                                                             \\ 
-\hline
-Pre-Condition:       & \multicolumn{2}{l|}{User ต้องมีสินทรัพย์ที่ถูกบันทึกไว้ในกระเป๋าเงิน}                                                                                                                                                                                                                                                                                                                 \\ 
-\hline
-Post-Condition:      & \multicolumn{2}{l|}{สินทรัพย์ถูกลบออกจากกระเป๋าเงิน}                                                                                                                                                                                                                                                                                                                                  \\ 
-\hline
-Brief
-  Description: & User                                                                                                                                                                                                                                & System                                                                                                                                          \\ 
-\hline
-Flow of Event:     & \begin{tabular}[c]{@{}l@{}}1.เลือกเมนู Delete Asset \\\\3.เลือกสินทรัพย์และหลักฐานการเป็น\\เจ้าของที่อยู่ในระบบ \\4.ลบสินทรัพย์และหลักฐานการเป็นเจ้าของในระบบ \\5.ยืนยันการลบสินทรัพย์และหลักฐานการเป็น\\เจ้าของในระบบ\\\\\end{tabular} & \begin{tabular}[c]{@{}l@{}}\\\\2.ระบบทำการแสดงสินทรัพย์ที่ถูกบันทึกในระบบ  \\\\\\\\\\\\6.ทำการนำสินทรัพย์และหลักฐานการเป็น\\เจ้าของออกจากระบบ\end{tabular}  \\ 
-\hline
-Exception:           & \multicolumn{2}{l|}{~}                                                                                                                                                                                                                                                                                                                                                                \\
-\hline
-\end{tabularx}
-\end{table}
-\FloatBarrier
-\clearpage
-\item Use Case View Asset
-	\begin{table}[h]
-\centering
-\caption{ตารางแสดงรายละเอียดของ Use Case View Asset}
-\begin{tabularx}{\textwidth}{|l|X|X|} 
-\hline
-Use Case
-  Name:     & \multicolumn{2}{l|}{View Asset}                                                                                                                                                                                                                                                                                    \\ 
-\hline
-Actors:              & \multicolumn{2}{l|}{User}                                                                                                                                                                                                                                                                                          \\ 
-\hline
-Pre-Condition:       & \multicolumn{2}{l|}{User ต้องมีสินทรัพย์ที่ถูกบันทึกไว้ในกระเป๋าเงิน}                                                                                                                                                                                                                                              \\ 
-\hline
-Post-Condition:      & \multicolumn{2}{l|}{ระบบทำการแสดงสินทรัพย์ที่ถูกบันทึกไว้ในกระเป๋าเงินให้
-  User}                                                                                                                                                                                                                                  \\ 
-\hline
-Brief
-  Description: & User                                                                                                                              & System                                                                                                                                                                         \\ 
-\hline
-Flow of
-  Event:     & \begin{tabular}[c]{@{}l@{}}1.เลือกเมนู View Asset \\\\3.เลือกสินทรัพย์ที่ถูกบันทึกไว้ในกระเป๋าเงิน\\ที่ต้องการดู \\~ ~\end{tabular} & \begin{tabular}[c]{@{}l@{}}\\\\2.ระบบทำการแสดงสินทรัพย์ที่ถูกบันทึกไว้\\ในกระเป๋าเงิน \\\\\\4.ทำการแสดงสินทรัพย์ที่ถูกบันทึกไว้และหลักฐาน\\การเป็นเจ้าของสินทรัพย์นั้นให้ User\end{tabular}  \\ 
-\hline
-Exception:           & \multicolumn{2}{l|}{~}                                                                                                                                                                                                                                                                                             \\
-\hline
-\end{tabularx}
-\end{table}
-\FloatBarrier
 \item Use Case Check User Status
 \begin{table}[h]
 \centering
@@ -851,29 +772,50 @@ Exception:           & \multicolumn{2}{l|}{~}                                   
 \end{tabularx}
 \end{table}
 \FloatBarrier
-\item Use Case Deliver Will And Asset
+\item Use Case Notify User
 	\begin{table}[h]
 \centering
-\caption{ตารางแสดงรายละเอียดของ Use Case Deliver Will And asset}
+\caption{ตารางแสดงรายละเอียดของ Use Case Notify User}
 \begin{tabularx}{\textwidth}{|l|X|X|} 
 \hline
 Use Case
-  Name:     & \multicolumn{2}{l|}{deliver will
-  and asset}                                                                                                                                                                                       \\ 
+  Name:     & \multicolumn{2}{l|}{Notify user}                                                                                                                                                                                       \\ 
 \hline
 Actors:              & \multicolumn{2}{l|}{System}                                                                                                                                                                                                         \\ 
 \hline
 Pre-Condition:       & \multicolumn{2}{l|}{User ที่ทำการสร้างพินัยกรรมเสียชีวิต}                                                                                                                                                                           \\ 
 \hline
-Post-Condition:      & \multicolumn{2}{l|}{ผู้รับผลประโยชน์ได้รับพินัยกรรมและสินทรัพย์ที่
-  User ทำการบันทึกไว้}                                                                                                                                           \\ 
+Post-Condition:      & \multicolumn{2}{l|}{ผู้รับผลประโยชน์ได้รับการแจ้งเตือนจากระบบ}                                                                                                                                           \\ 
 \hline
 Brief
   Description: & User  & System                                                                                                                                                                                                                      \\ 
 \hline
 Flow of
   Event:     & ~
-  ~ & \begin{tabular}[c]{@{}l@{}}1.ระบบทำการตรวจสอบสถาณะของ User \\จากข้อมูลของกรมการปกครอง \\2.ระบบทำการยืนยันการเสียชีวิตของ User \\3.ระบบทำการส่งพินัยกรรมและสินทรัพย์ที่ User \\ทำการบันทึกไว้ไปให้ผู้รับผลประโยชน์\end{tabular}  \\ 
+  ~ & \begin{tabular}[c]{@{}l@{}}1.ระบบทำการตรวจสอบสถาณะของ User \\จากข้อมูลของกรมการปกครอง \\2.ระบบทำการยืนยันการเสียชีวิตของ User \\3.ระบบทำการส่ง notification ผ่านทางกระเป่า \\metamask \end{tabular}  \\ 
+\hline
+Exception:           & \multicolumn{2}{l|}{~}                                                                                                                                                                                                              \\
+\hline
+\end{tabularx}
+\end{table}
+\item Use Case Claim Will
+	\begin{table}[h]
+\caption{ตารางแสดงรายละเอียดของ Use Case Claim Will}
+\begin{tabularx}{\textwidth}{|l|X|X|} 
+\hline
+Use Case
+  Name:     & \multicolumn{2}{l|}{Claim Will}                                                                                                                                                                                       \\ 
+\hline
+Actors:              & \multicolumn{2}{l|}{User}                                                                                                                                                                                                         \\ 
+\hline
+Pre-Condition:       & \multicolumn{2}{l|}{ระบบทำการแจ้งเตือนว่าผู้ทำพินัยกรรมเสียชีวิตแล้ว}                                                                                                                                                                           \\ 
+\hline
+Post-Condition:      & \multicolumn{2}{l|}{ผู้รับผลประโยชน์เข้ามารับพินัยกรรมและสินทรัพย์}                                                                                                                                           \\ 
+\hline
+Brief
+  Description: & User  & System                                                                                                                                                                                                                      \\ 
+\hline
+Flow of Event:     & \begin{tabular}[c]{@{}l@{}}1.เลือกเมนู Claim Will \\\\3.เลือกพินัยกรรมในระบบที่สามารถรับได้ \\~ ~\end{tabular} & \begin{tabular}[c]{@{}l@{}}2.ระบบทำการแสดงพินัยกรรมที่ผู้รับผลประโยชน์\\สามารถรับได้  \\\\4.ทำการส่งพินัยกรรมและสินทรัพย์\\ให้ผู้รับผลประโยชน์\end{tabular}  \\ 
 \hline
 Exception:           & \multicolumn{2}{l|}{~}                                                                                                                                                                                                              \\
 \hline
