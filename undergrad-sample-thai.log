@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.25)  25 APR 2023 21:35
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.25)  11 MAY 2023 23:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -968,46 +968,43 @@ LaTeX Warning: Citation `smartcontract' on page v undefined on input line 25.
 LaTeX Warning: Citation `nft' on page v undefined on input line 26.
 
 
-LaTeX Warning: Citation `f-nft' on page v undefined on input line 27.
+LaTeX Warning: Citation `asset' on page v undefined on input line 27.
 
 
-LaTeX Warning: Citation `asset' on page v undefined on input line 28.
+LaTeX Warning: Citation `digital-asset' on page v undefined on input line 28.
 
 
-LaTeX Warning: Citation `digital-asset' on page v undefined on input line 29.
+LaTeX Warning: Citation `will' on page v undefined on input line 29.
 
 
-LaTeX Warning: Citation `will' on page v undefined on input line 30.
+LaTeX Warning: Citation `cryptowill' on page v undefined on input line 31.
 
 
-LaTeX Warning: Citation `cryptowill' on page v undefined on input line 32.
+LaTeX Warning: Citation `eth' on page v undefined on input line 33.
 
 
-LaTeX Warning: Citation `eth' on page v undefined on input line 34.
+LaTeX Warning: Citation `github' on page v undefined on input line 34.
 
 
-LaTeX Warning: Citation `github' on page v undefined on input line 35.
+LaTeX Warning: Citation `metamask' on page v undefined on input line 35.
 
 
-LaTeX Warning: Citation `metamask' on page v undefined on input line 36.
+LaTeX Warning: Citation `nestjs' on page v undefined on input line 36.
 
 
-LaTeX Warning: Citation `nestjs' on page v undefined on input line 37.
+LaTeX Warning: Citation `nextjs' on page v undefined on input line 37.
 
 
-LaTeX Warning: Citation `nextjs' on page v undefined on input line 38.
+LaTeX Warning: Citation `solidity' on page v undefined on input line 38.
 
 
-LaTeX Warning: Citation `solidity' on page v undefined on input line 39.
+LaTeX Warning: Citation `typescript' on page v undefined on input line 39.
 
 
-LaTeX Warning: Citation `typescript' on page v undefined on input line 40.
+LaTeX Warning: Citation `web3js' on page v undefined on input line 40.
 
 
-LaTeX Warning: Citation `web3js' on page v undefined on input line 41.
-
-
-LaTeX Warning: Citation `truffle' on page v undefined on input line 42.
+LaTeX Warning: Citation `truffle' on page v undefined on input line 41.
 
 [5
 
@@ -1114,212 +1111,232 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 413.
 
 
-LaTeX Warning: Citation `eth' on page 5 undefined on input line 416.
+LaTeX Warning: Citation `erc721' on page 5 undefined on input line 416.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 416.
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 417--418
+LaTeX Warning: Citation `eth' on page 5 undefined on input line 420.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 420.
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 421--422
 []| \TU/THSarabunNew(0)/m/n/10 Ethereum คือแพลตฟอร์มบน Blockchain Network ที่่ท
 ํางานด้วย Smart Contract มีลักษณะแพลตฟอร์มเป็นรูปแบบ
  []
+
+
+LaTeX Warning: Citation `sbts' on page 5 undefined on input line 423.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 423.
 
 [5
 
 ]
 
-LaTeX Warning: Citation `softeng1' on page 6 undefined on input line 419.
+LaTeX Warning: Citation `softeng1' on page 6 undefined on input line 427.
 
 
-LaTeX Warning: Citation `softeng2' on page 6 undefined on input line 419.
+LaTeX Warning: Citation `softeng2' on page 6 undefined on input line 427.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 419.
+(hyperref)                removing `\@ifnextchar' on input line 427.
 
 File: ./images//agile.png Graphic file (type bmp)
 <./images//agile.png>
 
-Underfull \hbox (badness 1038) in paragraph at lines 423--429
+Underfull \hbox (badness 1038) in paragraph at lines 431--437
 []\TU/THSarabunNew(0)/m/n/10 Agile Software Development เป็นกระบวนการที่ช่วยลดก
 ารทำงานที่เป็นขั้นตอนและงานด้านการทำเอกสาร
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 432--434
+Underfull \hbox (badness 2384) in paragraph at lines 440--442
 []\TU/THSarabunNew(0)/m/n/10 Kanban ที่มาเริ่มต้นมาจากระบบการทำงานของ Toyota ซึ
 ่งประสบความสำเร็จอย่างมากจนทำให้สามารถผลิต
  []
 
 
-LaTeX Warning: Citation `smartcontract' on page 6 undefined on input line 442.
+LaTeX Warning: Citation `smartcontract' on page 6 undefined on input line 450.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 442.
+(hyperref)                removing `\@ifnextchar' on input line 450.
 
 
-LaTeX Warning: Citation `nft' on page 6 undefined on input line 445.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 445.
-
-
-LaTeX Warning: Citation `f-nft' on page 6 undefined on input line 448.
+LaTeX Warning: Citation `nft' on page 6 undefined on input line 453.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 448.
+(hyperref)                removing `\@ifnextchar' on input line 453.
+
+
+LaTeX Warning: Citation `asset' on page 6 undefined on input line 456.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 456.
 
 [6
 
 ]
 
-LaTeX Warning: Citation `asset' on page 7 undefined on input line 451.
+LaTeX Warning: Citation `digital-asset' on page 7 undefined on input line 459.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 451.
+(hyperref)                removing `\@ifnextchar' on input line 459.
 
 
-LaTeX Warning: Citation `digital-asset' on page 7 undefined on input line 454.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 454.
-
-
-LaTeX Warning: Citation `will' on page 7 undefined on input line 457.
+LaTeX Warning: Citation `will' on page 7 undefined on input line 462.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 457.
+(hyperref)                removing `\@ifnextchar' on input line 462.
 
 
-Overfull \hbox (3.16505pt too wide) in paragraph at lines 461--462
+Overfull \hbox (3.16505pt too wide) in paragraph at lines 466--467
 []\TU/THSarabunNew(0)/m/n/10 พินัยกรรมแบบเขียนเองทั้งฉบับ ผู้ทำพินัยกรรมจะทำเป็
 นเอกสารเขียนเองทั้งฉบับก็ได้ แต่ผู้ทำนั้นต้องเขียนพินัยกรรม
  []
 
 
-Overfull \hbox (8.95834pt too wide) in paragraph at lines 462--463
+Overfull \hbox (8.95834pt too wide) in paragraph at lines 467--468
 []\TU/THSarabunNew(0)/m/n/10 พินัยกรรมแบบเอกสารฝ่ายเมือง เป็นแบบพินัยกรรมที่ต้อ
 งอาศัยกระบวนการโดยเฉพาะที่มีเจ้าหน้าที่รัฐเข้ามาเกี่ยวข้อง
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 462--463
+Underfull \hbox (badness 2753) in paragraph at lines 467--468
 \TU/THSarabunNew(0)/m/n/10 ผู้ทำพินัยกรรมต้องไปแจ้งความประสงค์โดยให้ถ้อยคำข้อคว
 ามของตนแก่เจ้าพนักงานที่เขตหรืออำเภอพร้อมพยานอย่างน้อย 2 คน เจ้า
  []
 
 
-Overfull \hbox (9.03214pt too wide) in paragraph at lines 463--464
+Overfull \hbox (9.03214pt too wide) in paragraph at lines 468--469
 []\TU/THSarabunNew(0)/m/n/10 พินัยกรรมแบบเอกสารลับ ผู้ทำพินัยกรรมทำพินัยกรรมแล้
 วปิดผนึก และนำไปที่ที่ทำการอำเภอหรือเขต ผู้ทำพินัยกรรม
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--473
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
 []\TU/THSarabunNew(0)/m/n/10 พินัยกรรมควรจะตั้งผู้จัดการมรดกโดยสามารถระบุผู้ทำห
 น้าที่ผู้จัดการมรดกที่เจ้ามรดกไว้ใจลงในพินัยกรรมไปได้
  []
 
 [7]
 
-LaTeX Warning: Citation `cryptowill' on page 8 undefined on input line 478.
+LaTeX Warning: Citation `cryptowill' on page 8 undefined on input line 483.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 478.
+(hyperref)                removing `\@ifnextchar' on input line 483.
 
 File: ./images//CryptoWill.png Graphic file (type bmp)
 <./images//CryptoWill.png>
 
-Overfull \hbox (7.27199pt too wide) in paragraph at lines 487--488
+Overfull \hbox (7.27199pt too wide) in paragraph at lines 492--493
 []\TU/THSarabunNew(0)/m/n/10 โดยเจ้าของพินัยกรรมจะทำพินัยกรรมและจะเก็บสินทรัพย์
 ไว้ใน blockchain และหลังจากนั้นจะส่งต่อให้ทายาทไปเมื่อถึงเวลาของพินัยกรรม 
  []
 
 
-LaTeX Warning: Citation `eth' on page 8 undefined on input line 491.
+LaTeX Warning: Citation `eth' on page 8 undefined on input line 496.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 491.
+(hyperref)                removing `\@ifnextchar' on input line 496.
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 492--493
+Underfull \hbox (badness 1112) in paragraph at lines 497--498
 []| \TU/THSarabunNew(0)/m/n/10 Ethereum คือแพลตฟอร์มบน Blockchain Network ที่่ท
 ํางานด้วย Smart Contract มีลักษณะแพลตฟอร์มเป็นรูปแบบ
  []
 
 
-LaTeX Warning: Citation `github' on page 8 undefined on input line 494.
+LaTeX Warning: Citation `github' on page 8 undefined on input line 499.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 494.
+(hyperref)                removing `\@ifnextchar' on input line 499.
 
 
-LaTeX Warning: Citation `metamask' on page 8 undefined on input line 497.
+LaTeX Warning: Citation `metamask' on page 8 undefined on input line 502.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 497.
+(hyperref)                removing `\@ifnextchar' on input line 502.
+
+
+LaTeX Warning: Citation `nestjs' on page 8 undefined on input line 505.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 505.
 
 [8]
 
-LaTeX Warning: Citation `nestjs' on page 9 undefined on input line 500.
+LaTeX Warning: Citation `nextjs' on page 9 undefined on input line 514.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 500.
+(hyperref)                removing `\@ifnextchar' on input line 514.
 
 
-LaTeX Warning: Citation `nextjs' on page 9 undefined on input line 509.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 509.
-
-
-LaTeX Warning: Citation `solidity' on page 9 undefined on input line 512.
+LaTeX Warning: Citation `solidity' on page 9 undefined on input line 517.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 512.
+(hyperref)                removing `\@ifnextchar' on input line 517.
 
 
-LaTeX Warning: Citation `typescript' on page 9 undefined on input line 515.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 515.
-
-
-LaTeX Warning: Citation `web3js' on page 9 undefined on input line 518.
+LaTeX Warning: Citation `typescript' on page 9 undefined on input line 520.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 518.
+(hyperref)                removing `\@ifnextchar' on input line 520.
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 519--520
+LaTeX Warning: Citation `web3js' on page 9 undefined on input line 523.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 523.
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 524--525
 []| \TU/THSarabunNew(0)/m/n/10 Web3.js เป็น JavaScript API ที่ทําให้ส่วนติดต่อผ
 ู้ใช้งานสามารถติดต่อและเรียกใช้ฟังก์ชันจากฝั่งของ Ethereum ได้ โดย
  []
 
 [9]
 
-LaTeX Warning: Citation `truffle' on page 10 undefined on input line 521.
+LaTeX Warning: Citation `hardhat' on page 10 undefined on input line 526.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 521.
+(hyperref)                removing `\@ifnextchar' on input line 526.
+
+
+LaTeX Warning: Citation `ipfs' on page 10 undefined on input line 529.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 529.
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 530--532
+[]| \TU/THSarabunNew(0)/m/n/10 IPFS เป็นเครือข่ายกระจายอำนาจแบบเพียร์ทูเพียร์ที
+่ช่วยให้ผู้ใช้สำรองไฟล์และเว็บไซต์โดยการโฮสต์ไว้บนโหนดจำนวนมาก ถูก
+ []
 
 [10
 
@@ -1328,31 +1345,31 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 535.
+(hyperref)                removed on input line 534.
 
 File: ./images//Overall_system.png Graphic file (type bmp)
 <./images//Overall_system.png>
 File: ./images//UserJourney.png Graphic file (type bmp)
 <./images//UserJourney.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--561
+Underfull \hbox (badness 10000) in paragraph at lines 557--560
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--561
+Underfull \hbox (badness 10000) in paragraph at lines 557--560
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 558--561
+Underfull \hbox (badness 10000) in paragraph at lines 557--560
 
  []
 
 [11
 
 ]
-Underfull \hbox (badness 1472) in paragraph at lines 566--567
+Underfull \hbox (badness 1472) in paragraph at lines 565--566
 []| \TU/THSarabunNew(0)/m/n/10 หลังจากได้เขียนความต้องการ และฟังก์ชันแล้ว จึงทำ
 การออกแบบและเขียนแผนภาพไดอะแกรมต่าง ๆ เพื่อให้สามารถเข้าใจ
  []
@@ -1360,7 +1377,7 @@ Underfull \hbox (badness 1472) in paragraph at lines 566--567
 File: ./images//UseCaseDiagram.png Graphic file (type bmp)
 <./images//UseCaseDiagram.png>
 
-Underfull \hbox (badness 4940) in paragraph at lines 575--576
+Underfull \hbox (badness 4940) in paragraph at lines 574--575
 \TU/THSarabunNew(0)/m/n/10 จะมีระบบที่ทำการตรวจสอบสถานะของผู้ใช้งานเพื่นที่จะทำ
 การส่งผ่านพินัยกรรมไปยังผู้รับผลประโยชน์เมื่อถึงเวลา จากแผนภาพ Use
  []
@@ -1395,13 +1412,13 @@ File: ./images//connectMetamaskSeq.png Graphic file (type bmp)
 File: ./images//uploadPdfWillseq.png Graphic file (type bmp)
 <./images//uploadPdfWillseq.png>
 
-Underfull \hbox (badness 2111) in paragraph at lines 903--904
+Underfull \hbox (badness 2111) in paragraph at lines 902--903
 []| \TU/THSarabunNew(0)/m/n/10 จากรูป ผู้ใช้เลือกใช้งาน Upload พินัยกรรมที่เขีย
 นด้วยมือระบบจะแสดงฟอร์มที่ใช้สำหรับการ upload โดยหลังจากนั้นจะ
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 903--904
+Underfull \hbox (badness 1565) in paragraph at lines 902--903
 \TU/THSarabunNew(0)/m/n/10 ต้องทำการเลือกสินทรัพย์ที่จะทำการถ่ายทอดไปยังทายาท โ
 ดยจะแสดงสินทรัพย์ที่ทำการผูกไว้กับ Smart Contract และหลังจากนั้น
  []
@@ -1417,12 +1434,12 @@ File: ./images//createWillseq.png Graphic file (type bmp)
 File: ./images//deleteWillseq.png Graphic file (type bmp)
 <./images//deleteWillseq.png>
 
-Overfull \hbox (40.65073pt too wide) in paragraph at lines 943--944
+Overfull \hbox (40.65073pt too wide) in paragraph at lines 942--943
  [][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 947--948
+Underfull \hbox (badness 10000) in paragraph at lines 946--947
 \TU/THSarabunNew(0)/m/n/10 ระบบจะแสดงสินทรัพย์ที่ทำการเชื่อมไว้กับพินัยกรรมและห
 ลังจากนั้นผู้ใช้ทำการยืนยันว่าจะลบระบบจะทำการลบพินัยกรรมที่เชื่อมไว้กับ
  []
@@ -1433,7 +1450,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 947--948
 File: ./images//viewWillseq.png Graphic file (type bmp)
 <./images//viewWillseq.png>
 
-Overfull \hbox (5.19624pt too wide) in paragraph at lines 969--970
+Overfull \hbox (5.19624pt too wide) in paragraph at lines 968--969
 []| \TU/THSarabunNew(0)/m/n/10 จากรูป ผู้ใช้ทำการเลือกพินัยกรรมที่ต้องการจะแสดง
 โดยจะทำการเรียกใช้ฟังก์ชั่นเพื่อหาพินัยกรรมโดยหลังจากที่ Smart Contract
  []
@@ -1443,7 +1460,7 @@ File: ./images//viewRealAssetseq.png Graphic file (type bmp)
 File: ./images//deleteAssetseq.png Graphic file (type bmp)
 <./images//deleteAssetseq.png>
 
-Overfull \hbox (40.65073pt too wide) in paragraph at lines 1009--1010
+Overfull \hbox (40.65073pt too wide) in paragraph at lines 1008--1009
  [][][][] 
  []
 
@@ -1458,7 +1475,7 @@ File: ./images//checkStatusDeathseq.png Graphic file (type bmp)
 File: ./images//createRealAssetseq.png Graphic file (type bmp)
 <./images//createRealAssetseq.png>
 
-Underfull \hbox (badness 4634) in paragraph at lines 1057--1058
+Underfull \hbox (badness 4634) in paragraph at lines 1056--1057
 []| \TU/THSarabunNew(0)/m/n/10 จากรูป ผู้ใช้งานต้องการทำจะเพิ่มสินทรัพย์ประเภทท
 ี่จับต้องได้อยู่จริง ระบบจะทำการแสดงประเภทของสินทรัพย์โดยผู้ใช้งาน
  []
@@ -1469,7 +1486,7 @@ Underfull \hbox (badness 4634) in paragraph at lines 1057--1058
 File: ./images//createDigitalAssetseq.png Graphic file (type bmp)
 <./images//createDigitalAssetseq.png>
 
-Overfull \hbox (0.3348pt too wide) in paragraph at lines 1079--1080
+Overfull \hbox (0.3348pt too wide) in paragraph at lines 1078--1079
 \TU/THSarabunNew(0)/m/n/10 เลือกประเภทของสินทรัพย์ โดยระบบจะแสดงฟอร์มสำหรับการส
 ร้างสินทรัพย์ดิจิตอลหลังจากเลือกประเภทเหรียญก็จะทำการใส่สินทรัพย์
  []
@@ -1480,18 +1497,18 @@ Overfull \hbox (0.3348pt too wide) in paragraph at lines 1079--1080
 File: ./images//calmAssetseq.png Graphic file (type bmp)
 <./images//calmAssetseq.png>
 
-Overfull \hbox (17.61166pt too wide) in paragraph at lines 1097--1098
+Overfull \hbox (17.61166pt too wide) in paragraph at lines 1096--1097
  [][][][] 
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 1101--1102
+Underfull \hbox (badness 1648) in paragraph at lines 1100--1101
 \TU/THSarabunNew(0)/m/n/10 death ส่งสถานะมาว่าเสียชีวิต ระบบจะทำการแสดงพินัยกรร
 ม ต่อมาผู้ใช้จะทำการ enter เพื่อที่จะทำการรับพินัยกรรมหลังจากนั้น
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 1101--1102
+Underfull \hbox (badness 1953) in paragraph at lines 1100--1101
 \TU/THSarabunNew(0)/m/n/10 Smart Contract ส่งแจ้งเตือนว่าให้ทำการยืนยันอีกรอบเพ
 ื่อที่ระบบจะทำการนำสินทรัพย์ไปเก็บไว้ที่ MetaMask ของผู้ใช้หลังจากทำ
  []
@@ -1502,7 +1519,7 @@ Underfull \hbox (badness 1953) in paragraph at lines 1101--1102
 File: ./images//Home.png Graphic file (type bmp)
 <./images//Home.png>
 
-Overfull \hbox (1.58005pt too wide) in paragraph at lines 1113--1114
+Overfull \hbox (1.58005pt too wide) in paragraph at lines 1112--1113
 []| \TU/THSarabunNew(0)/m/n/10 จากรูปเป็นหน้าแรกของแพลตฟอร์ม Web application Wi
 ll Chain ที่ยังไม่ได้ทำการเข้าสู่ระบบ โดยจะประกอบไปด้วย Concept
  []
@@ -1519,7 +1536,7 @@ File: ./images//saveAsset.png Graphic file (type bmp)
 File: ./images//heirAccount.png Graphic file (type bmp)
 <./images//heirAccount.png>
 
-Underfull \hbox (badness 7888) in paragraph at lines 1148--1149
+Underfull \hbox (badness 7888) in paragraph at lines 1147--1148
 []| \TU/THSarabunNew(0)/m/n/10 จากรูปเป็นหน้ารายชื่อคนรับมรดก ที่จะแสดงรายชื่อข
 องคนที่เพิ่มเข้ามาในระบบเพื่อรอการทำพินัยกรรมและสืบทอดต่อไปตาม
  []
@@ -1529,7 +1546,7 @@ File: ./images//userWill.png Graphic file (type bmp)
 [31
 
 ]
-Underfull \hbox (badness 3118) in paragraph at lines 1156--1157
+Underfull \hbox (badness 3118) in paragraph at lines 1155--1156
 []| \TU/THSarabunNew(0)/m/n/10 จากรูปเป็นหน้าพินัยกรรมของคุณ จากการกดที่เมนู “พ
 ินัยกรรม” ด้านบน โดยที่ในหน้านี้จะแสดงพินัยกรรมที่มีอยู่ในระบบ
  []
@@ -1544,13 +1561,13 @@ File: ./images//dropdown2.png Graphic file (type bmp)
 File: ./images//dropdown3.png Graphic file (type bmp)
 <./images//dropdown3.png>
 
-Underfull \hbox (badness 1661) in paragraph at lines 1182--1183
+Underfull \hbox (badness 1661) in paragraph at lines 1181--1182
 []| \TU/THSarabunNew(0)/m/n/10 จากรูปเป็นหน้าบันทึกพินัยกรรม ที่จะสามารถบันทึกพ
 ินัยกรรมได้ที่หน้านี้ โดยจะเข้าหน้านี้หลังจากกดที่ปุ่ม “เพิ่มพินัยกรรม”
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 1182--1183
+Underfull \hbox (badness 1924) in paragraph at lines 1181--1182
 \TU/THSarabunNew(0)/m/n/10 ในหน้าพินัยกรรมของคุณ โดยที่จะมีฟอร์มให้ระบุ 2 ส่วน 
 ส่วนแรกคือในส่วนของพินัยกรรมที่จะให้ใส่ชื่อพินัยกรรม และอัพโหลดไฟล์
  []
@@ -1559,7 +1576,7 @@ Underfull \hbox (badness 1924) in paragraph at lines 1182--1183
 File: ./images//displayAsset.png Graphic file (type bmp)
 <./images//displayAsset.png>
 
-Underfull \hbox (badness 4378) in paragraph at lines 1191--1192
+Underfull \hbox (badness 4378) in paragraph at lines 1190--1191
 []| \TU/THSarabunNew(0)/m/n/10 จากรูปเป็นหน้าพินัยกรรมที่ได้รับ ที่หลังจากมีการ
 ส่งต่อพินัยกรรมเนื่องมาจากการเสียชีวิต ในหน้านี้จะแสดงพินัยกรรมที่ได้รับ
  []
@@ -1571,10 +1588,10 @@ Underfull \hbox (badness 4378) in paragraph at lines 1191--1192
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 1201.
+(hyperref)                removed on input line 1200.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1225--1229
+Underfull \hbox (badness 10000) in paragraph at lines 1224--1228
 
  []
 
@@ -1679,8 +1696,14 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `undergrad-sample-thai.out' has not changed.
-(rerunfilecheck)             Checksum: 35A8CD97B4D01FB8F35D692FE53981B8;13028.
+
+Package rerunfilecheck Warning: File `undergrad-sample-thai.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `undergrad-sample-thai.out':
+(rerunfilecheck)             Before: 4A8F88FD3499417BFD1EE6D7874B03DF;12727
+(rerunfilecheck)             After:  33E1C0F5A5BE27CD34191F9479FB3590;13179.
  ) 
 Here is how much of TeX's memory you used:
  19168 strings out of 411463
@@ -1689,6 +1712,6 @@ Here is how much of TeX's memory you used:
  39138 multiletter control sequences out of 15000+600000
  514936 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,19n,105p,1016b,564s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,19n,105p,1016b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on undergrad-sample-thai.pdf (46 pages).
