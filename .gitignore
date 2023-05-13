@@ -3,3 +3,7 @@
 *.synctex.gz
 *.synctex
 *.gz
+*.aux
+*.lof
+*.out
+*.toc
