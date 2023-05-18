@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.25)  17 MAY 2023 23:20
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.25)  18 MAY 2023 20:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1625,11 +1625,67 @@ File: ./images//claimWillConfirm4.png Graphic file (type bmp)
 <./images//claimWillConfirm4.png>
 File: ./images//claimWillSuc4.png Graphic file (type bmp)
 <./images//claimWillSuc4.png>
- [45]
+ [45] [46]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1541.
+
+
+Overfull \hbox (72.09335pt too wide) in paragraph at lines 1542--1547
+[][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1552.
+
+
+Overfull \hbox (31.94633pt too wide) in paragraph at lines 1553--1561
+[][] 
+ []
+
+[47
+
+]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1566.
+
+
+Overfull \hbox (67.53008pt too wide) in paragraph at lines 1567--1572
+[][] 
+ []
+
+[48]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1577.
+
+
+Overfull \hbox (91.7733pt too wide) in paragraph at lines 1578--1586
+[][] 
+ []
+
+[49]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1591.
+
+
+Overfull \hbox (14.41887pt too wide) in paragraph at lines 1592--1597
+[][] 
+ []
+
+[50]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1602.
+
+[51]
 File: ./images//testCoverage.png Graphic file (type bmp)
 <./images//testCoverage.png>
- [46]
-Overfull \hbox (3.94162pt too wide) in paragraph at lines 1546--1547
+
+Overfull \hbox (3.94162pt too wide) in paragraph at lines 1623--1624
 | \TU/THSarabunNew(0)/m/n/10 %Lines เป็นตัวชี้วัดเปอร์เซ็นต์ของความครอบคลุมของบ
 รรทัดของ code โดยจะวัดเปอร์เซ็นต์ของบรรทัดโค้ดที่ดำเนินการระหว่าง
  []
@@ -1641,52 +1697,52 @@ File: ./images//etherscanRead.png Graphic file (type bmp)
 File: ./images//etherscanWrite.png Graphic file (type bmp)
 <./images//etherscanWrite.png>
 
-Underfull \hbox (badness 1286) in paragraph at lines 1550--1577
+Underfull \hbox (badness 1286) in paragraph at lines 1627--1654
 \TU/THSarabunNew(0)/m/n/10 Contract และไม่มีค่าธรรมเนียมในการทำธุรกรรมต่าง ๆ ใน
 การทำงานของระบบ โดยใช้ Hardhat ในการทำการ Deploy Smart
  []
 
-[47] [48] [49]
+[52] [53] [54]
 บทที่ 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 1577.
+(hyperref)                removed on input line 1654.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1580--1582
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1584--1586
+Underfull \hbox (badness 10000) in paragraph at lines 1657--1659
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1600--1604
+Underfull \hbox (badness 10000) in paragraph at lines 1661--1663
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1607--1608
+Underfull \hbox (badness 10000) in paragraph at lines 1677--1681
 
  []
 
-[50
+
+Underfull \hbox (badness 10000) in paragraph at lines 1684--1685
+
+ []
+
+[55
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1609--1610
+Underfull \hbox (badness 10000) in paragraph at lines 1686--1687
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1611--1612
+Underfull \hbox (badness 10000) in paragraph at lines 1688--1689
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1614--1615
+Underfull \hbox (badness 10000) in paragraph at lines 1691--1692
 
  []
 
@@ -1780,14 +1836,14 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/target}  =>  {english}
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
-[51] (undergrad-sample-thai.aux
+[56] (undergrad-sample-thai.aux
 \thai@year=\count332
 )
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `undergrad-sample-thai.out' has not changed.
-(rerunfilecheck)             Checksum: A6A9AEDABE2E2BD65557A8AD4A6A701C;20665.
+(rerunfilecheck)             Checksum: 7B1367DE7CDA5439157ACF27ECC8E40B;20776.
  ) 
 Here is how much of TeX's memory you used:
  19551 strings out of 411463
@@ -1798,4 +1854,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  101i,19n,105p,929b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on undergrad-sample-thai.pdf (63 pages).
+Output written on undergrad-sample-thai.pdf (68 pages).
