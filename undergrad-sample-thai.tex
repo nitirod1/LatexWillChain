@@ -590,7 +590,7 @@ Pinatas เป็นบริการโฮสต์ NFT ที่ใช้ IPF
 \subsection{User Journey}
 	\begin{figure}[h]
 		\centering
-		\includegraphics[scale=0.2]{UserJourney}
+		\includegraphics[scale=0.9]{UserJourney}
 		\caption{แสดง User Journey}
 	\end{figure}
 \FloatBarrier
@@ -950,7 +950,7 @@ Exception:           & \multicolumn{2}{l|}{~}                                   
 \hline
 \end{tabularx}
 \end{table}
-	\FloatBarrier
+\FloatBarrier
 \clearpage
 
 
@@ -1151,6 +1151,8 @@ Exception:           & \multicolumn{2}{l|}{~}                                   
 		\end{figure}
 		\FloatBarrier
 	\tab จากรูป ผู้ใช้ต้องเลือกพินัยกรรมที่ต้องการดูผู้รับพินัยกรรม และจะแสดงรายละเอียดพินัยกรรมหลังจากนั้นคลิกช่อง Beneficiary และใส่เลข Address ของ Beneficiary หลังจากนั้น Frontend จะทำการเรียกฟังก์ชัน setBeneficiary เพื่อทำการเพิ่มผู้รับพินัยกรรมใน will contract และหลังจากเพิ่มพินัยกรรมเสร็จสิ้นก็ทำการแสดงผลว่าเพิ่มผู้รับพินัยกรรมเสร็จสิ้น
+	
+	\clearpage
 	\item View Assets
 	\begin{table}[h]
 	\centering
@@ -1173,6 +1175,9 @@ Exception:           & \multicolumn{2}{l|}{~}                                   
 		\end{figure}
 		\FloatBarrier
 	\tab จากรูป ผู้ใช้ต้องเลือกพินัยกรรมที่ต้องการดูผู้รับพินัยกรรม และจะแสดงรายละเอียดพินัยกรรมหลังจากนั้นคลิกดูสินทรัพย์และ Frontend จะเรียกฟังก์ชั่นแสดงสินทรัพย์จาก Will Contract หลังจากได้รับข้อมูลจาก Will Contract ตัว Frontend จะทำการแสดงผลสินทรัพย์เสร็จสิ้น
+	
+	
+\clearpage
 \item Deposit Digital Assets
 	\begin{table}[h]
 	\centering
@@ -1195,6 +1200,8 @@ Exception:           & \multicolumn{2}{l|}{~}                                   
 		\end{figure}
 		\FloatBarrier
 	\tab จากรูป ผู้ใช้ต้องการเพิ่มสินทรัพย์ดิจิทัลจะทำการคลิกเพื่อสินทรัพย์ดิจิทัลและทำการเลือกเหรียญที่ต้องการฝากไว้ในพินัยกรรมและ Frontend  จะทำการ Approve จำนวนของตัว Token นั้นที่จะทำการ Deposit เข้า Smart Contract หลังจากนั้น Frontend จะทำการ Deposit Digital Assets ไปที่ Will Contract และจะทำการเช็คยอดเงินคงเหลือใน Metamask ว่าเพียงพอต่อการฝากและหลังจากนั้นจะใช้ฟังก์ชั่นใน Will Contract Transfer เหรียญที่อยู่ใน Metamask ไปที่ Will Contract และหลังจากนั้น Frontend จะแสดงผลการเพิ่มสินทรัพย์ดิจิทัลเสร็จสิ้น
+	
+\clearpage
 \item Deposit Real Assets
 	\begin{table}[h]
 	\centering
@@ -1217,6 +1224,8 @@ Exception:           & \multicolumn{2}{l|}{~}                                   
 		\end{figure}
 		\FloatBarrier
 	\tab จากรูป ผู้ใช้ต้องการเพิ่มสินทรัพย์จริงจะทำการคลิกเพื่อสินทรัพย์ดิจิทัล Frontend จะทำการอัพโหลด Metadata ของ Assets ไปที่ Pinata และ Pinata ทำหน้าที่ Upload File ไปที่ IPFS หลังจากนั้น IPFS จะส่ง URI ไปที่ Pinata จะทำการส่งต่อไปที่ Frontend หลังจากนั้น Frontend ทำการ mint Real Token ออกมาโดยสั่ง mint ไปที่ Will Contract เพื่อทำการจัดการ Mint Real Token หลังจากนั้นจะทำการ Mint Real Token ไปที่ Metamask wallet ของ User หลังจากนั้น Frontend จะแสดงผลเพิ่มสินทรัพย์จริงเสร็จสิ้น
+	
+\clearpage
 \item Active Will
 	\begin{table}[h]
 \centering
@@ -1238,7 +1247,9 @@ Pre-Condition  & ผู้กำกับพินัยกรรมต้อง
 		\end{figure}
 		\FloatBarrier
 	\tab จากรูป ผู้ควมคุมจะทำการกรอกเลขบัตรประชาชน ไว้และเพื่อนำเลข Wallet Address ที่ทำการ register กับระบบไว้หลังจากนั้นจะกรอกเลขกระเป๋าเพื่อนำเลข Token id ที่เจ้าของพินัยกรรมถืออยู่มีอะไรบ้างหลังจากนั้น จะทำการกรอก token id เพื่อนำเลข Will Factory Contract address ไปทำการกรอกฟังก์ชั่น ActiveWill เพื่อทำการให้พินัยกรรมนี้สามารถทำงานได้ โดยจะใช้กระเป๋าของเจ้าของพินัยกรรมและกระเป๋าของผู้รับพินัยกรรม และทำการส่ง Will Token ไปที่ กระเป๋าของผู้รับพินัยกรรม
-	\item Claim Assets
+	
+\clearpage	
+\item Claim Assets
 	\begin{table}[h]
 \centering
 \caption{ตารางแสดงรายละเอียดของ Claim Assets Sequence Diagram}
@@ -1314,6 +1325,8 @@ Pre-Condition  & ทายาทจะทำการรับสินทรั
 		\end{figure}
 		\FloatBarrier
 		\tab จากรูปเป็นจะเป็นหน้ายกเลิกการทำพินัยกรรม โดยการกดที่ปุ่ม "ยกเลิกพินัยกรรม" ในหน้าพินัยกรรมของคุณ โดยที่หน้านี้จะแสดงเลขที่ของพินัยกรรม และให้ยืนยันการลบพินัยกรรมฉบับนั้น
+
+\subsection{หน้า Approve พินัยกรรมของคุณ}
 		\begin{figure}[!thb]
 			\centering
 			\includegraphics[scale=0.2]{WillApprove}
@@ -1462,7 +1475,7 @@ Pre-Condition  & ทายาทจะทำการรับสินทรั
 \subsection{Login By Metamask Wallet}
 	\begin{figure}[!thb]
 			\centering
-			\includegraphics[scale=0.2]{metamaskLogin4}
+			\includegraphics[scale=0.5]{metamaskLogin4}
 			\caption{Login By MetaMask Wallet}
 		\end{figure}
 		\FloatBarrier
@@ -1476,6 +1489,7 @@ Pre-Condition  & ทายาทจะทำการรับสินทรั
 		\FloatBarrier
 \tab เมื่อผู้ใช้เข้าสู่ระบบแล้วจะมีการเปลี่ยนแถบเมนูที่ด้านบน โดยจะแสดงข้อมูลบัญชีของผู้ใช้ ได้แก่ Chain ที่ใช้งานอยู่ในขณะนั้น จำนวนเงินคงเหลือ และเลข address ของบัญชี CryptoWallet นั้น ๆ 
 
+\clearpage
 \subsection{Profile Page}
 	\begin{figure}[!thb]
 			\centering
@@ -1494,6 +1508,7 @@ Pre-Condition  & ทายาทจะทำการรับสินทรั
 \tab จากรูปหลังจากกดที่เมนู ''พินัยกรรมของคุณ'' ที่แถบเมนูด้านบน จะทำการแสดงหน้าพินัยกรรมที่บันทึกของคุณ โดยในหน้านี้จะแสดงพินัยกรรมที่ผู้ใช้เคยสร้างไว้ และสามารถกดปุ่ม ''บันทึกพินัยกรรม'' เพื่อไปสู่หน้าสำหรับการบันทึกพินัยกรรม ในส่วนของ
 พินัยกรรมที่เคยสร้างที่ได้แสดงไว้นั้นจะแสดงข้อมูล เลขที่ของพินัยกรรม ชื่อพินัยกรรม คำอธิบาย ผู้ทำพินัยกรรม ผู้รับพินัยกรรม สินทรัพย์จริงที่ได้รับ สินทรัพย์ดิจิทัลที่ได้รับ โดยสามารถกดที่ปุ่ม ''ยกเลิกพินัยกรรม'' เพื่อยกเลิกการทำพินัยกรรมฉบับนั้น ต่อมาคือปุ่ม ''จัดการพินัยกรรม'' ที่จะสามารถแก้ไขในส่วนของพินัยกรรมและสินทรัพย์ของพินัยกรรมนั้น ๆ ได้ โดยก่อนจะทำการจัดการพินัยกรรม ต้องทำการ Approve พินัยกรรมฉบับนั้น ๆ เสียก่อน ซึ่งถ้าผ่านการ Approve แล้วจะขึ้นแสดงสถานะเป็นปุุ่มสีเขียว แต่ถ้ายังไม่ได้ทำการ Approve จะแสดงเป็นปุ่มสีแดงให้ทำการกดเพื่อ Approve ก่อนที่จะสามรถจัดการพินัยกรรมฉบับนั้น ๆ  ได้
 
+\clearpage
 \subsection{Create Will Page }
 	\begin{figure}[!thb]
 			\centering
@@ -1512,6 +1527,7 @@ Pre-Condition  & ทายาทจะทำการรับสินทรั
 		\FloatBarrier
 \tab จากรูปหลังจากกดปุ่ม ''จัดการพินัยกรรม'' จะมีฟอร์มให้ใส่ address wallet ของผู้รับพินัยกรรม และ เมนูที่ให้เลือกชนิดของสินทรัพยืที่ต้องการแนบไปในพินัยกรรม โดยแบ่งเป็น สินทรัพย์จริงและสินทรัพย์ดิจิทัล 
 
+\clearpage
 \subsection{Add Real Assets }
 	\begin{figure}[!thb]
 			\centering
@@ -1520,9 +1536,6 @@ Pre-Condition  & ทายาทจะทำการรับสินทรั
 		\end{figure}
 		\FloatBarrier
 \tab จากรูปหลังจากกดปุ่ม ''เพิ่มสินทรัพย์จริง'' ระบบจะทำการเข้าสู่หน้าที่ให้ผู้ใช้กรอกรายละเอียดสินทรัพย์จริงพร้อมทั้งหลักฐานการครอบครองสินทรัพย์ และมีปุ่มล้างข้อมูลเพื่อลบข้อมูลทั้งหมดออกและปุ่มบันทึกข้อมูลเพื่อบันทึกสินทรัพย์
-
-\clearpage
-\clearpage
 
 \subsection{Manage Will Page }
 	\begin{figure}[!thb]
@@ -1534,6 +1547,7 @@ Pre-Condition  & ทายาทจะทำการรับสินทรั
 \tab จากรูปหลังจากกดที่ช่อง ''สินทรัพย์จริง'' จะทำการแสดง component ของสินทรัพย์จริงที่ได้รับ โดยถ้ามีสินทรัพย์จริงอยู่แล้ว จะแสดงสินทรัพย์นั้น ๆ และมีปุ่ม ''เพิ่มสินทรัพย์จริง'' เพื่อทำการเพิ่มสินทรัพย์จริงในหน้าต่อไป
 ทำการเพิ่มสินทรัพย์ดิจิทัลระบบจะทำการแสดงสินทรัพยดิจิทัลขึ้นที่หน้าจอพร้อมบอกจำนวนที่ทำการใส่ข้อมูลเข้าไป
 
+\clearpage
 \subsection{Manage Will Page}
 	\begin{figure}[!thb]
 			\centering
@@ -1552,6 +1566,8 @@ Pre-Condition  & ทายาทจะทำการรับสินทรั
 		\FloatBarrier
 \tab จากรูปจะแสดงหน้าเมื่อผู้ได้รับพินัยกรรมได้รับพินัยกรมม โดยระบบจะแสดงรายละเอียดของพินัยกรรมที่ได้รับพร้อมทั้งสินทรัพย์ที่แนบมาด้วย โดนจะมีปุ่มรับสินทรัพย์ให้ผู้ใช้งานกดเพื่อรับพินัยกรรมพร้อมสินทรพย์ที่แนบมา
 
+
+\clearpage
 \subsection{Beneficiary confirm claim will Page}
 	\begin{figure}[!thb]
 			\centering
@@ -1569,6 +1585,8 @@ Pre-Condition  & ทายาทจะทำการรับสินทรั
 		\end{figure}
 		\FloatBarrier
 \tab จากรูปหลังจากผู้ใช้งานทำการรับพินัยกรรมแล้ว จะมีการแสดงสถานะของพินัยกรรมว่าผู้ใช้ได้ทำการรับสินทรัพย์เรียบร้อย
+
+\clearpage
 \section{Software Testing}
 \tab System Testing จะใช้การทำ Unit Testing โดยทำการแยกการทดสอบเป็น function ต่าง ๆ ดังนี้
 \subsection {Test Plan}
@@ -1648,7 +1666,7 @@ Pre-Condition  & ทายาทจะทำการรับสินทรั
 \end{tabular}}
 \end{table}
 \FloatBarrier
-
+\clearpage
 \subsubsection{การทดสอบการจัดการพินัยกรรม}
 \begin{table}[htbp]
 \resizebox{\columnwidth}{!}{%
@@ -1750,7 +1768,7 @@ Pre-Condition  & ทายาทจะทำการรับสินทรั
 \tab ปัญหาที่พบ 1 : ทำการเชื่อมต่อ MetaMask Wallet กับ frontend ได้ยุ่งยาก\\
 \tab การแก้ไข : ทำการใช้ตัว thirdparty ในการเชื่อมต่อกับ MetaMask Wallet\\
 \tab ปัญหาที่พบ 2 : การ integrate frontend กับ Smart Contract นั้นใช้ระยะเวลาที่นานในการทำ เพราะ ขาดความรู้ในเรื่อง Web3 และการเชื่อมต่อกับ Smart Contract\\
-\tab การแก้ไข : แบ่งเวลามาศึกษเพิ่มมากยิ่งขึ้น
+\tab การแก้ไข : แบ่งเวลามาศึกษาเพิ่มมากยิ่งขึ้น
 
 \clearpage
 \section{สถานะการดำเนินงาน}
