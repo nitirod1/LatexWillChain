@@ -1,8 +1,8 @@
 \addvspace {0em}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {1.1}{\ignorespaces ตารางการดำเนินงาน ประจำภาคการศึกษาที่ 1/2565}}{3}{table.1.1}%
+\contentsline {table}{\numberline {1.1}{\ignorespaces ตารางการดำเนินงาน ประจำภาคการศึกษาที่ 1/2565}}{4}{table.1.1}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {1.2}{\ignorespaces ตารางการดําเนินงาน ประจําภาคการศึกษาที่ 2/2565}}{3}{table.1.2}%
+\contentsline {table}{\numberline {1.2}{\ignorespaces ตารางการดําเนินงาน ประจําภาคการศึกษาที่ 2/2565}}{4}{table.1.2}%
 \addvspace {0em}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
@@ -11,68 +11,87 @@
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.1}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case Connect MetaMask Wallet}}{13}{table.3.1}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case Connect MetaMask Wallet}}{14}{table.3.1}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.2}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case Create Will}}{13}{table.3.2}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case Create Will}}{14}{table.3.2}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.3}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case View Will}}{13}{table.3.3}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case View Will}}{14}{table.3.3}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.4}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case Upload Will}}{14}{table.3.4}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case Create Will}}{15}{table.3.4}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.5}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case Delete Will}}{14}{table.3.5}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case Delete Will}}{15}{table.3.5}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.6}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case View Beneficiary}}{14}{table.3.6}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case View Beneficiary}}{15}{table.3.6}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.7}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case Set Beneficiary}}{15}{table.3.7}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case Set Beneficiary}}{16}{table.3.7}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.8}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case View Asset}}{15}{table.3.8}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case View Asset}}{16}{table.3.8}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.9}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case Add Asset}}{15}{table.3.9}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case Add Asset}}{16}{table.3.9}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.10}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case Check User Status}}{16}{table.3.10}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case Check User Status}}{17}{table.3.10}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.11}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case Active Will}}{16}{table.3.11}%
+\contentsline {table}{\numberline {3.11}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case Active Will}}{17}{table.3.11}%
 \setforeignlanguage {thai}
 \contentsline {table}{\numberline {3.12}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case Claim Will}}{17}{table.3.12}%
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.13}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case Display Claim Asset}}{17}{table.3.13}%
+\contentsline {table}{\numberline {3.13}{\ignorespaces ตารางแสดงรายละเอียดของ Use Case Display Claim Asset}}{18}{table.3.13}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.14}{\ignorespaces ตารางแสดงรายละเอียดของ Connect MetaMask Sequence Diagram}}{20}{table.3.14}%
+\contentsline {table}{\numberline {3.14}{\ignorespaces ตารางแสดงรายละเอียดของ Connect MetaMask Sequence Diagram}}{21}{table.3.14}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.15}{\ignorespaces ตารางแสดงรายละเอียดของ Create Will Sequence Diagram}}{21}{table.3.15}%
+\contentsline {table}{\numberline {3.15}{\ignorespaces ตารางแสดงรายละเอียดของ Create Will Sequence Diagram}}{22}{table.3.15}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.16}{\ignorespaces ตารางแสดงรายละเอียดของ View Will Sequence Diagram}}{22}{table.3.16}%
+\contentsline {table}{\numberline {3.16}{\ignorespaces ตารางแสดงรายละเอียดของ View Will Sequence Diagram}}{23}{table.3.16}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.17}{\ignorespaces ตารางแสดงรายละเอียดของ Upload Pdf Will Sequence Diagram}}{22}{table.3.17}%
+\contentsline {table}{\numberline {3.17}{\ignorespaces ตารางแสดงรายละเอียดของ Upload Pdf Will Sequence Diagram}}{24}{table.3.17}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.18}{\ignorespaces ตารางแสดงรายละเอียดของ Delete Will Sequence Diagram}}{23}{table.3.18}%
+\contentsline {table}{\numberline {3.18}{\ignorespaces ตารางแสดงรายละเอียดของ Delete Will Sequence Diagram}}{25}{table.3.18}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.19}{\ignorespaces ตารางแสดงรายละเอียดของ View Beneficiary Sequence Diagram}}{25}{table.3.19}%
+\contentsline {table}{\numberline {3.19}{\ignorespaces ตารางแสดงรายละเอียดของ View Beneficiary Sequence Diagram}}{26}{table.3.19}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.20}{\ignorespaces ตารางแสดงรายละเอียดของ Set Beneficiary Sequence Diagram}}{25}{table.3.20}%
+\contentsline {table}{\numberline {3.20}{\ignorespaces ตารางแสดงรายละเอียดของ Set Beneficiary Sequence Diagram}}{27}{table.3.20}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.21}{\ignorespaces ตารางแสดงรายละเอียดของ View Assets Sequence Diagram}}{26}{table.3.21}%
+\contentsline {table}{\numberline {3.21}{\ignorespaces ตารางแสดงรายละเอียดของ View Assets Sequence Diagram}}{28}{table.3.21}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.22}{\ignorespaces ตารางแสดงรายละเอียดของ Deposit Digital Assets Sequence Diagram}}{27}{table.3.22}%
+\contentsline {table}{\numberline {3.22}{\ignorespaces ตารางแสดงรายละเอียดของ Deposit Digital Assets Sequence Diagram}}{29}{table.3.22}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.23}{\ignorespaces ตารางแสดงรายละเอียดของ Deposit Real Assets Sequence Diagram}}{27}{table.3.23}%
+\contentsline {table}{\numberline {3.23}{\ignorespaces ตารางแสดงรายละเอียดของ Deposit Real Assets Sequence Diagram}}{30}{table.3.23}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.24}{\ignorespaces ตารางแสดงรายละเอียดของ Active Will Sequence Diagram}}{28}{table.3.24}%
+\contentsline {table}{\numberline {3.24}{\ignorespaces ตารางแสดงรายละเอียดของ Active Will Sequence Diagram}}{31}{table.3.24}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\contentsline {table}{\numberline {3.25}{\ignorespaces ตารางแสดงรายละเอียดของ Claim Assets Sequence Diagram}}{29}{table.3.25}%
+\contentsline {table}{\numberline {3.25}{\ignorespaces ตารางแสดงรายละเอียดของ Claim Assets Sequence Diagram}}{32}{table.3.25}%
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\addvspace {0em}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
+\setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
@@ -89,6 +108,7 @@
 \setforeignlanguage {thai}
 \addvspace {0em}
 \setforeignlanguage {thai}
+\contentsline {table}{\numberline {5.1}{\ignorespaces ตารางสรุปผลการดำเนินงาน}}{56}{table.5.1}%
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
@@ -99,11 +119,3 @@
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
 \setforeignlanguage {thai}
-\setforeignlanguage {thai}
-\setforeignlanguage {thai}
-\setforeignlanguage {thai}
-\setforeignlanguage {thai}
-\setforeignlanguage {thai}
-\setforeignlanguage {thai}
-\setforeignlanguage {thai}
-\addvspace {0em}

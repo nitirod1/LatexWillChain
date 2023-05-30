@@ -1,19 +1,11 @@
-<<<<<<< HEAD
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.4.25)  18 MAY 2023 20:32
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.23)  18 MAY 2023 10:42
->>>>>>> master
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.23)  31 MAY 2023 02:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**C:/Users/subta/Desktop/blockchain/report/LatexWillChain/undergrad-sample-thai
-.tex
-
-(C:/Users/subta/Desktop/blockchain/report/LatexWillChain/undergrad-sample-thai.
-tex
+**./undergrad-sample-thai.tex
+(undergrad-sample-thai.tex
 LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-09-28>
-(C:/Users/subta/Desktop/blockchain/report/LatexWillChain\cpe-thai-project.cls
+L3 programming layer <2022-09-28> (cpe-thai-project.cls
 
 LaTeX Warning: You have requested document class `cpe-thai-project',
                but the document class provides `cpe-grad'.
@@ -24,15 +16,15 @@ Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
 (C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count185
-\c@chapter=\count186
-\c@section=\count187
-\c@subsection=\count188
-\c@subsubsection=\count189
-\c@paragraph=\count190
-\c@subparagraph=\count191
-\c@figure=\count192
-\c@table=\count193
+\c@part=\count181
+\c@chapter=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
@@ -51,9 +43,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count194
-\Gm@cntv=\count195
-\c@Gm@tempcnt=\count196
+\Gm@cnth=\count190
+\Gm@cntv=\count191
+\c@Gm@tempcnt=\count192
 \Gm@bindingoffset=\dimen139
 \Gm@wd@mp=\dimen140
 \Gm@odd@mp=\dimen141
@@ -78,10 +70,10 @@ Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: xetex.def on input line 107.
 
-(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 \stockwidth=\dimen147
 \stockheight=\dimen148
 ))
@@ -126,14 +118,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count197
+\inf@bad=\count193
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count198
-\leftroot@=\count199
+\uproot@=\count194
+\leftroot@=\count195
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count266
-\DOTSCASE@=\count267
+\classnum@=\count196
+\DOTSCASE@=\count197
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -146,20 +138,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen155
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count268
+\macc@depth=\count198
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count269
+\c@MaxMatrixCols=\count199
 \dotsspace@=\muskip16
-\c@parentequation=\count270
-\dspbrk@lvl=\count271
+\c@parentequation=\count266
+\dspbrk@lvl=\count267
 \tag@help=\toks21
-\row@=\count272
-\column@=\count273
-\maxfields@=\count274
+\row@=\count268
+\column@=\count269
+\maxfields@=\count270
 \andhelp@=\toks22
 \eqnshift@=\dimen156
 \alignsep@=\dimen157
@@ -179,34 +171,57 @@ Package: mathspec 2016/12/22 v0.2b LaTeX Package (Mathematics font selection fo
 r XeLaTeX)
 (C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count275
+\etb@tempcnta=\count271
 )
 (C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-09-28 L3 programming layer (loader) 
 
- ********************************************
- * XeTeX is required to compile this document.
- * Sorry!
- ********************************************
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xet
+ex.def
+File: l3backend-xetex.def 2022-09-28 L3 backend support: XeTeX
+\g__graphics_track_int=\count272
+\l__pdf_internal_box=\box55
+\g__pdf_backend_object_int=\count273
+\g__pdf_backend_annotation_int=\count274
+\g__pdf_backend_link_int=\count275
+))
+Package: xparse 2022-06-22 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 
-! Emergency stop.
-<read *> 
-         
-l.10 \RequireXeTeX
-                  
-*** (cannot \read from terminal in nonstop modes)
-
-<<<<<<< HEAD
-(D:\Mixtext\tex/latex/base\fontenc.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xetex
+.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count276
+\l__fontspec_language_int=\count277
+\l__fontspec_strnum_int=\count278
+\l__fontspec_tmp_int=\count279
+\l__fontspec_tmpa_int=\count280
+\l__fontspec_tmpb_int=\count281
+\l__fontspec_tmpc_int=\count282
+\l__fontspec_em_int=\count283
+\l__fontspec_emdef_int=\count284
+\l__fontspec_strong_int=\count285
+\l__fontspec_strongdef_int=\count286
+\l__fontspec_tmpa_dim=\dimen162
+\l__fontspec_tmpb_dim=\dimen163
+\l__fontspec_tmpc_dim=\dimen164
+ (C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(D:\Mixtext\tex/latex/fontspec\fontspec.cfg)))
-(D:\Mixtext\tex/latex/xkeyval\xkeyval.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg))
+) (C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(D:\Mixtext\tex/generic/xkeyval\xkeyval.tex
-(D:\Mixtext\tex/generic/xkeyval\xkvutils.tex
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks25
 \XKV@tempa@toks=\toks26
 )
@@ -217,29 +232,29 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \c@eu@i=\count289
 \c@mkern=\count290
 )
-(D:\Mixtext\tex/xelatex/xunicode\xunicode.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/xelatex/xunicode\xunicode.sty
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
 other characters in Unicode lower plane
-
-(D:\Mixtext\tex/latex/tipa\t3enc.def
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3enc.def
 File: t3enc.def 2001/12/31 T3 encoding
 )
 \tipaTiiicode=\count291
 \tipasavetokens=\toks27
 \tipachecktokens=\toks28
 )
-(D:\Mixtext\tex/latex/xltxtra\xltxtra.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/xltxtra\xltxtra.sty
 Package: xltxtra 2018/12/31 v0.7 Improvements for the "XeLaTeX" format
 
-(D:\Mixtext\tex/generic/iftex\ifluatex.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-(D:\Mixtext\tex/latex/realscripts\realscripts.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/realscripts\realscripts
+.sty
 Package: realscripts 2016/02/13 v0.3d Access OpenType subscripts and superscrip
 ts
 \subsupersep=\dimen165
 )
-(D:\Mixtext\tex/latex/metalogo\metalogo.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/metalogo\metalogo.sty
 Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
 \xl@everylogo=\toks29
 \xl@@everylogo=\toks30
@@ -251,54 +266,60 @@ LaTeX Info: Redefining \LaTeXe on input line 219.
 \l__xetex_show_hyphens_temp_box=\box57
 \l__xetex_show_hyphens_final_box=\box58
 \g__xetex_show_hyphens_word_box=\box59
-) (D:\Mixtext\tex/latex/url\url.sty
+) (C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (D:\Mixtext\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
+)
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2022-09-22 v7.00t Hypertext links for LaTeX
 
-(D:\Mixtext\tex/generic/ltxcmds\ltxcmds.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(D:\Mixtext\tex/generic/pdftexcmds\pdftexcmds.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(D:\Mixtext\tex/generic/infwarerr\infwarerr.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 )
-(D:\Mixtext\tex/latex/kvsetkeys\kvsetkeys.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(D:\Mixtext\tex/generic/kvdefinekeys\kvdefinekeys.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(D:\Mixtext\tex/generic/pdfescape\pdfescape.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
-(D:\Mixtext\tex/latex/hycolor\hycolor.sty
+) (C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(D:\Mixtext\tex/latex/letltxmacro\letltxmacro.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(D:\Mixtext\tex/latex/auxhook\auxhook.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(D:\Mixtext\tex/latex/hyperref\nameref.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
 
-(D:\Mixtext\tex/latex/refcount\refcount.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(D:\Mixtext\tex/generic/gettitlestring\gettitlestring.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(D:\Mixtext\tex/latex/kvoptions\kvoptions.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count292
@@ -306,55 +327,54 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \@linkdim=\dimen166
 \Hy@linkcounter=\count293
 \Hy@pagecounter=\count294
-
-(D:\Mixtext\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
-)
-(D:\Mixtext\tex/generic/intcalc\intcalc.sty
+ (C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-09-22 v7.00t Hyperref: PDFDocEncoding definition (HO)
+) (C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(D:\Mixtext\tex/generic/etexcmds\etexcmds.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count295
+ (C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2022-09-22 v7.00t Hyperref: PDF Unicode definition (HO)
 
-(D:\Mixtext\tex/latex/hyperref\puenc.def
-File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
-
-(D:\Mixtext\tex/latex/hyperref\puenc-greekbasic.def
-File: puenc-greekbasic.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc-greekbas
+ic.def
+File: puenc-greekbasic.def 2022-09-22 v7.00t Hyperref: PDF Unicode definition (
 greek block) (HO)
 ))
-Package hyperref Info: Hyper figures OFF on input line 4177.
-Package hyperref Info: Link nesting OFF on input line 4182.
-Package hyperref Info: Hyper index ON on input line 4185.
-Package hyperref Info: Plain pages OFF on input line 4192.
-Package hyperref Info: Backreferencing OFF on input line 4197.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4425.
+Package hyperref Info: Bookmarks ON on input line 4410.
 \c@Hy@tempcnt=\count296
-LaTeX Info: Redefining \url on input line 4763.
+LaTeX Info: Redefining \url on input line 4748.
 \XeTeXLinkMargin=\dimen167
 
-(D:\Mixtext\tex/generic/bitset\bitset.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(D:\Mixtext\tex/generic/bigintcalc\bigintcalc.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count297
 \Field@Width=\dimen168
 \Fld@charsize=\dimen169
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
 
-(D:\Mixtext\tex/latex/base\atbegshi-ltx.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -363,11 +383,11 @@ package with kernel methods
 \c@Hfootnote=\count300
 )
 Package hyperref Info: Driver (autodetected): hxetex.
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+File: hxetex.def 2022-09-22 v7.00t Hyperref driver for XeTeX
 
-(D:\Mixtext\tex/latex/hyperref\hxetex.def
-File: hxetex.def 2023-02-07 v7.00v Hyperref driver for XeTeX
-
-(D:\Mixtext\tex/generic/stringenc\stringenc.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
@@ -377,27 +397,29 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 \Fld@listcount=\count303
 \c@bookmark@seq@number=\count304
 
-(D:\Mixtext\tex/latex/rerunfilecheck\rerunfilecheck.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
-(D:\Mixtext\tex/latex/base\atveryend-ltx.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-(D:\Mixtext\tex/generic/uniquecounter\uniquecounter.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip55
+\Hy@SectionHShift=\skip54
 )
 Package hyperref Info: Option `linktocpage' set `true' on input line 54.
 Package hyperref Info: Option `colorlinks' set `true' on input line 54.
 \bibindent=\dimen170
 
-(D:\Mixtext\tex/latex/base\latexsym.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
@@ -405,20 +427,23 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 )
 \c@definition=\count305
 )
-(D:\Mixtext\tex/latex/polyglossia\polyglossia.sty
-Package: polyglossia 2023/02/11 v1.60 Modern multilingual typesetting with XeLa
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\polyglossia
+.sty
+Package: polyglossia 2022/10/26 v1.58 Modern multilingual typesetting with XeLa
 TeX and LuaLaTeX
 
-(D:\Mixtext\tex/latex/makecmds\makecmds.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/makecmds\makecmds.sty
 Package: makecmds 2009/09/03 v1.0a extra command making commands
 )
-(D:\Mixtext\tex/latex/l3packages/l3keys2e\l3keys2e.sty
-Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
+Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
 )
 \xpg@normalclass=\XeTeXcharclass1
 
-(D:\Mixtext\tex/latex/polyglossia\gloss-latex.lde
-Package: gloss-latex 2023/02/11 vv1.60 polyglossia: module for default language
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-latex
+.lde
+Package: gloss-latex 2022/10/26 vv1.58 polyglossia: module for default language
 
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
@@ -442,26 +467,26 @@ braces):
 )
 Package polyglossia Info: Default language is latex.
 )
-(D:\Mixtext\tex/latex/enumitem\enumitem.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip56
+\labelindent=\skip55
 \enit@outerparindent=\dimen171
 \enit@toks=\toks31
 \enit@inbox=\box61
 \enit@count@id=\count306
 \enitdp@description=\count307
 )
-(D:\Mixtext\tex/latex/lipsum\lipsum.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count308
 \l__lipsum_a_int=\count309
 \l__lipsum_b_int=\count310
 
-(D:\Mixtext\tex/latex/lipsum\lipsum.ltd.tex))
-(D:\Mixtext\tex/latex/placeins\placeins.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-(D:\Mixtext\tex/latex/tools\tabularx.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@col@width=\dimen172
 \TX@old@table=\dimen173
@@ -471,39 +496,37 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@cols=\count311
 \TX@ftn=\toks32
 )
-(D:\Mixtext\tex/latex/multirow\multirow.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip57
+\multirow@colwidth=\skip56
 \multirow@cntb=\count312
-\multirow@dima=\skip58
+\multirow@dima=\skip57
 \bigstrutjot=\dimen177
 )
-(D:\Mixtext\tex/latex/colortbl\colortbl.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
 
-(D:\Mixtext\tex/latex/graphics\color.sty
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
 
-(D:\Mixtext\tex/latex/graphics-cfg\color.cfg
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: xetex.def on input line 149.
-
-(D:\Mixtext\tex/latex/graphics\mathcolor.ltx))
-\everycr=\toks33
-\minrowclearance=\skip59
-\rownum=\count313
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 )
-(D:\Mixtext\tex/latex/xcolor\xcolor.sty
+\everycr=\toks33
+\minrowclearance=\skip58
+\rownum=\count313
+) (C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 
-(D:\Mixtext\tex/latex/graphics-cfg\color.cfg
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 227.
 LaTeX Info: Redefining \color on input line 711.
-
-(D:\Mixtext\tex/latex/graphics\mathcolor.ltx)
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1369.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
@@ -513,7 +536,8 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
-(D:\Mixtext\tex/latex/polyglossia\gloss-thai.ldf
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-thai.
+ldf
 File: gloss-thai.ldf polyglossia: module for Thai
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
@@ -554,7 +578,8 @@ braces):
 )
 Package polyglossia Info: Default language is thai.
 
-(D:\Mixtext\tex/latex/polyglossia\gloss-english.ldf
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-engli
+sh.ldf
 File: gloss-english.ldf polyglossia: module for English
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
@@ -682,27 +707,24 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
 \c@lemma=\count315
 \c@corollary=\count316
 
-(D:\Mixtext\tex/latex/ragged2e\ragged2e.sty
-Package: ragged2e 2023/04/04 v3.5 ragged2e Package
-\CenteringLeftskip=\skip60
-\RaggedLeftLeftskip=\skip61
-\RaggedRightLeftskip=\skip62
-\CenteringRightskip=\skip63
-\RaggedLeftRightskip=\skip64
-\RaggedRightRightskip=\skip65
-\CenteringParfillskip=\skip66
-\RaggedLeftParfillskip=\skip67
-\RaggedRightParfillskip=\skip68
-\JustifyingParfillskip=\skip69
-\CenteringParindent=\skip70
-\RaggedLeftParindent=\skip71
-\RaggedRightParindent=\skip72
-\JustifyingParindent=\skip73
-) (undergrad-sample-thai.aux
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 12.29996pt on input line 17.
-\thai@year=\count317
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip59
+\RaggedLeftLeftskip=\skip60
+\RaggedRightLeftskip=\skip61
+\CenteringRightskip=\skip62
+\RaggedLeftRightskip=\skip63
+\RaggedRightRightskip=\skip64
+\CenteringParfillskip=\skip65
+\RaggedLeftParfillskip=\skip66
+\RaggedRightParfillskip=\skip67
+\JustifyingParfillskip=\skip68
+\CenteringParindent=\skip69
+\RaggedLeftParindent=\skip70
+\RaggedRightParindent=\skip71
+\JustifyingParindent=\skip72
 )
+No file undergrad-sample-thai.aux.
 \openout1 = `undergrad-sample-thai.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
@@ -716,9 +738,8 @@ LaTeX Font Info:    ... okay on input line 123.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
 23.
-
-(D:\Mixtext\tex/latex/base\ts1cmr.fd
-File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 123.
 LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 123.
@@ -730,7 +751,8 @@ LaTeX Font Info:    ... okay on input line 123.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 123.
 LaTeX Font Info:    Trying to load font information for T3+cmr on input line 12
 3.
- (D:\Mixtext\tex/latex/tipa\t3cmr.fd
+
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 123.
@@ -774,9 +796,11 @@ LaTeX Font Info:    ... okay on input line 123.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 123.
-(undergrad-sample-thai.out) (undergrad-sample-thai.out)
 \@outlinefile=\write3
 \openout3 = `undergrad-sample-thai.out'.
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 The property list \__xpg_alias contains the pairs (without outer braces):
 >  {latex/target}  =>  {latex}
@@ -814,27 +838,30 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/target}  =>  {english}
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
-\thai@year=\count318
+LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
+(Font)              scaled to size 12.29996pt on input line 123.
+\thai@year=\count317
 File: logo02.jpg Graphic file (type bmp)
 <logo02.jpg>
- [1
+[1
 
 
 ]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 135
 .
-
-(D:\Mixtext\tex/latex/amsfonts\umsa.fd
+ (C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 135
 .
- (D:\Mixtext\tex/latex/amsfonts\umsb.fd
+
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 13
 5.
-(D:\Mixtext\tex/latex/base\ulasy.fd
+
+(C:\Users\subta\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 Underfull \hbox (badness 10000) in alignment at lines 135--135
@@ -848,558 +875,480 @@ Package hyperref Warning: bookmark level for unknown chapterx defaults to 0.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
 (Font)              scaled to size 12.29996pt on input line 140.
 
-Underfull \hbox (badness 10000) in alignment at lines 145--147
+Underfull \hbox (badness 10000) in alignment at lines 146--149
 [][] 
  []
 
 [2]
+\thai@year=\count318
+LaTeX Info: Redefining \rmfamily on input line 160.
+LaTeX Info: Redefining \sffamily on input line 160.
+LaTeX Info: Redefining \ttfamily on input line 160.
 \thai@year=\count319
-LaTeX Info: Redefining \rmfamily on input line 158.
-LaTeX Info: Redefining \sffamily on input line 158.
-LaTeX Info: Redefining \ttfamily on input line 158.
+LaTeX Info: Redefining \rmfamily on input line 160.
+LaTeX Info: Redefining \sffamily on input line 160.
+LaTeX Info: Redefining \ttfamily on input line 160.
 \thai@year=\count320
-LaTeX Info: Redefining \rmfamily on input line 158.
-LaTeX Info: Redefining \sffamily on input line 158.
-LaTeX Info: Redefining \ttfamily on input line 158.
+LaTeX Info: Redefining \rmfamily on input line 160.
+LaTeX Info: Redefining \sffamily on input line 160.
+LaTeX Info: Redefining \ttfamily on input line 160.
 \thai@year=\count321
-LaTeX Info: Redefining \rmfamily on input line 158.
-LaTeX Info: Redefining \sffamily on input line 158.
-LaTeX Info: Redefining \ttfamily on input line 158.
+LaTeX Info: Redefining \rmfamily on input line 160.
+LaTeX Info: Redefining \sffamily on input line 160.
+LaTeX Info: Redefining \ttfamily on input line 160.
 \thai@year=\count322
-LaTeX Info: Redefining \rmfamily on input line 158.
-LaTeX Info: Redefining \sffamily on input line 158.
-LaTeX Info: Redefining \ttfamily on input line 158.
+LaTeX Info: Redefining \rmfamily on input line 160.
+LaTeX Info: Redefining \sffamily on input line 160.
+LaTeX Info: Redefining \ttfamily on input line 160.
 \thai@year=\count323
-LaTeX Info: Redefining \rmfamily on input line 158.
-LaTeX Info: Redefining \sffamily on input line 158.
-LaTeX Info: Redefining \ttfamily on input line 158.
+LaTeX Info: Redefining \rmfamily on input line 160.
+LaTeX Info: Redefining \sffamily on input line 160.
+LaTeX Info: Redefining \ttfamily on input line 160.
 \thai@year=\count324
-LaTeX Info: Redefining \rmfamily on input line 158.
-LaTeX Info: Redefining \sffamily on input line 158.
-LaTeX Info: Redefining \ttfamily on input line 158.
+LaTeX Info: Redefining \rmfamily on input line 160.
+LaTeX Info: Redefining \sffamily on input line 160.
+LaTeX Info: Redefining \ttfamily on input line 160.
 \thai@year=\count325
-LaTeX Info: Redefining \rmfamily on input line 158.
-LaTeX Info: Redefining \sffamily on input line 158.
-LaTeX Info: Redefining \ttfamily on input line 158.
+LaTeX Info: Redefining \rmfamily on input line 160.
+LaTeX Info: Redefining \sffamily on input line 160.
+LaTeX Info: Redefining \ttfamily on input line 160.
 \thai@year=\count326
-LaTeX Info: Redefining \rmfamily on input line 158.
-LaTeX Info: Redefining \sffamily on input line 158.
-LaTeX Info: Redefining \ttfamily on input line 158.
+LaTeX Info: Redefining \rmfamily on input line 160.
+LaTeX Info: Redefining \sffamily on input line 160.
+LaTeX Info: Redefining \ttfamily on input line 160.
 \thai@year=\count327
-LaTeX Info: Redefining \rmfamily on input line 158.
-LaTeX Info: Redefining \sffamily on input line 158.
-LaTeX Info: Redefining \ttfamily on input line 158.
+LaTeX Info: Redefining \rmfamily on input line 160.
+LaTeX Info: Redefining \sffamily on input line 160.
+LaTeX Info: Redefining \ttfamily on input line 160.
 \thai@year=\count328
-LaTeX Info: Redefining \rmfamily on input line 158.
-LaTeX Info: Redefining \sffamily on input line 158.
-LaTeX Info: Redefining \ttfamily on input line 158.
+LaTeX Info: Redefining \rmfamily on input line 160.
+LaTeX Info: Redefining \sffamily on input line 160.
+LaTeX Info: Redefining \ttfamily on input line 160.
 \thai@year=\count329
-LaTeX Info: Redefining \rmfamily on input line 158.
-LaTeX Info: Redefining \sffamily on input line 158.
-LaTeX Info: Redefining \ttfamily on input line 158.
-\thai@year=\count330
-LaTeX Info: Redefining \rmfamily on input line 158.
-LaTeX Info: Redefining \sffamily on input line 158.
-LaTeX Info: Redefining \ttfamily on input line 158.
+LaTeX Info: Redefining \rmfamily on input line 160.
+LaTeX Info: Redefining \sffamily on input line 160.
+LaTeX Info: Redefining \ttfamily on input line 160.
 
-Underfull \hbox (badness 2384) in paragraph at lines 160--161
-[]\TU/THSarabunNew(0)/m/n/10 Will Chain เป็นแพลตฟอร์มที่ถูกพัฒนาขึ้นมาโดยมีวัตถ
-ุประสงค์เพื่อศึกษาการทำงานของเครือข่าย Blockchain และจัดการเกี่ยวกับ
- []
-
-
-Overfull \hbox (6.86613pt too wide) in paragraph at lines 160--161
-\TU/THSarabunNew(0)/m/n/10 พินัยกรรมที่มีอยู่ในปัจจุบัน ที่จะสามารถตอบโจทย์ได้ท
-ั้งสินทรัพย์ในชีวิตจริงและสินทรัพย์ดิจิทัล โดยจะมีฟีเจอร์ที่จะรองรับการทำพินัยก
-รรม
- []
-
-
-Underfull \hbox (badness 3482) in paragraph at lines 160--161
-\TU/THSarabunNew(0)/m/n/10 เพิ่มเติมคือฟีเจอร์สำหรับการส่งมอบสินทรัพย์ให้กับทาย
-าท ถ้ามีเงื่อนไขตรงกับในพินัยกรรม ทำให้การทำพินัยกรรมนั้นมีความปลอดภัย
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 162--166
+Underfull \hbox (badness 10000) in alignment at lines 164--168
 [][] 
  []
 
 [3]
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 14.75995pt on input line 175.
-LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 14.75995pt on input line 175.
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
+(Font)              scaled to size 14.75995pt on input line 177.
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
+(Font)              scaled to size 14.75995pt on input line 177.
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
-[]| \TU/THSarabunNew(0)/m/n/10 ทีมผู้จัดทำหวังว่าโครงงานนี้จะก่อให้เกิดประโยชน์
-ต่อการทำพินัยกรรมในปัจจุบัน และสามารถครอบคลุมไปถึงพินัยกรรมของ
+Underfull \hbox (badness 2856) in paragraph at lines 188--189
+[]| \TU/THSarabunNew(0)/m/n/10 ทีมผู้จัดทำหวังว่าโครงงาน Will Chain นี้จะก่อให้
+เกิดประโยชน์ต่อการทำพินัยกรรมในปัจจุบัน และสามารถครอบคลุมไปถึง
  []
 
 [4
 
-] (undergrad-sample-thai.toc
-\thai@year=\count331
+]
+LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
+(Font)              scaled to size 14.75995pt on input line 195.
 
-
-LaTeX Warning: Citation `blockchain' on page v undefined on input line 21.
-
-
-LaTeX Warning: Citation `erc20' on page v undefined on input line 22.
-
-
-LaTeX Warning: Citation `erc721' on page v undefined on input line 23.
-
-
-LaTeX Warning: Citation `tokenization' on page v undefined on input line 24.
-
-
-LaTeX Warning: Citation `eth' on page v undefined on input line 25.
-
-
-LaTeX Warning: Citation `sbts' on page v undefined on input line 26.
-
-
-LaTeX Warning: Citation `softeng1' on page v undefined on input line 27.
-
-
-LaTeX Warning: Citation `softeng2' on page v undefined on input line 27.
-
-
-LaTeX Warning: Citation `smartcontract' on page v undefined on input line 28.
-
-
-LaTeX Warning: Citation `nft' on page v undefined on input line 29.
-
-
-LaTeX Warning: Citation `asset' on page v undefined on input line 30.
-
-
-LaTeX Warning: Citation `digital-asset' on page v undefined on input line 31.
-
-
-LaTeX Warning: Citation `will' on page v undefined on input line 32.
-
-
-LaTeX Warning: Citation `cryptowill' on page v undefined on input line 34.
-
-
-LaTeX Warning: Citation `eth' on page v undefined on input line 36.
-
-
-LaTeX Warning: Citation `github' on page v undefined on input line 37.
-
-
-LaTeX Warning: Citation `metamask' on page v undefined on input line 38.
-
-
-LaTeX Warning: Citation `nestjs' on page v undefined on input line 39.
-
-
-LaTeX Warning: Citation `nextjs' on page v undefined on input line 40.
-
-
-LaTeX Warning: Citation `solidity' on page v undefined on input line 41.
-
-
-LaTeX Warning: Citation `typescript' on page v undefined on input line 42.
-
-
-LaTeX Warning: Citation `web3js' on page v undefined on input line 43.
-
-
-LaTeX Warning: Citation `hardhat' on page v undefined on input line 44.
+No file undergrad-sample-thai.toc.
+\tf@toc=\write4
+\openout4 = `undergrad-sample-thai.toc'.
 
 [5
 
 ]
-
-LaTeX Warning: Citation `pinata' on page vi undefined on input line 45.
-
-
-LaTeX Warning: Citation `ipfs' on page vi undefined on input line 46.
-
-[6])
-\tf@toc=\write4
-\openout4 = `undergrad-sample-thai.toc'.
-
- [7] (undergrad-sample-thai.lot)
+LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/b/n' will be
+(Font)              scaled to size 12.29996pt on input line 196.
+ (undergrad-sample-thai.lot)
 \tf@lot=\write5
 \openout5 = `undergrad-sample-thai.lot'.
 
- [8
+ [6
 
-] (undergrad-sample-thai.lof [9
+]
+LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
+(Font)              scaled to size 14.75995pt on input line 197.
 
-])
+No file undergrad-sample-thai.lof.
 \tf@lof=\write6
 \openout6 = `undergrad-sample-thai.lof'.
 
+[7
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 214--214
+]
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 []|\TU/THSarabunNew(0)/m/n/10 Non-Fungible
  []
 
 
-Overfull \hbox (15.35612pt too wide) in paragraph at lines 209--218
+Overfull \hbox (31.03856pt too wide) in paragraph at lines 211--225
 []  
  []
 
-[11
+[8
 
 ]
 บทที่ 1.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 227.
+(hyperref)                removed on input line 234.
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 17.71193pt on input line 227.
+(Font)              scaled to size 17.71193pt on input line 234.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 17.71193pt on input line 227.
+(Font)              scaled to size 17.71193pt on input line 234.
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
-\TU/THSarabunNew(0)/m/n/10 แต่ว่าจะมีในด้านของพินัยกรรมที่นับว่าเป็นเอกสารที่ไม
-่มีการใช้เทคโนโลยีเข้ามาช่วยเหลือในปัจจุบัน โดยยังที่จะต้องทำการเก็บรักษาไว้
+Overfull \hbox (0.48538pt too wide) in paragraph at lines 240--241
+[]| \TU/THSarabunNew(0)/m/n/10 จึงเกิดแนวคิดในการสร้างแพลตฟอร์มสำหรับจัดการพินั
+ยกรรมทั้งในโลกความเป็นจริงและสินทรัพย์ดิจิทัลผ่านระบบ Blockchain
  []
 
 
-Overfull \hbox (14.0862pt too wide) in paragraph at lines 231--232
-\TU/THSarabunNew(0)/m/n/10 เปลี่ยนแปลงจากบุคคลที่สามได้ ทำให้การทำพินัยกรรมในแต
-่ละครั้งมีความยุ่งยากและไม่ปลอดภัยสำหรับผู้ที่จะทำพินัยกรรม รวมถึงพินัยกรรม
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
-[]| \TU/THSarabunNew(0)/m/n/10 จึงเกิดแนวคิดที่จะสร้าง แพลตฟอร์มสำหรับจัดการพิน
-ัยกรรมทั้งสินทรัพย์ในโลกความเป็นจริง และสินทรัพย์ดิจิทัลผ่านระบบ
- []
-
-
-Overfull \hbox (1.24506pt too wide) in paragraph at lines 233--234
-\TU/THSarabunNew(0)/m/n/10 Blockchain ที่สามารถนำพินัยกรรมที่มีอยู่ในปัจจุบันนั
-้นเอาขึ้นระบบ Blockchain เพื่อเก็บรักษาพินัยกรรมนั้น และสามารถทำการสืบทอด
+Underfull \hbox (badness 1838) in paragraph at lines 265--267
+[]| \TU/THSarabunNew(0)/m/n/10 โครงการนี้ได้ถูกพัฒนาขึ้นโดยใช้ความรู้ในการทำงาน
+ของเทคโนโลยีบล็อกเชน (Blockchain Technology) โดยใช้เครื่องมือใน
  []
 
 [1
 
 ] [2
 
-] [3
+] [3] [4
 
-] [4
+] [5
 
 ]
 บทที่ 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 403.
+(hyperref)                removed on input line 423.
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 13.52995pt on input line 406.
+(Font)              scaled to size 13.52995pt on input line 427.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 13.52995pt on input line 406.
+(Font)              scaled to size 13.52995pt on input line 427.
 
-LaTeX Warning: Citation `blockchain' on page 5 undefined on input line 406.
+LaTeX Warning: Citation `asset' on page 6 undefined on input line 427.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 406.
+(hyperref)                removing `\@ifnextchar' on input line 427.
 
 
-Overfull \hbox (9.53813pt too wide) in paragraph at lines 409--410
+LaTeX Warning: Citation `tokenization' on page 6 undefined on input line 430.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 430.
+
+
+LaTeX Warning: Citation `blockchain' on page 6 undefined on input line 433.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 433.
+
+
+Overfull \hbox (9.53813pt too wide) in paragraph at lines 436--437
 []| \TU/THSarabunNew(0)/m/n/10 Blockchain สามารถแบ่งออกได้เป็น 3 ประเภท โดยพิจา
 รณาจากข้อกำหนดในการ เข้าร่วมเป็นสมาชิกของเครือข่ายคือ Blockchain
  []
 
 
-LaTeX Warning: Citation `erc20' on page 5 undefined on input line 416.
+LaTeX Warning: Citation `digital-asset' on page 6 undefined on input line 443.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 416.
+(hyperref)                removing `\@ifnextchar' on input line 443.
 
 
-LaTeX Warning: Citation `erc721' on page 5 undefined on input line 419.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 419.
-
-
-LaTeX Warning: Citation `tokenization' on page 5 undefined on input line 422.
+LaTeX Warning: Citation `erc20' on page 6 undefined on input line 446.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 422.
+(hyperref)                removing `\@ifnextchar' on input line 446.
 
+[6
 
-LaTeX Warning: Citation `eth' on page 5 undefined on input line 425.
+]
+
+LaTeX Warning: Citation `erc721' on page 7 undefined on input line 451.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 425.
+(hyperref)                removing `\@ifnextchar' on input line 451.
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 426--427
+LaTeX Warning: Citation `eth' on page 7 undefined on input line 456.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 456.
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 457--458
 []| \TU/THSarabunNew(0)/m/n/10 Ethereum คือแพลตฟอร์มบน Blockchain Network ที่่ท
 ํางานด้วย Smart Contract มีลักษณะแพลตฟอร์มเป็นรูปแบบ
  []
 
 
-LaTeX Warning: Citation `sbts' on page 5 undefined on input line 428.
+LaTeX Warning: Citation `sbts' on page 7 undefined on input line 459.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 428.
+(hyperref)                removing `\@ifnextchar' on input line 459.
 
 
-Overfull \hbox (16.70901pt too wide) in paragraph at lines 429--430
+Overfull \hbox (16.70901pt too wide) in paragraph at lines 460--461
 []| \TU/THSarabunNew(0)/m/n/10 คือ token การระบุตัวตนดิจิทัลที่แสดงถึงคุณลักษณะ
  และความสำเร็จที่ประกอบขึ้นเป็นบุคคลหรือนิติบุคคลภายในระบบ blockchain
  []
 
-[5
 
-]
-
-LaTeX Warning: Citation `softeng1' on page 6 undefined on input line 431.
+LaTeX Warning: Citation `softeng1' on page 7 undefined on input line 462.
 
 
-LaTeX Warning: Citation `softeng2' on page 6 undefined on input line 431.
+LaTeX Warning: Citation `softeng2' on page 7 undefined on input line 462.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 431.
+(hyperref)                removing `\@ifnextchar' on input line 462.
 
 File: ./images//agile.png Graphic file (type bmp)
 <./images//agile.png>
 
-Underfull \hbox (badness 1038) in paragraph at lines 435--441
+Underfull \hbox (badness 1038) in paragraph at lines 466--472
 []\TU/THSarabunNew(0)/m/n/10 Agile Software Development เป็นกระบวนการที่ช่วยลดก
 ารทำงานที่เป็นขั้นตอนและงานด้านการทำเอกสาร
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 444--446
+Underfull \hbox (badness 2384) in paragraph at lines 475--477
 []\TU/THSarabunNew(0)/m/n/10 Kanban ที่มาเริ่มต้นมาจากระบบการทำงานของ Toyota ซึ
 ่งประสบความสำเร็จอย่างมากจนทำให้สามารถผลิต
  []
 
+[7
 
-LaTeX Warning: Citation `smartcontract' on page 6 undefined on input line 454.
+]
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 454.
-
-
-LaTeX Warning: Citation `nft' on page 6 undefined on input line 457.
+LaTeX Warning: Citation `smartcontract' on page 8 undefined on input line 485.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 457.
-
-[6]
-
-LaTeX Warning: Citation `asset' on page 7 undefined on input line 460.
+(hyperref)                removing `\@ifnextchar' on input line 485.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 460.
-
-
-LaTeX Warning: Citation `digital-asset' on page 7 undefined on input line 463.
+LaTeX Warning: Citation `nft' on page 8 undefined on input line 488.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 463.
+(hyperref)                removing `\@ifnextchar' on input line 488.
 
 
-LaTeX Warning: Citation `will' on page 7 undefined on input line 466.
+LaTeX Warning: Citation `will' on page 8 undefined on input line 491.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 466.
+(hyperref)                removing `\@ifnextchar' on input line 491.
 
 
-Overfull \hbox (3.16505pt too wide) in paragraph at lines 470--471
+Overfull \hbox (3.16505pt too wide) in paragraph at lines 495--496
 []\TU/THSarabunNew(0)/m/n/10 พินัยกรรมแบบเขียนเองทั้งฉบับ ผู้ทำพินัยกรรมจะทำเป็
 นเอกสารเขียนเองทั้งฉบับก็ได้ แต่ผู้ทำนั้นต้องเขียนพินัยกรรม
  []
 
 
-Overfull \hbox (8.95834pt too wide) in paragraph at lines 471--472
+Overfull \hbox (8.95834pt too wide) in paragraph at lines 496--497
 []\TU/THSarabunNew(0)/m/n/10 พินัยกรรมแบบเอกสารฝ่ายเมือง เป็นแบบพินัยกรรมที่ต้อ
 งอาศัยกระบวนการโดยเฉพาะที่มีเจ้าหน้าที่รัฐเข้ามาเกี่ยวข้อง
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 471--472
+Underfull \hbox (badness 2753) in paragraph at lines 496--497
 \TU/THSarabunNew(0)/m/n/10 ผู้ทำพินัยกรรมต้องไปแจ้งความประสงค์โดยให้ถ้อยคำข้อคว
 ามของตนแก่เจ้าพนักงานที่เขตหรืออำเภอพร้อมพยานอย่างน้อย 2 คน เจ้า
  []
 
 
-Overfull \hbox (9.03214pt too wide) in paragraph at lines 472--473
+Overfull \hbox (9.03214pt too wide) in paragraph at lines 497--498
 []\TU/THSarabunNew(0)/m/n/10 พินัยกรรมแบบเอกสารลับ ผู้ทำพินัยกรรมทำพินัยกรรมแล้
 วปิดผนึก และนำไปที่ที่ทำการอำเภอหรือเขต ผู้ทำพินัยกรรม
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 481--482
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 506--507
 []\TU/THSarabunNew(0)/m/n/10 พินัยกรรมควรจะตั้งผู้จัดการมรดกโดยสามารถระบุผู้ทำห
 น้าที่ผู้จัดการมรดกที่เจ้ามรดกไว้ใจลงในพินัยกรรมไปได้
  []
 
-[7]
 
-LaTeX Warning: Citation `cryptowill' on page 8 undefined on input line 487.
+LaTeX Warning: Citation `cryptowill' on page 9 undefined on input line 513.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 487.
+(hyperref)                removing `\@ifnextchar' on input line 513.
 
 File: ./images//CryptoWill.png Graphic file (type bmp)
 <./images//CryptoWill.png>
 
-Overfull \hbox (7.27199pt too wide) in paragraph at lines 496--497
+Overfull \hbox (7.27199pt too wide) in paragraph at lines 522--523
 []\TU/THSarabunNew(0)/m/n/10 โดยเจ้าของพินัยกรรมจะทำพินัยกรรมและจะเก็บสินทรัพย์
 ไว้ใน blockchain และหลังจากนั้นจะส่งต่อให้ทายาทไปเมื่อถึงเวลาของพินัยกรรม 
  []
 
+[9]
 
-LaTeX Warning: Citation `eth' on page 8 undefined on input line 500.
+LaTeX Warning: Citation `eth' on page 10 undefined on input line 529.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 500.
+(hyperref)                removing `\@ifnextchar' on input line 529.
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 501--502
+Underfull \hbox (badness 1112) in paragraph at lines 530--531
 []| \TU/THSarabunNew(0)/m/n/10 Ethereum คือแพลตฟอร์มบน Blockchain Network ที่่ท
 ํางานด้วย Smart Contract มีลักษณะแพลตฟอร์มเป็นรูปแบบ
  []
 
 
-LaTeX Warning: Citation `github' on page 8 undefined on input line 503.
+LaTeX Warning: Citation `github' on page 10 undefined on input line 532.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 503.
+(hyperref)                removing `\@ifnextchar' on input line 532.
 
 
-LaTeX Warning: Citation `metamask' on page 8 undefined on input line 506.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 506.
-
-[8]
-
-LaTeX Warning: Citation `nestjs' on page 9 undefined on input line 509.
+LaTeX Warning: Citation `metamask' on page 10 undefined on input line 535.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 509.
+(hyperref)                removing `\@ifnextchar' on input line 535.
 
 
-LaTeX Warning: Citation `nextjs' on page 9 undefined on input line 518.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 518.
-
-
-LaTeX Warning: Citation `solidity' on page 9 undefined on input line 521.
+LaTeX Warning: Citation `nextjs' on page 10 undefined on input line 538.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 521.
+(hyperref)                removing `\@ifnextchar' on input line 538.
 
 
-LaTeX Warning: Citation `typescript' on page 9 undefined on input line 524.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 524.
-
-
-LaTeX Warning: Citation `web3js' on page 9 undefined on input line 527.
+LaTeX Warning: Citation `tailwind' on page 10 undefined on input line 542.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 527.
+(hyperref)                removing `\@ifnextchar' on input line 542.
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 528--529
-[]| \TU/THSarabunNew(0)/m/n/10 Web3.js เป็น JavaScript API ที่ทําให้ส่วนติดต่อผ
-ู้ใช้งานสามารถติดต่อและเรียกใช้ฟังก์ชันจากฝั่งของ Ethereum ได้ โดย
- []
-
-[9]
-
-LaTeX Warning: Citation `hardhat' on page 10 undefined on input line 531.
+LaTeX Warning: Citation `figma' on page 10 undefined on input line 545.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 531.
+(hyperref)                removing `\@ifnextchar' on input line 545.
 
 
-LaTeX Warning: Citation `pinata' on page 10 undefined on input line 534.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 534.
-
-
-LaTeX Warning: Citation `ipfs' on page 10 undefined on input line 537.
+LaTeX Warning: Citation `daisyUI' on page 10 undefined on input line 548.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 537.
+(hyperref)                removing `\@ifnextchar' on input line 548.
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 538--540
-[]| \TU/THSarabunNew(0)/m/n/10 IPFS เป็นเครือข่ายกระจายอำนาจแบบเพียร์ทูเพียร์ที
-่ช่วยให้ผู้ใช้สำรองไฟล์และเว็บไซต์โดยการโฮสต์ไว้บนโหนดจำนวนมาก ถูก
- []
+LaTeX Warning: Citation `solidity' on page 10 undefined on input line 551.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 551.
+
+
+LaTeX Warning: Citation `typescript' on page 10 undefined on input line 554.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 554.
 
 [10
 
 ]
+
+LaTeX Warning: Citation `wagmi' on page 11 undefined on input line 557.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 557.
+
+
+LaTeX Warning: Citation `web3js' on page 11 undefined on input line 560.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 560.
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 561--562
+[]| \TU/THSarabunNew(0)/m/n/10 Web3.js เป็น JavaScript API ที่ทําให้ส่วนติดต่อผ
+ู้ใช้งานสามารถติดต่อและเรียกใช้ฟังก์ชันจากฝั่งของ Ethereum ได้ โดย
+ []
+
+
+LaTeX Warning: Citation `hardhat' on page 11 undefined on input line 563.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 563.
+
+
+LaTeX Warning: Citation `pinata' on page 11 undefined on input line 566.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 566.
+
+
+LaTeX Warning: Citation `ipfs' on page 11 undefined on input line 569.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 569.
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 570--572
+[]| \TU/THSarabunNew(0)/m/n/10 IPFS เป็นเครือข่ายกระจายอำนาจแบบเพียร์ทูเพียร์ที
+่ช่วยให้ผู้ใช้สำรองไฟล์และเว็บไซต์โดยการโฮสต์ไว้บนโหนดจำนวนมาก ถูก
+ []
+
+[11]
 บทที่ 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 542.
+(hyperref)                removed on input line 574.
 
 File: ./images//Overall_system.png Graphic file (type bmp)
 <./images//Overall_system.png>
 File: ./images//UserJourney.png Graphic file (type bmp)
 <./images//UserJourney.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 565--568
+Underfull \hbox (badness 10000) in paragraph at lines 597--600
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 565--568
+Underfull \hbox (badness 10000) in paragraph at lines 597--600
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 565--568
+Underfull \hbox (badness 10000) in paragraph at lines 597--600
 
  []
 
-[11
+[12
 
 ]
-Underfull \hbox (badness 1472) in paragraph at lines 573--574
+Underfull \hbox (badness 1472) in paragraph at lines 605--606
 []| \TU/THSarabunNew(0)/m/n/10 หลังจากได้เขียนความต้องการ และฟังก์ชันแล้ว จึงทำ
 การออกแบบและเขียนแผนภาพไดอะแกรมต่าง ๆ เพื่อให้สามารถเข้าใจ
  []
@@ -1407,14 +1356,12 @@ Underfull \hbox (badness 1472) in paragraph at lines 573--574
 File: ./images//UseCaseDiagram.png Graphic file (type bmp)
 <./images//UseCaseDiagram.png>
 
-Underfull \hbox (badness 4940) in paragraph at lines 582--583
+Underfull \hbox (badness 4940) in paragraph at lines 615--616
 \TU/THSarabunNew(0)/m/n/10 จะมีระบบที่ทำการตรวจสอบสถานะของผู้ใช้งานเพื่นที่จะทำ
 การส่งผ่านพินัยกรรมไปยังผู้รับผลประโยชน์เมื่อถึงเวลา จากแผนภาพ Use
  []
 
-[12] [13
-
-] [14
+[13] [14
 
 ] [15
 
@@ -1422,258 +1369,246 @@ Underfull \hbox (badness 4940) in paragraph at lines 582--583
 
 ] [17
 
+] [18
+
 ]
 File: ./images//smartContractDiagram.png Graphic file (type bmp)
 <./images//smartContractDiagram.png>
- [18
+ [19
 
 ]
 File: ./images//systemArch.jpg Graphic file (type bmp)
 <./images//systemArch.jpg>
- [19
+ [20
 
 ]
 File: ./images//connectMetamaskSeq.png Graphic file (type bmp)
 <./images//connectMetamaskSeq.png>
- [20
+ [21
 
 ]
 File: ./images//createWillseq.png Graphic file (type bmp)
 <./images//createWillseq.png>
- [21
+ [22
 
 ]
 File: ./images//viewWillseq.png Graphic file (type bmp)
 <./images//viewWillseq.png>
+ [23
+
+]
 File: ./images//uploadWillseq.png Graphic file (type bmp)
 <./images//uploadWillseq.png>
- [22
+ [24
 
 ]
 File: ./images//deleteWillseq.png Graphic file (type bmp)
 <./images//deleteWillseq.png>
- [23] [24]
+ [25
+
+]
 File: ./images//viewBeneficiaryseq.png Graphic file (type bmp)
 <./images//viewBeneficiaryseq.png>
 
-Underfull \hbox (badness 1132) in paragraph at lines 1079--1080
+Underfull \hbox (badness 1132) in paragraph at lines 1130--1131
 []| \TU/THSarabunNew(0)/m/n/10 จากรูป ผู้ใช้ต้องเลือกพินัยกรรมที่ต้องการดูผู้รั
 บพินัยกรรม และจะแสดงรายละเอียดพินัยกรรมหลังจากนั้นคลิกดูพินัยกรรมและ
  []
 
+[26
+
+]
 File: ./images//setBeneficiaryseq.png Graphic file (type bmp)
 <./images//setBeneficiaryseq.png>
-[25
+ [27
 
 ]
 File: ./images//viewAssetseq.png Graphic file (type bmp)
 <./images//viewAssetseq.png>
 
-Underfull \hbox (badness 4752) in paragraph at lines 1122--1123
+Underfull \hbox (badness 4752) in paragraph at lines 1177--1178
 []| \TU/THSarabunNew(0)/m/n/10 จากรูป ผู้ใช้ต้องเลือกพินัยกรรมที่ต้องการดูผู้รั
 บพินัยกรรม และจะแสดงรายละเอียดพินัยกรรมหลังจากนั้นคลิกดูสินทรัพย์และ
  []
 
-[26]
+[28
+
+]
 File: ./images//depositDigitalseq.png Graphic file (type bmp)
 <./images//depositDigitalseq.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 1144--1145
+Underfull \hbox (badness 10000) in paragraph at lines 1202--1203
 []| \TU/THSarabunNew(0)/m/n/10 จากรูป ผู้ใช้ต้องการเพิ่มสินทรัพย์ดิจิทัลจะทำการ
 คลิกเพื่อสินทรัพย์ดิจิทัลและทำการเลือกเหรียญที่ต้องการฝากไว้ในพินัยกรรม
  []
 
+[29
+
+]
 File: ./images//depositRealseq.png Graphic file (type bmp)
 <./images//depositRealseq.png>
-[27]
+ [30
+
+]
 File: ./images//activeWillseq.png Graphic file (type bmp)
 <./images//activeWillseq.png>
- [28]
+ [31
+
+]
 File: ./images//claimAssetseq.png Graphic file (type bmp)
 <./images//claimAssetseq.png>
- [29] [30]
+ [32
+
+]
 File: ./images//Home.png Graphic file (type bmp)
 <./images//Home.png>
-
-Overfull \hbox (1.58005pt too wide) in paragraph at lines 1220--1221
-[]| \TU/THSarabunNew(0)/m/n/10 จากรูปเป็นหน้าแรกของแพลตฟอร์ม Web application Wi
-ll Chain ที่ยังไม่ได้ทำการเข้าสู่ระบบ โดยจะประกอบไปด้วย Concept
- []
-
 File: ./images//profile.png Graphic file (type bmp)
 <./images//profile.png>
 File: ./images//profileConfirm.png Graphic file (type bmp)
 <./images//profileConfirm.png>
-[31
+ [33
 
 ]
 File: ./images//profileSuccess.png Graphic file (type bmp)
 <./images//profileSuccess.png>
+
+Overfull \hbox (6.08185pt too wide) in paragraph at lines 1308--1309
+[]| \TU/THSarabunNew(0)/m/n/10 จากรูปเป็นหน้าโปรไฟล์ที่เมื่อทำการกรอกการลงทะเบี
+ยนด้วยเลขบัตรประชาชนเสร็จสิ้น โดยจะมีปุ่มสีเขียว ''ยืนยันตัวตนเรียบร้อย''
+ []
+
+[34]
 File: ./images//userWill.png Graphic file (type bmp)
 <./images//userWill.png>
- [32]
-Underfull \hbox (badness 1629) in paragraph at lines 1252--1253
+
+Underfull \hbox (badness 1629) in paragraph at lines 1318--1319
 []| \TU/THSarabunNew(0)/m/n/10 จากรูปเป็นหน้าพินัยกรรมที่บันทึกของคุณ จากการกดท
 ี่เมนู “พินัยกรรมของคุณ” ที่แถบเมนูด้านบน โดยที่ในหน้านี้จะแสดง
  []
 
 File: ./images//cancelWill.png Graphic file (type bmp)
 <./images//cancelWill.png>
+
+Underfull \hbox (badness 1173) in paragraph at lines 1327--1328
+[]| \TU/THSarabunNew(0)/m/n/10 จากรูปเป็นจะเป็นหน้ายกเลิกการทำพินัยกรรม โดยการก
+ดที่ปุ่ม "ยกเลิกพินัยกรรม" ในหน้าพินัยกรรมของคุณ โดยที่หน้านี้จะ
+ []
+
 File: ./images//WillApprove.png Graphic file (type bmp)
 <./images//WillApprove.png>
-[33]
+[35
+
+]
 File: ./images//saveWill.png Graphic file (type bmp)
 <./images//saveWill.png>
+ [36]
 File: ./images//manageWill.png Graphic file (type bmp)
 <./images//manageWill.png>
- [34]
 File: ./images//addRealAsset.png Graphic file (type bmp)
 <./images//addRealAsset.png>
+ [37
+
+]
 File: ./images//claimWill.png Graphic file (type bmp)
 <./images//claimWill.png>
- [35]
-Underfull \hbox (badness 4378) in paragraph at lines 1301--1302
+
+Underfull \hbox (badness 4378) in paragraph at lines 1372--1373
 []| \TU/THSarabunNew(0)/m/n/10 จากรูปเป็นหน้าพินัยกรรมที่ได้รับ ที่หลังจากมีการ
 ส่งต่อพินัยกรรมเนื่องมาจากการเสียชีวิต ในหน้านี้จะแสดงพินัยกรรมที่ได้รับ
  []
 
 File: ./images//claimWillConfirm.png Graphic file (type bmp)
 <./images//claimWillConfirm.png>
+[38
+
+]
 File: ./images//claimWillSuccess.png Graphic file (type bmp)
 <./images//claimWillSuccess.png>
-[36] [37]
+ [39
+
+]
 บทที่ 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 1327.
+(hyperref)                removed on input line 1400.
 
+[40
 
-Underfull \hbox (badness 10000) in paragraph at lines 1370--1374
+] [41
 
- []
-
-[38
-
-] [39]
+]
 File: ./images//homePageBefore4.png Graphic file (type bmp)
 <./images//homePageBefore4.png>
 File: ./images//homePageSelect4.png Graphic file (type bmp)
 <./images//homePageSelect4.png>
-File: ./images//metamaskLogin4.png Graphic file (type bmp)
-<./images//metamaskLogin4.png>
- [40
+ [42
 
 ]
+File: ./images//metamaskLogin4.png Graphic file (type bmp)
+<./images//metamaskLogin4.png>
+
+Underfull \hbox (badness 1210) in paragraph at lines 1482--1483
+[]| \TU/THSarabunNew(0)/m/n/10 เมื่อผู้ใช้เลือก Crypto Wallet ที่ต้องการได้แล้ว
+ จะมีหน้าต่างสำหรับการใส่รหัสผ่านเพื่อทำการเข้าสู่ระบบโดยในที่นี้เลือกเป็น
+ []
+
 File: ./images//homePageAfter4.png Graphic file (type bmp)
 <./images//homePageAfter4.png>
+[43
+
+]
 File: ./images//Profile4.png Graphic file (type bmp)
 <./images//Profile4.png>
 File: ./images//myWill4.png Graphic file (type bmp)
 <./images//myWill4.png>
- [41]
-Overfull \hbox (6.05722pt too wide) in paragraph at lines 1425--1426
-[]| \TU/THSarabunNew(0)/m/n/10 จากรูปหลังจากคลิก พินัยกรรมของคุณ ที่ nav bar จะ
-ทำการแสดงพินัยกรรมทั้งหมดที่ผู้ใช้ทำการสร้างไว้พร้อมข้อมูลของพินัยกรรม
- []
+ [44
 
+]
 File: ./images//mintWill4.png Graphic file (type bmp)
 <./images//mintWill4.png>
+
+Overfull \hbox (10.03009pt too wide) in paragraph at lines 1519--1520
+[]| \TU/THSarabunNew(0)/m/n/10 จากรูปหลังกดปุ่ม ''บันทึกพินัยกรรม'' ระบบจะนำผู้
+ใช้งานเข้าสู่หน้าบันทึกพินัยกรรม เพื่อให้ผู้ใช้งานทำการกรอกข้อมูลของพินัยกรรม
+ []
+
 File: ./images//manageWill4.png Graphic file (type bmp)
 <./images//manageWill4.png>
-[42]
+[45
+
+]
 File: ./images//Addwillpage.png Graphic file (type bmp)
 <./images//Addwillpage.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 1452--1453
-[]| \TU/THSarabunNew(0)/m/n/10 จากรูปหลังจากคลิกเพิ่มสินทรัพย์จริง ระบบจะทำการเ
-ข้าสู่หน้าที่ให้ผู้ใช้กรอกรายละเอียดสินทรัพย์พร้อมทั้งหลักฐานการครอบ
- []
-
 File: ./images//manageWillRealAsset4.png Graphic file (type bmp)
 <./images//manageWillRealAsset4.png>
-[43]
-Underfull \hbox (badness 4229) in paragraph at lines 1461--1462
-[]| \TU/THSarabunNew(0)/m/n/10 จากรูปหลัง จากทำการเพิ่มสินทรัพย์จริงระบบจะทำการ
-แสดงสินทรัพยจริงขึ้นที่หน้าจอพร้อมบอกชนิดของสินทรัพย์ที่ทำการใส่
- []
+ [46
 
+]
 File: ./images//manageWillFullAsset4.png Graphic file (type bmp)
 <./images//manageWillFullAsset4.png>
-
-Underfull \hbox (badness 6110) in paragraph at lines 1470--1471
-[]| \TU/THSarabunNew(0)/m/n/10 จากรูปหลัง จากทำการเพิ่มสินทรัพย์ดิจิทัลระบบจะทำ
-การแสดงสินทรัพยดิจิทัลขึ้นที่หน้าจอพร้อมบอกจำนวนที่ทำการใส่ข้อมูล
- []
-
 File: ./images//claimWillBefore4.png Graphic file (type bmp)
 <./images//claimWillBefore4.png>
-[44]
+ [47
+
+]
 File: ./images//claimWillConfirm4.png Graphic file (type bmp)
 <./images//claimWillConfirm4.png>
 File: ./images//claimWillSuc4.png Graphic file (type bmp)
 <./images//claimWillSuc4.png>
- [45] [46]
+ [48
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1541.
+] [49
 
+] [50
 
-Overfull \hbox (72.09335pt too wide) in paragraph at lines 1542--1547
-[][] 
- []
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1552.
-
-
-Overfull \hbox (31.94633pt too wide) in paragraph at lines 1553--1561
-[][] 
- []
-
-[47
+] [51
 
 ]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1566.
-
-
-Overfull \hbox (67.53008pt too wide) in paragraph at lines 1567--1572
-[][] 
- []
-
-[48]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1577.
-
-
-Overfull \hbox (91.7733pt too wide) in paragraph at lines 1578--1586
-[][] 
- []
-
-[49]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1591.
-
-
-Overfull \hbox (14.41887pt too wide) in paragraph at lines 1592--1597
-[][] 
- []
-
-[50]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1602.
-
-[51]
 File: ./images//testCoverage.png Graphic file (type bmp)
 <./images//testCoverage.png>
 
-Overfull \hbox (3.94162pt too wide) in paragraph at lines 1623--1624
+Overfull \hbox (3.94162pt too wide) in paragraph at lines 1715--1716
 | \TU/THSarabunNew(0)/m/n/10 %Lines เป็นตัวชี้วัดเปอร์เซ็นต์ของความครอบคลุมของบ
 รรทัดของ code โดยจะวัดเปอร์เซ็นต์ของบรรทัดโค้ดที่ดำเนินการระหว่าง
  []
@@ -1685,56 +1620,106 @@ File: ./images//etherscanRead.png Graphic file (type bmp)
 File: ./images//etherscanWrite.png Graphic file (type bmp)
 <./images//etherscanWrite.png>
 
-Underfull \hbox (badness 1286) in paragraph at lines 1627--1654
+Underfull \hbox (badness 1286) in paragraph at lines 1718--1745
 \TU/THSarabunNew(0)/m/n/10 Contract และไม่มีค่าธรรมเนียมในการทำธุรกรรมต่าง ๆ ใน
 การทำงานของระบบ โดยใช้ Hardhat ในการทำการ Deploy Smart
  []
 
-[52] [53] [54]
+[52
+
+] [53] [54]
 บทที่ 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 1654.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1657--1659
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1661--1663
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1677--1681
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1684--1685
-
- []
+(hyperref)                removed on input line 1745.
 
 [55
 
+] [56
+
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1686--1687
-
+Overfull \hbox (0.92519pt too wide) in paragraph at lines 1931--1932
+\TU/THSarabunNew(0)/m/n/10 การลงทะเบียนเลขบัตรประชาชน หลังจากนั้นเจ้าของพินัยกร
+รมจะสามารถใช้งานระบบได้และมีการแสดงหน้สำหรับให้ผู้ใช้สร้างพินัยกรรม
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1688--1689
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1691--1692
-
+Overfull \hbox (11.26013pt too wide) in paragraph at lines 1939--1941
+| \TU/THSarabunNew(0)/m/n/10 ต่อมาคือคือฟีเจอร์สำหรับการเซ็นเอกสารออนไลน์ภายในร
+ะบบ ซึ่งผู้ใช้สามารถเซ็นเอกสารพินัยกรรมออนไลน์ได้ ในการทำพินัยกรรม
  []
 
 No file undergrad-sample-thai.bbl.
+[57
+
+]
+LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
+(Font)              scaled to size 21.25432pt on input line 1959.
+LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
+(Font)              scaled to size 21.25432pt on input line 1959.
+ [58]
+
+Package hyperref Warning: bookmark level for unknown apdx defaults to 0.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \hskip 12.29996pt
+(hyperref)                replaced by space on input line 1959.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1960--1962
+| \TU/THSarabunNew(0)/m/n/10 การศึกษาความต้องการและข้อมูลเชิงลึกเพื่อทราบความต้
+องการผู้ใช้งานระบบพินัยกรรมบนเครือข่ายบล็อกเชน ด้วยการใช้การ
+ []
+
+
+Overfull \hbox (1.52786pt too wide) in paragraph at lines 1960--1962
+\TU/THSarabunNew(0)/m/n/10 สำรวจหาพฤติกรรมของผู้ใช้ของสินทรัพย์ต่าง ๆ เพื่อทำให
+้การออกแบบมีความเหมาะสมและตรงตามวัตถุประสงค์ โดยแบบสำรวจประกอบ
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 1960--1962
+\TU/THSarabunNew(0)/m/n/10 Google Form และกำหนดให้ตัวอย่างเป็นผู้มีความสนใจสินท
+รัพย์ดิจิทัล และ ไม่สนใจในสินทรัพย์ดิจิทัล โดยมีผู้ตอบแบบประเมินทั้ง
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1960--1962
+
+ []
+
+File: ./images//apprex1.png Graphic file (type bmp)
+<./images//apprex1.png>
+File: ./images//apprex2.png Graphic file (type bmp)
+<./images//apprex2.png>
+[59]
+File: ./images//apprex3.png Graphic file (type bmp)
+<./images//apprex3.png>
+File: ./images//apprex4.png Graphic file (type bmp)
+<./images//apprex4.png>
+ [60
+
+]
+File: ./images//apprex5.png Graphic file (type bmp)
+<./images//apprex5.png>
+File: ./images//apprex6.png Graphic file (type bmp)
+<./images//apprex6.png>
+ [61
+
+]
+File: ./images//apprex7.png Graphic file (type bmp)
+<./images//apprex7.png>
+File: ./images//apprex8.png Graphic file (type bmp)
+<./images//apprex8.png>
+ [62
+
+]
+File: ./images//apprex9.png Graphic file (type bmp)
+<./images//apprex9.png>
+File: ./images//apprex10.jpg Graphic file (type bmp)
+<./images//apprex10.jpg>
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1824,34 +1809,33 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/target}  =>  {english}
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
-[56] (undergrad-sample-thai.aux
-\thai@year=\count332
+ [63
+
+] (undergrad-sample-thai.aux
+\thai@year=\count330
 )
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `undergrad-sample-thai.out' has not changed.
-(rerunfilecheck)             Checksum: 7B1367DE7CDA5439157ACF27ECC8E40B;20776.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `undergrad-sample-thai.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `undergrad-sample-thai.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  EF10AE0D1B8DA35A341F3B21B83A2940;26949.
  ) 
 Here is how much of TeX's memory you used:
- 19551 strings out of 411463
- 371566 string characters out of 5824909
- 1903290 words of memory out of 5000000
- 39521 multiletter control sequences out of 15000+600000
- 514936 words of font info for 78 fonts, out of 8000000 for 9000
+ 19709 strings out of 410532
+ 378165 string characters out of 2813298
+ 900340 words of memory out of 3000000
+ 40616 multiletter control sequences out of 15000+600000
+ 471948 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 101i,19n,105p,929b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,18n,105p,1213b,648s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on undergrad-sample-thai.pdf (68 pages).
-=======
- 
-Here is how much of TeX's memory you used:
- 2501 strings out of 475385
- 37478 string characters out of 2776906
- 384414 words of memory out of 3000000
- 23903 multiletter control sequences out of 15000+600000
- 469259 words of font info for 28 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 70i,0n,76p,274b,36s stack positions out of 10000i,1000n,20000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
->>>>>>> master
+Output written on undergrad-sample-thai.pdf (72 pages).
